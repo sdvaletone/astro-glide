@@ -53,6 +53,8 @@ See `profiles/WEB-1080p.yml` (Sonarr) and `profiles/HD-Bluray-WEB.yml` (Radarr) 
 4. Ensure every custom format **name** in the profile exists as a file in `custom_formats/` (exact name match).
 5. Run `python3 scripts/validate_yml.py` from the repo root.
 
+**Note:** Some TRaSH-style profile names (e.g. "Generated Dynamic HDR", "Sing-Along Versions", "MA", "HD Bluray Tier 03", "3D", "BCORE", "CRiT") were removed from `HD-Bluray-WEB.yml` because no matching custom format YAML exists in this repo. To use them, add the corresponding files under `custom_formats/` or re-add the entries once those formats exist.
+
 ## Tweaking profiles
 
 ### Score semantics
@@ -74,6 +76,12 @@ You can edit profile YAMLs to:
 ### Optional overrides (tweaks/)
 
 The Dictionarry layout reserves `tweaks/` for optional overrides. If your Profilarr setup supports it, you can place overrides there instead of editing profile YAMLs directly. Check Profilarr documentation for how it merges or applies `tweaks/`.
+
+### Using with Profilarr
+
+- **Configuration:** Ensure Profilarr is set to sync this repo as a PCD. The root `pcd.json` manifest (with `profilarr.minimum_version` and `dependencies.schema`) must be valid per the [manifest spec](https://github.com/Dictionarry-Hub/schema/blob/main/docs/manifest.md).
+- **Sync order:** Sync custom formats first, then quality profiles. Profilarr (and Dictionarry docs) require that custom formats are imported before syncing any premade profile; otherwise profile custom format scores are not applied correctly.
+- **Name matching:** Profile custom format names must match the `name` in `custom_formats/*.yml` exactly (including case). Use `python3 scripts/validate_profile_custom_formats.py` before pushing to catch missing or mismatched names.
 
 ### Further reading
 

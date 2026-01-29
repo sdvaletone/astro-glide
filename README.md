@@ -14,6 +14,8 @@ This repository turns [TRaSH Guides](https://trash-guides.info/) quality profile
 
 1. In Profilarr, add a database and point it at this repo (e.g. `https://github.com/<your-org>/astro-glide` or your fork).
 2. Use the repo as your Profilarr “database” so it can import/sync the `profiles/` and `custom_formats/` YAML to your Radarr/Sonarr instances.
+3. **Sync order:** Custom formats must be synced **before** quality profiles. If profiles are applied first, custom format scores will not be preserved because the profile references formats by name.
+4. **Name matching:** Every custom format name in a profile must match the `name` in a `custom_formats/*.yml` file **exactly** (including case). Run `python3 scripts/validate_profile_custom_formats.py` to check.
 
 See [Profilarr documentation](https://github.com/Dictionarry-Hub/profilarr) and [Dictionarry database layout](https://github.com/Dictionarry-Hub/database) for how to link and sync.
 
@@ -39,6 +41,7 @@ Requires Python 3 and PyYAML (`pip install pyyaml`).
 | Command | Purpose |
 |--------|---------|
 | `python3 scripts/validate_yml.py` | Validate all `custom_formats/*.yml` and `profiles/*.yml`. |
+| `python3 scripts/validate_profile_custom_formats.py` | Ensure every custom format name in profiles exists in `custom_formats/` (exact name match). |
 | `python3 scripts/convert_custom_formats_to_yml.py` | Regenerate custom format YAML from TRaSH JSON (expects source JSON in `ops/custom_formats/`). |
 | `python3 scripts/convert_custom_formats_to_dictionarry_yml.py` | Convert TRaSH-style custom format YAML into Dictionarry schema (name, description, tags, conditions, tests). |
 

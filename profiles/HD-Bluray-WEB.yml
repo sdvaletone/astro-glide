@@ -24,8 +24,6 @@ custom_formats:
     score: 1800
   - name: HD Bluray Tier 02
     score: 1750
-  - name: HD Bluray Tier 03
-    score: 1700
   - name: WEB Tier 01
     score: 1700
   - name: WEB Tier 02
@@ -42,47 +40,35 @@ custom_formats:
   # Unwanted
   - name: BR-DISK
     score: -10000
-  - name: Generated Dynamic HDR
-    score: -10000
   - name: LQ
     score: -10000
   - name: LQ (Release Title)
     score: -10000
   - name: x265 (HD)
     score: -10000
-  - name: 3D
-    score: -10000
   - name: Extras
-    score: -10000
-  - name: Sing-Along Versions
     score: -10000
   - name: AV1
     score: -10000
-  # General Streaming Services (TRaSH: mainly for naming; BCore/CRiT/MA scored)
+  # General Streaming Services (TRaSH: mainly for naming)
   - name: AMZN
     score: 0
   - name: ATV
     score: 0
   - name: ATVP
     score: 0
-  - name: BCORE
-    score: 15
-  - name: CRiT
-    score: 20
   - name: DSNP
     score: 0
   - name: HBO
     score: 0
   - name: HMAX
     score: 0
-  - name: Hulu
+  - name: HULU
     score: 0
   - name: iT
     score: 0
   - name: MAX
     score: 0
-  - name: MA
-    score: 20
   - name: NF
     score: 0
   - name: PMTP
@@ -101,8 +87,6 @@ custom_formats_radarr:
     score: 1800
   - name: HD Bluray Tier 02
     score: 1750
-  - name: HD Bluray Tier 03
-    score: 1700
   - name: WEB Tier 01
     score: 1700
   - name: WEB Tier 02
@@ -119,47 +103,35 @@ custom_formats_radarr:
   # Unwanted
   - name: BR-DISK
     score: -10000
-  - name: Generated Dynamic HDR
-    score: -10000
   - name: LQ
     score: -10000
   - name: LQ (Release Title)
     score: -10000
   - name: x265 (HD)
     score: -10000
-  - name: 3D
-    score: -10000
   - name: Extras
-    score: -10000
-  - name: Sing-Along Versions
     score: -10000
   - name: AV1
     score: -10000
-  # General Streaming Services (TRaSH: mainly for naming; BCore/CRiT/MA scored)
+  # General Streaming Services (TRaSH: mainly for naming)
   - name: AMZN
     score: 0
   - name: ATV
     score: 0
   - name: ATVP
     score: 0
-  - name: BCORE
-    score: 15
-  - name: CRiT
-    score: 20
   - name: DSNP
     score: 0
   - name: HBO
     score: 0
   - name: HMAX
     score: 0
-  - name: Hulu
+  - name: HULU
     score: 0
   - name: iT
     score: 0
   - name: MAX
     score: 0
-  - name: MA
-    score: 20
   - name: NF
     score: 0
   - name: PMTP
