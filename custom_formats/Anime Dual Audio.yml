@@ -14,19 +14,4 @@ conditions:
   required: true
   type: release_title
   pattern: \[(JA|ZH|KO)\]
-- name: Japanese Language
-  negate: false
-  required: false
-  type: release_title
-  pattern: '8'
-- name: Chinese Language
-  negate: false
-  required: false
-  type: release_title
-  pattern: '10'
-- name: Korean Language
-  negate: false
-  required: false
-  type: release_title
-  pattern: '21'
 tests: []

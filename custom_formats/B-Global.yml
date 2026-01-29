@@ -13,11 +13,6 @@ conditions:
   required: false
   type: source
   source: webrip
-- name: WEB
-  negate: false
-  required: false
-  type: source
-  source: cam
 - name: B-Global
   negate: false
   required: true

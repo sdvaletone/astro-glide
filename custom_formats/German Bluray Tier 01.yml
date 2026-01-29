@@ -57,7 +57,7 @@ conditions:
   negate: false
   required: true
   type: source
-  source: hdtv
+  source: bluray
 - name: Not REMUX
   negate: true
   required: true

@@ -22,5 +22,5 @@ conditions:
   negate: false
   required: false
   type: source
-  source: hdtv
+  source: bluray
 tests: []
