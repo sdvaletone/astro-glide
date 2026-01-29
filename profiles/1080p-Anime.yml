@@ -80,8 +80,8 @@ custom_formats:
   # Dual audio preference (one tier above)
   - name: Anime Dual Audio
     score: 101
-  # Repack/Proper
-  - name: Repack/Proper
+  # Repack-Proper
+  - name: Repack-Proper
     score: 5
   - name: Repack2
     score: 6

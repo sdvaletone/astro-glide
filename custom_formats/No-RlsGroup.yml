@@ -7,5 +7,5 @@ conditions:
   negate: true
   required: false
   type: release_group
-  pattern: .
+  pattern: '.+'
 tests: []

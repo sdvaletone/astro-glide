@@ -62,7 +62,7 @@ conditions:
   negate: false
   required: false
   type: release_title
-  pattern: (?<=\bS\d+\b).*(Scrambled)\b
+  pattern: \bS\d+.*(Scrambled)\b
 - name: WhiteRev
   negate: false
   required: false

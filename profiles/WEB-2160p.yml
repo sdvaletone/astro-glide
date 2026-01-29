@@ -37,7 +37,7 @@ custom_formats:
     score: 100
   - name: DV (w/o HDR fallback)
     score: -10000
-  - name: Repack/Proper
+  - name: Repack-Proper
     score: 5
   - name: Repack2
     score: 6

@@ -7,5 +7,5 @@ conditions:
   negate: false
   required: true
   type: release_title
-  pattern: (?<=\bS\d+\b).*\b(Extras|Bonus|Extended[ ._-]Clip)\b
+  pattern: \bS\d+.*\b(Extras|Bonus|Extended[ ._-]Clip)\b
 tests: []

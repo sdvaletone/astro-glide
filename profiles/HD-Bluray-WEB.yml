@@ -31,7 +31,7 @@ custom_formats:
   - name: WEB Tier 03
     score: 1600
   # Miscellaneous (Required)
-  - name: Repack/Proper
+  - name: Repack-Proper
     score: 5
   - name: Repack2
     score: 6

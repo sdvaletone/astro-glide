@@ -3,29 +3,29 @@ description: Matches release criteria for Retags
 include_in_rename: false
 tags: []
 conditions:
-- name: .heb
+- name: dot heb
   negate: false
   required: false
   type: release_title
-  pattern: '[.]heb\b'
-- name: '[eztv]'
+  pattern: '\.heb\b'
+- name: eztv
   negate: false
   required: false
   type: release_title
-  pattern: \[eztvx?[ ._-]?(io|re|to)?\]
-- name: '[rarbg]'
+  pattern: '\[eztvx?[ ._-]?(io|re|to)?\]'
+- name: rarbg
   negate: false
   required: false
   type: release_title
-  pattern: \[rarbg\]
-- name: '[rartv]'
+  pattern: '\[rarbg\]'
+- name: rartv
   negate: false
   required: false
   type: release_title
-  pattern: \[rartv\]
-- name: '[TGx]'
+  pattern: '\[rartv\]'
+- name: TGx
   negate: false
   required: false
   type: release_title
-  pattern: \[TGx\]
+  pattern: '\[TGx\]'
 tests: []
