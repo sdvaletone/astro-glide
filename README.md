@@ -1,36 +1,50 @@
-# Profilarr Database Template
+# Astro Glide
 
-Template for creating your own Profilarr-compliant database (PCD).
+**TRaSH Guides in Profilarr-compliant format on GitHub.**
 
-## Quick Start
+This repository turns [TRaSH Guides](https://trash-guides.info/) quality profiles and custom formats into a [Profilarr](https://github.com/Dictionarry-Hub/profilarr)-compliant database you can link from Profilarr and sync to Radarr/Sonarr. Everything is stored as YAML in the [Dictionarry-style layout](https://github.com/Dictionarry-Hub/database/tree/stable) so it works as a single source of truth on GitHub.
 
-1. Click **"Use this template"** → **"Create a new repository"**
-2. Link the repository in Profilarr
-3. Edit the manifest to customize your database
-4. Start creating profiles and custom formats
+## What’s in here
 
-## Structure
+- **Quality profiles** – TRaSH-style profiles (e.g. Sonarr WEB-1080p, WEB-2160p; Radarr HD Bluray + WEB) as Profilarr-compliant YAML in `profiles/`.
+- **Custom formats** – TRaSH custom formats converted to the Dictionarry schema (name, description, tags, conditions, tests) in `custom_formats/`.
+- **Scripts** – Conversion and validation scripts under `scripts/`, plus SQL from the original TRaSH-based pipeline in `scripts/sql/`.
 
-Layout matches [Dictionarry-Hub/database](https://github.com/Dictionarry-Hub/database/tree/stable):
+## Using this database with Profilarr
+
+1. In Profilarr, add a database and point it at this repo (e.g. `https://github.com/<your-org>/astro-glide` or your fork).
+2. Use the repo as your Profilarr “database” so it can import/sync the `profiles/` and `custom_formats/` YAML to your Radarr/Sonarr instances.
+
+See [Profilarr documentation](https://github.com/Dictionarry-Hub/profilarr) and [Dictionarry database layout](https://github.com/Dictionarry-Hub/database) for how to link and sync.
+
+## Repository structure
+
+Layout follows [Dictionarry-Hub/database](https://github.com/Dictionarry-Hub/database/tree/stable):
 
 ```
-├── pcd.json           # Database manifest
-├── custom_formats/    # Custom format definitions (YAML)
-├── media_management/  # Media management config
+├── pcd.json           # Profilarr database manifest
+├── custom_formats/    # Custom format definitions (YAML, Dictionarry schema)
+├── media_management/  # Media management config (reserved)
 ├── profiles/          # Quality profile YAMLs
-├── regex_patterns/    # Regex patterns
-├── scripts/           # Automation and SQL (e.g. scripts/sql/, conversion script)
-├── templates/         # Templates
-└── tweaks/            # Optional configuration variants
+├── regex_patterns/    # Regex patterns (reserved)
+├── scripts/           # Conversion scripts and SQL
+├── templates/         # Templates (reserved)
+└── tweaks/            # Optional overrides
 ```
 
-**Build / validate:** From repo root (requires PyYAML: `pip install pyyaml`):
+## Scripts (from repo root)
 
-- Validate YAML: `python3 scripts/validate_yml.py`
-- Regenerate custom format YAML from JSON (if you have JSON in `ops/custom_formats/`): `python3 scripts/convert_custom_formats_to_yml.py`
+Requires Python 3 and PyYAML (`pip install pyyaml`).
 
-## Learn More
+| Command | Purpose |
+|--------|---------|
+| `python3 scripts/validate_yml.py` | Validate all `custom_formats/*.yml` and `profiles/*.yml`. |
+| `python3 scripts/convert_custom_formats_to_yml.py` | Regenerate custom format YAML from TRaSH JSON (expects source JSON in `ops/custom_formats/`). |
+| `python3 scripts/convert_custom_formats_to_dictionarry_yml.py` | Convert TRaSH-style custom format YAML into Dictionarry schema (name, description, tags, conditions, tests). |
 
-- [Profilarr Documentation](https://github.com/Dictionarry-Hub/profilarr)
-- [Schema Reference](https://github.com/Dictionarry-Hub/schema)
-- [Example Database](https://github.com/Dictionarry-Hub/db)
+## References
+
+- [TRaSH Guides](https://trash-guides.info/) – Sonarr/Radarr quality and custom format guides
+- [Profilarr](https://github.com/Dictionarry-Hub/profilarr) – Import, export, and sync profiles and custom formats
+- [Dictionarry database](https://github.com/Dictionarry-Hub/database) – Standard layout and schema for Profilarr databases
+- [Profilarr schema](https://github.com/Dictionarry-Hub/schema) – Schema reference for profiles and custom formats
