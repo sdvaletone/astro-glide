@@ -85,7 +85,7 @@ qualities:
   - id: 6
     name: Bluray-720p
     description: Bluray 720p. Wanted.
-  - id: -1
+  - id: -1001
     name: WEB 1080p
     description: WEBDL/WEBRip 1080p. Wanted.
     qualities:

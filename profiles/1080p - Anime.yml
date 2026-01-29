@@ -117,7 +117,7 @@ qualities:
   - id: 2
     name: DVD
     description: DVD. Wanted.
-  - id: -1
+  - id: -1001
     name: WEB 480p
     description: WEBDL/WEBRip 480p. Wanted.
     qualities:
@@ -128,7 +128,7 @@ qualities:
   - id: 7
     name: Bluray-480p
     description: Bluray 480p. Wanted.
-  - id: -1
+  - id: -1002
     name: WEB 720p
     description: WEBDL/WEBRip/HDTV 720p. Wanted.
     qualities:
@@ -141,7 +141,7 @@ qualities:
   - id: 13
     name: Bluray-720p
     description: Bluray 720p. Wanted.
-  - id: -1
+  - id: -1003
     name: WEB 1080p
     description: WEBDL/WEBRip/HDTV 1080p. Wanted.
     qualities:
@@ -151,7 +151,7 @@ qualities:
         name: WEBRip-1080p
       - id: 12
         name: HDTV-1080p
-  - id: -1
+  - id: -1004
     name: Bluray 1080p
     description: Bluray-1080p and Bluray-1080p Remux. Upgrade until this quality.
     qualities:
@@ -160,7 +160,7 @@ qualities:
       - id: 15
         name: Bluray-1080p Remux
 upgrade_until:
-  id: -1
+  id: -1004
   name: Bluray 1080p
   description: Bluray-1080p. Upgrade until this quality.
 language: must_original

@@ -107,16 +107,16 @@ custom_formats:
   - name: Scene
     score: -10000
 qualities:
-  - id: -1
+  - id: -1001
     name: WEB 2160p
     description: WEBDL 2160p with HDR/DV. Upgrade until this quality.
     qualities:
-      - id: 5
+      - id: 18
         name: WEBDL-2160p
-      - id: 6
+      - id: 17
         name: WEBRip-2160p
 upgrade_until:
-  id: -1
+  id: -1001
   name: WEB 2160p
   description: WEBDL 2160p with HDR/DV. Upgrade until this quality.
 language: must_original
