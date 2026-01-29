@@ -1,0 +1,6 @@
+name: Dae (Anime Web Tier 02)
+pattern: \[Dae\]|-Dae\b
+description: Auto-generated from Anime Web Tier 02
+tags:
+- Anime
+tests: []

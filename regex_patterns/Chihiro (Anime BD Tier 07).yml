@@ -1,0 +1,6 @@
+name: Chihiro (Anime BD Tier 07)
+pattern: \[Chihiro\]|-Chihiro\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

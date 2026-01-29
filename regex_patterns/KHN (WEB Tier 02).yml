@@ -1,0 +1,6 @@
+name: KHN (WEB Tier 02)
+pattern: ^(KHN)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+tests: []

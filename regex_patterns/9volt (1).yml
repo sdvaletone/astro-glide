@@ -1,6 +1,0 @@
-name: 9volt
-pattern: \b(9volt)\b
-description: Auto-generated from Anime BD Tier 07
-tags:
-- Anime
-tests: []

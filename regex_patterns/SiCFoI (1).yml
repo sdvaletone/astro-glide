@@ -1,6 +1,0 @@
-name: SiCFoI
-pattern: ^(SiCFoI)$
-description: Auto-generated from Remux Tier 02
-tags:
-- Release Group
-tests: []

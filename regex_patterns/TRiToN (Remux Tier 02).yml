@@ -1,0 +1,6 @@
+name: TRiToN (Remux Tier 02)
+pattern: ^(TRiToN)$
+description: Auto-generated from Remux Tier 02
+tags:
+- Release Group
+tests: []

@@ -1,6 +1,0 @@
-name: ZR
-pattern: \b(ZR)\b
-description: Auto-generated from Anime Web Tier 03
-tags:
-- Anime
-tests: []

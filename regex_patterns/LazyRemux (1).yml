@@ -1,7 +1,0 @@
-name: LazyRemux
-pattern: \b(LazyRemux)\b
-description: Auto-generated from Anime BD Tier 04
-tags:
-- Video
-- Anime
-tests: []

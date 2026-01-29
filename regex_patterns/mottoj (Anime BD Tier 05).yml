@@ -1,0 +1,6 @@
+name: mottoj (Anime BD Tier 05)
+pattern: \b(mottoj)\b
+description: Auto-generated from Anime BD Tier 05
+tags:
+- Anime
+tests: []

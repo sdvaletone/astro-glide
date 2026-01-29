@@ -1,0 +1,6 @@
+name: TvR (German Bluray Tier 01)
+pattern: ^(TvR)$
+description: Auto-generated from German Bluray Tier 01
+tags:
+- Release Group
+tests: []

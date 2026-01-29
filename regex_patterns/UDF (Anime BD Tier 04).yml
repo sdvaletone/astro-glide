@@ -1,0 +1,6 @@
+name: UDF (Anime BD Tier 04)
+pattern: \b(UDF)\b
+description: Auto-generated from Anime BD Tier 04
+tags:
+- Anime
+tests: []

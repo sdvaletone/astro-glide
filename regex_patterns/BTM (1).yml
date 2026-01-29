@@ -1,6 +1,0 @@
-name: BTM
-pattern: ^(BTM)$
-description: Auto-generated from LQ
-tags:
-- Release Group
-tests: []

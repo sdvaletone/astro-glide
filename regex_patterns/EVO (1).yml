@@ -1,6 +1,0 @@
-name: EVO
-pattern: ^(EVO)$
-description: Auto-generated from LQ
-tags:
-- Release Group
-tests: []

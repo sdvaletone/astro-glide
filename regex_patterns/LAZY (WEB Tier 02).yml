@@ -1,0 +1,6 @@
+name: LAZY (WEB Tier 02)
+pattern: ^(LAZY)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+tests: []

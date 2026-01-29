@@ -1,0 +1,6 @@
+name: Commie (Anime BD Tier 07)
+pattern: \b(Commie)\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: THORA (Anime BD Tier 07)
+pattern: \b(THORA)\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

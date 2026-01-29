@@ -1,0 +1,6 @@
+name: Kametsu (Anime BD Tier 04)
+pattern: \b(Kametsu)\b
+description: Auto-generated from Anime BD Tier 04
+tags:
+- Anime
+tests: []

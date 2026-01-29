@@ -1,0 +1,6 @@
+name: TEPES (WEB Tier 02)
+pattern: ^(TEPES)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+tests: []

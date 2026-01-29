@@ -1,0 +1,6 @@
+name: Arid (Anime BD Tier 02)
+pattern: \[Arid\]|-Arid\b
+description: Auto-generated from Anime BD Tier 02
+tags:
+- Anime
+tests: []

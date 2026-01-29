@@ -1,0 +1,6 @@
+name: SubsPlus+ (Anime Web Tier 03)
+pattern: \b(SubsPlus\+?)\b
+description: Auto-generated from Anime Web Tier 03
+tags:
+- Anime
+tests: []

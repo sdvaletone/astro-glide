@@ -1,0 +1,6 @@
+name: APEX (WEB Tier 01)
+pattern: ^(APEX|PAXA|PEXA|XEPA)$
+description: Auto-generated from WEB Tier 01
+tags:
+- Release Group
+tests: []

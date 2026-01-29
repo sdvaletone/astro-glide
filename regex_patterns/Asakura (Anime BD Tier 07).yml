@@ -1,0 +1,6 @@
+name: Asakura (Anime BD Tier 07)
+pattern: \[Asakura\]|-Asakura\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

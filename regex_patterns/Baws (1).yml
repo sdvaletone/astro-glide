@@ -1,6 +1,0 @@
-name: Baws
-pattern: \b(Baws)\b
-description: Auto-generated from Anime Web Tier 01
-tags:
-- Anime
-tests: []

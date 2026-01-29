@@ -1,0 +1,6 @@
+name: WBDP (Anime BD Tier 05)
+pattern: \b(WBDP)\b
+description: Auto-generated from Anime BD Tier 05
+tags:
+- Anime
+tests: []

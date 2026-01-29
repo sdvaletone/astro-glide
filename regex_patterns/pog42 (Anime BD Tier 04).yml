@@ -1,0 +1,6 @@
+name: pog42 (Anime BD Tier 04)
+pattern: \b(pog42)\b
+description: Auto-generated from Anime BD Tier 04
+tags:
+- Anime
+tests: []

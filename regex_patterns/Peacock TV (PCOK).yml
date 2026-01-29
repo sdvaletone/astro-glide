@@ -1,0 +1,6 @@
+name: Peacock TV (PCOK)
+pattern: \b(pcok|Peacock TV)\b
+description: Auto-generated from PCOK
+tags:
+- Streaming
+tests: []

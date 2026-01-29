@@ -1,0 +1,6 @@
+name: ANE (Anime BD Tier 06)
+pattern: \[ANE\]|-ANE$
+description: Auto-generated from Anime BD Tier 06
+tags:
+- Anime
+tests: []

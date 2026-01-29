@@ -1,0 +1,6 @@
+name: Kaleido (Anime Web Tier 06)
+pattern: \b(Kaleido)\b
+description: Auto-generated from Anime Web Tier 06
+tags:
+- Anime
+tests: []

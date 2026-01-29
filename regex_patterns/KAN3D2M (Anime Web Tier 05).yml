@@ -1,0 +1,6 @@
+name: KAN3D2M (Anime Web Tier 05)
+pattern: \b(KAN3D2M)\b
+description: Auto-generated from Anime Web Tier 05
+tags:
+- Anime
+tests: []

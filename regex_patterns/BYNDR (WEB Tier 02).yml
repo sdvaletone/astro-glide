@@ -1,0 +1,6 @@
+name: BYNDR (WEB Tier 02)
+pattern: ^(BYNDR)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+tests: []

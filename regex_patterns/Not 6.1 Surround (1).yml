@@ -1,6 +1,0 @@
-name: Not 6.1 Surround
-pattern: '[^0-9]6[ .][0-1]'
-description: Auto-generated from DTS-HD HRA
-tags:
-- Audio
-tests: []

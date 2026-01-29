@@ -1,0 +1,6 @@
+name: PTer (HD Bluray Tier 01)
+pattern: ^(PTer)$
+description: Auto-generated from HD Bluray Tier 01
+tags:
+- Release Group
+tests: []

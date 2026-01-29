@@ -1,0 +1,6 @@
+name: CtrlHD (HD Bluray Tier 01)
+pattern: ^(CtrlHD)$
+description: Auto-generated from HD Bluray Tier 01
+tags:
+- Release Group
+tests: []

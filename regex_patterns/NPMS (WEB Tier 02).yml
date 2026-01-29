@@ -1,0 +1,6 @@
+name: NPMS (WEB Tier 02)
+pattern: ^(NPMS)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+tests: []

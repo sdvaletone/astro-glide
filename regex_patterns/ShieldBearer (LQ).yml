@@ -1,0 +1,6 @@
+name: ShieldBearer (LQ)
+pattern: ^(ShieldBearer)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

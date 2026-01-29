@@ -1,0 +1,6 @@
+name: Flugel (Anime BD Tier 01)
+pattern: \b(Flugel)\b
+description: Auto-generated from Anime BD Tier 01
+tags:
+- Anime
+tests: []

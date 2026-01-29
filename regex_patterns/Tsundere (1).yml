@@ -1,6 +1,0 @@
-name: Tsundere
-pattern: \[Tsundere\]|-Tsundere(?!-)\b
-description: Auto-generated from Anime BD Tier 06
-tags:
-- Anime
-tests: []

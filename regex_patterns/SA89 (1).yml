@@ -1,6 +1,0 @@
-name: SA89
-pattern: ^(SA89)$
-description: Auto-generated from HD Bluray Tier 02
-tags:
-- Release Group
-tests: []

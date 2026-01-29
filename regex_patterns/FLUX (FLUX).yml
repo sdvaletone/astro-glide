@@ -1,0 +1,6 @@
+name: FLUX (FLUX)
+pattern: ^(FLUX)$
+description: Auto-generated from FLUX
+tags:
+- Release Group
+tests: []

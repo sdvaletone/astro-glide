@@ -1,0 +1,6 @@
+name: ViSUM (WEB Tier 01)
+pattern: ^(ViSUM)$
+description: Auto-generated from WEB Tier 01
+tags:
+- Release Group
+tests: []

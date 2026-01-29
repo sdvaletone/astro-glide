@@ -1,0 +1,6 @@
+name: HBO Max (HMAX)
+pattern: \b(hmax|hbom|hbo[ ._-]?max)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+description: Auto-generated from HMAX
+tags:
+- Streaming
+tests: []

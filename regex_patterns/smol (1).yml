@@ -1,6 +1,0 @@
-name: smol
-pattern: \[smol\]|-smol\b
-description: Auto-generated from Anime BD Tier 01
-tags:
-- Anime
-tests: []

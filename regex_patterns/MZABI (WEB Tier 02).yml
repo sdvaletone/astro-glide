@@ -1,0 +1,6 @@
+name: MZABI (WEB Tier 02)
+pattern: ^(MZABI)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+tests: []

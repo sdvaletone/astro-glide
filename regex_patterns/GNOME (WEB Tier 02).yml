@@ -1,0 +1,6 @@
+name: GNOME (WEB Tier 02)
+pattern: ^(GNOME)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+tests: []

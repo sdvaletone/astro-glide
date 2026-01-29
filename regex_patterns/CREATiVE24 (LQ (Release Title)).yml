@@ -1,0 +1,5 @@
+name: CREATiVE24 (LQ (Release Title))
+pattern: \b(CREATiVE24)\b
+description: Auto-generated from LQ (Release Title)
+tags: []
+tests: []

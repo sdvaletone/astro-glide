@@ -1,5 +1,0 @@
-name: PQ
-pattern: \b(PQ)\b
-description: Auto-generated from HDR
-tags: []
-tests: []

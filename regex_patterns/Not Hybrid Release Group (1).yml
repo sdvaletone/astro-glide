@@ -1,5 +1,0 @@
-name: Not Hybrid Release Group
-pattern: \b(HYBRID)\b
-description: Auto-generated from Hybrid
-tags: []
-tests: []

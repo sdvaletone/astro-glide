@@ -1,0 +1,5 @@
+name: Extras (Extras)
+pattern: \bS\d+.*\b(Extras|Bonus|Extended[ ._-]Clip)\b
+description: Auto-generated from Extras
+tags: []
+tests: []

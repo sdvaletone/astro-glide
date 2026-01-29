@@ -1,0 +1,6 @@
+name: E (FR Scene Groups)
+pattern: ^(ENJOi|EUBDS)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

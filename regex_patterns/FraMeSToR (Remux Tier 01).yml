@@ -1,0 +1,6 @@
+name: FraMeSToR (Remux Tier 01)
+pattern: ^(FraMeSToR)$
+description: Auto-generated from Remux Tier 01
+tags:
+- Release Group
+tests: []

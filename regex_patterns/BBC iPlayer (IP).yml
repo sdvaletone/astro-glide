@@ -1,0 +1,5 @@
+name: BBC iPlayer (IP)
+pattern: \b(ip|iplayer)\b
+description: Auto-generated from IP
+tags: []
+tests: []

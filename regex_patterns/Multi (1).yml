@@ -1,5 +1,0 @@
-name: Multi
-pattern: \b(Multi)(?![ ._-]?sub(s)?)(\b|\d)
-description: Auto-generated from MULTi
-tags: []
-tests: []

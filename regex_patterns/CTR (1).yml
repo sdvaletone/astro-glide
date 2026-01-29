@@ -1,6 +1,0 @@
-name: CTR
-pattern: \b(CTR)\b
-description: Auto-generated from Anime BD Tier 05
-tags:
-- Anime
-tests: []

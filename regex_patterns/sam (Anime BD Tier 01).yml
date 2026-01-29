@@ -1,0 +1,6 @@
+name: sam (Anime BD Tier 01)
+pattern: \[sam\]|-sam\b
+description: Auto-generated from Anime BD Tier 01
+tags:
+- Anime
+tests: []

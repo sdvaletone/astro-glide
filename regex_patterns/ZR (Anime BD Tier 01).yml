@@ -1,0 +1,6 @@
+name: ZR (Anime BD Tier 01)
+pattern: \b(ZR)\b|-ZR-
+description: Auto-generated from Anime BD Tier 01
+tags:
+- Anime
+tests: []

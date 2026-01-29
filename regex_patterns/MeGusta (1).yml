@@ -1,6 +1,0 @@
-name: MeGusta
-pattern: ^(MeGusta)$
-description: Auto-generated from LQ
-tags:
-- Release Group
-tests: []

@@ -1,0 +1,5 @@
+name: VP9 (VP9)
+pattern: \bVP9\b
+description: Auto-generated from VP9
+tags: []
+tests: []

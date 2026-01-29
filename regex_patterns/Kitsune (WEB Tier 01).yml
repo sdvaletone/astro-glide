@@ -1,0 +1,6 @@
+name: Kitsune (WEB Tier 01)
+pattern: ^(Kitsune)$
+description: Auto-generated from WEB Tier 01
+tags:
+- Release Group
+tests: []

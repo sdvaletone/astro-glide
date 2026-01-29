@@ -1,0 +1,6 @@
+name: Disney+ (DSNP)
+pattern: \b(dsnp|dsny|disney|Disney\+)\b
+description: Auto-generated from DSNP
+tags:
+- Streaming
+tests: []

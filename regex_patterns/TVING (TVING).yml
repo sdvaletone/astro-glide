@@ -1,0 +1,5 @@
+name: TVING (TVING)
+pattern: \b(tving)\b[ ._-]web[ ._-]?(dl|rip)?\b
+description: Auto-generated from TVING
+tags: []
+tests: []

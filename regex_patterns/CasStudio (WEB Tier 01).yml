@@ -1,0 +1,6 @@
+name: CasStudio (WEB Tier 01)
+pattern: ^(CasStudio)$
+description: Auto-generated from WEB Tier 01
+tags:
+- Release Group
+tests: []

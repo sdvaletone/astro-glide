@@ -1,0 +1,6 @@
+name: NTb (HD Bluray Tier 01)
+pattern: ^(NTb)$
+description: Auto-generated from HD Bluray Tier 01
+tags:
+- Release Group
+tests: []

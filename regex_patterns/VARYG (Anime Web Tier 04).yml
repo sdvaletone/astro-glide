@@ -1,0 +1,6 @@
+name: VARYG (Anime Web Tier 04)
+pattern: \b(VARYG)\b
+description: Auto-generated from Anime Web Tier 04
+tags:
+- Anime
+tests: []

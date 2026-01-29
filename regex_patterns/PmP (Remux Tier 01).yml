@@ -1,0 +1,6 @@
+name: PmP (Remux Tier 01)
+pattern: ^(PmP)$
+description: Auto-generated from Remux Tier 01
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: Doki (Anime Web Tier 06)
+pattern: \[Doki\]|-Doki\b
+description: Auto-generated from Anime Web Tier 06
+tags:
+- Anime
+tests: []

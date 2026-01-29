@@ -1,6 +1,0 @@
-name: Okay-Subs
-pattern: \b(Okay-Subs)\b
-description: Auto-generated from Anime BD Tier 03
-tags:
-- Anime
-tests: []

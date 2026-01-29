@@ -1,0 +1,6 @@
+name: Yuki (Anime BD Tier 05)
+pattern: \[Yuki\]|-Yuki\b
+description: Auto-generated from Anime BD Tier 05
+tags:
+- Anime
+tests: []

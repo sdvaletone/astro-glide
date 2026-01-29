@@ -1,0 +1,6 @@
+name: Kitsune (Anime Web Tier 03)
+pattern: \[Kitsune\]|-Kitsune\b
+description: Auto-generated from Anime Web Tier 03
+tags:
+- Anime
+tests: []

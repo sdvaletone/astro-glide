@@ -1,0 +1,6 @@
+name: Senjou (Anime BD Tier 07)
+pattern: \[Senjou\]|-Senjou\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

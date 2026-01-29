@@ -1,0 +1,6 @@
+name: Almighty (Anime BD Tier 07)
+pattern: \[Almighty\]|-Almighty\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

@@ -1,6 +1,0 @@
-name: ZigZag
-pattern: ^(ZigZag)$
-description: Auto-generated from Bad Dual Groups
-tags:
-- Release Group
-tests: []

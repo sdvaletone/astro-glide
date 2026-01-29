@@ -1,0 +1,6 @@
+name: hchcsen (Anime BD Tier 02)
+pattern: \b(hchcsen)\b
+description: Auto-generated from Anime BD Tier 02
+tags:
+- Anime
+tests: []

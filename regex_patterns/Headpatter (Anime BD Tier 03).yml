@@ -1,0 +1,6 @@
+name: Headpatter (Anime BD Tier 03)
+pattern: \[Headpatter\]|-Headpatter\b
+description: Auto-generated from Anime BD Tier 03
+tags:
+- Anime
+tests: []

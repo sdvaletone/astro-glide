@@ -1,0 +1,6 @@
+name: NH (Anime BD Tier 05)
+pattern: \b(NH)\b
+description: Auto-generated from Anime BD Tier 05
+tags:
+- Anime
+tests: []

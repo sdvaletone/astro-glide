@@ -1,6 +1,0 @@
-name: Netaro
-pattern: \b(Netaro)\b
-description: Auto-generated from Anime BD Tier 03
-tags:
-- Anime
-tests: []

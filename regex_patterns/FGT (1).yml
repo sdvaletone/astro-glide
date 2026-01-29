@@ -1,6 +1,0 @@
-name: FGT
-pattern: ^(FGT)$
-description: Auto-generated from LQ
-tags:
-- Release Group
-tests: []

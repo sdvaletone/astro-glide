@@ -1,0 +1,6 @@
+name: Hotstar (HTSR)
+pattern: \b(HTSR|DSNPHS|HS)\b
+description: Auto-generated from HTSR
+tags:
+- Streaming
+tests: []

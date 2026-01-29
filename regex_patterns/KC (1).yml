@@ -1,6 +1,0 @@
-name: KC
-pattern: ^(KC)$
-description: Auto-generated from LQ
-tags:
-- Release Group
-tests: []

@@ -1,6 +1,0 @@
-name: Orphan
-pattern: \[Orphan\]|-Orphan\b
-description: Auto-generated from Anime BD Tier 02
-tags:
-- Anime
-tests: []
