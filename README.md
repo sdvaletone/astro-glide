@@ -24,6 +24,7 @@ See [Profilarr documentation](https://github.com/Dictionarry-Hub/profilarr) and 
 - **If custom formats never appear in Sonarr when you sync:** Profilarr syncs custom formats and quality profiles as **separate operations**. Syncing "profiles" alone does **not** push custom formats. In Profilarr, sync **Custom Formats** to Sonarr first (e.g. Settings → your Sonarr app → sync or import custom formats), then sync **Quality Profiles**. Dictionarry and Profilarr docs state: *Custom formats must be imported before syncing any premade profile.*
 - **If a profile syncs but its custom format scores don't apply:** The formats referenced by that profile are not in Sonarr. Sync custom formats to Sonarr first, then re-sync or re-apply the profile.
 - **If you use this repo as a linked PCD:** Ensure the app (Sonarr) is set to receive both custom formats and quality profiles from the PCD, and run custom-format sync before profile sync.
+- **"Format X not found for profile WEB-2160p"** (e.g. Bad Dual Groups, No-RlsGroup, Obfuscated, Retags, Scene): Those formats exist in this repo but were not in Sonarr when the profile was applied. Sync **custom formats** to Sonarr first so all formats (including these) are imported, then sync **quality profiles** again. The "Failed: 16" count is from profile custom-format entries that could not be applied because the format was missing in Sonarr.
 
 ## Repository structure
 
