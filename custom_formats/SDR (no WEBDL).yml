@@ -21,7 +21,7 @@ conditions:
   negate: true
   required: true
   type: source
-  source: webdl
+  source: web_dl
 - name: Not WEBRip
   negate: true
   required: true

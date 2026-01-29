@@ -6,7 +6,7 @@ conditions:
   negate: false
   required: false
   type: source
-  source: webdl
+  source: web_dl
 - name: WEBRIP
   negate: false
   required: false

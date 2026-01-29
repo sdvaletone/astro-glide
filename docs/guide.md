@@ -19,6 +19,8 @@ Custom formats are YAML files in `custom_formats/` that follow the [Dictionarry/
   - **required** – Whether the condition must pass for the format to match.
 - **tests** – Optional list of test cases.
 
+Source condition values follow [Dictionarry-Hub/database](https://github.com/Dictionarry-Hub/database/tree/stable/custom_formats) (e.g. `web_dl` for WEBDL, `webrip` for WEBRip).
+
 Example: `custom_formats/4.0 Sound.yml` uses `type: release_title` with regex patterns to match 4.0-channel audio and exclude mono/stereo. Similarly, `custom_formats/2.0 Stereo.yml` does the same for stereo. Open those files in the repo for reference.
 
 ### How to add a new custom format
