@@ -1,0 +1,35 @@
+-- Seed qualities (PCD)
+
+INSERT OR IGNORE INTO qualities (name) VALUES ('Unknown');
+INSERT OR IGNORE INTO qualities (name) VALUES ('SDTV');
+INSERT OR IGNORE INTO qualities (name) VALUES ('DVD');
+INSERT OR IGNORE INTO qualities (name) VALUES ('DVD-R');
+INSERT OR IGNORE INTO qualities (name) VALUES ('DVDSCR');
+INSERT OR IGNORE INTO qualities (name) VALUES ('REGIONAL');
+INSERT OR IGNORE INTO qualities (name) VALUES ('HDTV');
+INSERT OR IGNORE INTO qualities (name) VALUES ('HDTV-720p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('HDTV-1080p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('HDTV-2160p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBDL-480p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBDL-720p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBDL-1080p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBDL-2160p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBRip-480p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBRip-720p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBRip-1080p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WEBRip-2160p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Bluray-480p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Bluray-576p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Bluray-720p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Bluray-1080p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Bluray-2160p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Bluray-1080p Remux');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Bluray-2160p Remux');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Remux-1080p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Remux-2160p');
+INSERT OR IGNORE INTO qualities (name) VALUES ('BR-DISK');
+INSERT OR IGNORE INTO qualities (name) VALUES ('Raw-HD');
+INSERT OR IGNORE INTO qualities (name) VALUES ('CAM');
+INSERT OR IGNORE INTO qualities (name) VALUES ('TELESYNC');
+INSERT OR IGNORE INTO qualities (name) VALUES ('TELECINE');
+INSERT OR IGNORE INTO qualities (name) VALUES ('WORKPRINT');

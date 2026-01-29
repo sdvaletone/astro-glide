@@ -767,3 +767,12 @@ INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, cust
 INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'WEB Tier 02', 'sonarr', 1650);
 INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'WEB Tier 03', 'sonarr', 1600);
 INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'WEB Scene', 'sonarr', 1600);
+-- Optional (TRaSH WEB-2160p): UHD SDR / x265 and misc
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'SDR', 'sonarr', -10000);
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'SDR (no WEBDL)', 'sonarr', -10000);
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'x265 (no HDR/DV)', 'sonarr', -10000);
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'Bad Dual Groups', 'sonarr', -10000);
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'No-RlsGroup', 'sonarr', -10000);
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'Obfuscated', 'sonarr', -10000);
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'Retags', 'sonarr', -10000);
+INSERT OR IGNORE INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('WEB-2160p', 'Scene', 'sonarr', -10000);
