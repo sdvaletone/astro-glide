@@ -198,26 +198,35 @@ custom_formats_sonarr:
   - name: HIDIVE
     score: 0
 qualities:
-  - name: SDTV
+  - id: 1
+    name: SDTV
     description: SDTV. Wanted.
-  - name: DVD
+  - id: 2
+    name: DVD
     description: DVD. Wanted.
   - id: -1
     name: WEB 480p
     description: WEBDL/WEBRip 480p. Wanted.
     qualities:
-      - name: WEBDL-480p
-      - name: WEBRip-480p
-  - name: Bluray-480p
+      - id: 3
+        name: WEBDL-480p
+      - id: 4
+        name: WEBRip-480p
+  - id: 7
+    name: Bluray-480p
     description: Bluray 480p. Wanted.
   - id: -1
     name: WEB 720p
     description: WEBDL/WEBRip/HDTV 720p. Wanted.
     qualities:
-      - name: WEBDL-720p
-      - name: WEBRip-720p
-      - name: HDTV-720p
-  - name: Bluray-720p
+      - id: 5
+        name: WEBDL-720p
+      - id: 6
+        name: WEBRip-720p
+      - id: 8
+        name: HDTV-720p
+  - id: 13
+    name: Bluray-720p
     description: Bluray 720p. Wanted.
   - id: -1
     name: WEB 1080p
@@ -227,13 +236,16 @@ qualities:
         name: WEBDL-1080p
       - id: 11
         name: WEBRip-1080p
-      - name: HDTV-1080p
+      - id: 12
+        name: HDTV-1080p
   - id: -1
     name: Bluray 1080p
     description: Bluray-1080p and Bluray-1080p Remux. Upgrade until this quality.
     qualities:
-      - name: Bluray-1080p
-      - name: Bluray-1080p Remux
+      - id: 14
+        name: Bluray-1080p
+      - id: 15
+        name: Bluray-1080p Remux
 upgrade_until:
   id: -1
   name: Bluray 1080p

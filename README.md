@@ -14,10 +14,16 @@ This repository turns [TRaSH Guides](https://trash-guides.info/) quality profile
 
 1. In Profilarr, add a database and point it at this repo (e.g. `https://github.com/<your-org>/astro-glide` or your fork).
 2. Use the repo as your Profilarr “database” so it can import/sync the `profiles/` and `custom_formats/` YAML to your Radarr/Sonarr instances.
-3. **Sync order:** Custom formats must be synced **before** quality profiles. If profiles are applied first, custom format scores will not be preserved because the profile references formats by name.
+3. **Sync order (required):** You must sync **custom formats first**, then **quality profiles**. Profilarr does not send custom formats when you only sync profiles — they are separate sync steps. If you sync only profiles, Sonarr/Radarr will not have the custom formats, so profile scores will not apply and formats will appear missing.
 4. **Name matching:** Every custom format name in a profile must match the `name` in a `custom_formats/*.yml` file **exactly** (including case). Run `python3 scripts/validate_profile_custom_formats.py` to check.
 
 See [Profilarr documentation](https://github.com/Dictionarry-Hub/profilarr) and [Dictionarry database layout](https://github.com/Dictionarry-Hub/database) for how to link and sync.
+
+### Troubleshooting: Custom formats not syncing to Sonarr
+
+- **If custom formats never appear in Sonarr when you sync:** Profilarr syncs custom formats and quality profiles as **separate operations**. Syncing "profiles" alone does **not** push custom formats. In Profilarr, sync **Custom Formats** to Sonarr first (e.g. Settings → your Sonarr app → sync or import custom formats), then sync **Quality Profiles**. Dictionarry and Profilarr docs state: *Custom formats must be imported before syncing any premade profile.*
+- **If a profile syncs but its custom format scores don't apply:** The formats referenced by that profile are not in Sonarr. Sync custom formats to Sonarr first, then re-sync or re-apply the profile.
+- **If you use this repo as a linked PCD:** Ensure the app (Sonarr) is set to receive both custom formats and quality profiles from the PCD, and run custom-format sync before profile sync.
 
 ## Repository structure
 

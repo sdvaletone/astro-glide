@@ -10,6 +10,7 @@ Custom formats are YAML files in `custom_formats/` that follow the [Dictionarry/
 
 - **name** – Display name (must match exactly when referenced in profiles).
 - **description** – Short explanation of what the format matches.
+- **include_in_rename** – Optional; whether to include in Radarr/Sonarr rename (default `false`). The Dictionarry schema defines this; some Profilarr setups may expect it.
 - **tags** – Optional list of tags for organization.
 - **conditions** – List of rules that determine when a release matches. Each condition has:
   - **name** – Label for the condition.
@@ -82,7 +83,7 @@ The Dictionarry layout reserves `tweaks/` for optional overrides. If your Profil
 ### Using with Profilarr
 
 - **Configuration:** Ensure Profilarr is set to sync this repo as a PCD. The root `pcd.json` manifest (with `profilarr.minimum_version` and `dependencies.schema`) must be valid per the [manifest spec](https://github.com/Dictionarry-Hub/schema/blob/main/docs/manifest.md).
-- **Sync order:** Sync custom formats first, then quality profiles. Profilarr (and Dictionarry docs) require that custom formats are imported before syncing any premade profile; otherwise profile custom format scores are not applied correctly.
+- **Sync order:** Sync **custom formats first**, then **quality profiles**. Profilarr treats them as separate sync operations; syncing only profiles does **not** push custom formats to Sonarr/Radarr. If you only sync profiles, no custom formats will appear in the app, and profile scores will not apply. In Profilarr, run custom-format sync for the app, then profile sync.
 - **Name matching:** Profile custom format names must match the `name` in `custom_formats/*.yml` exactly (including case). Use `python3 scripts/validate_profile_custom_formats.py` before pushing to catch missing or mismatched names.
 
 ### Further reading
