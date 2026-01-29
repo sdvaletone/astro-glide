@@ -1,5 +1,6 @@
 name: SDR
 description: Matches release criteria for SDR
+include_in_rename: false
 tags: []
 conditions:
 - name: 2160p

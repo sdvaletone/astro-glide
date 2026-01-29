@@ -1,5 +1,6 @@
 name: DV (Disk)
 description: Matches release criteria for DV (Disk)
+include_in_rename: false
 tags: []
 conditions:
 - name: FraMeSToR

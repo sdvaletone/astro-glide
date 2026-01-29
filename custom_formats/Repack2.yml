@@ -1,5 +1,6 @@
 name: Repack2
 description: Matches release criteria for Repack2
+include_in_rename: false
 tags: []
 conditions:
 - name: Repack/Proper 2 or REAL.PROPER/REPACK

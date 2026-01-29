@@ -1,5 +1,6 @@
 name: 7.1 Surround
 description: Matches release criteria for 7.1 Surround
+include_in_rename: false
 tags: []
 conditions:
 - name: 7.1 Surround

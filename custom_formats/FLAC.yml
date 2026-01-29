@@ -1,5 +1,6 @@
 name: FLAC
 description: Matches release criteria for FLAC
+include_in_rename: false
 tags: []
 conditions:
 - name: FLAC

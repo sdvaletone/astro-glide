@@ -1,5 +1,6 @@
 name: VFQ
 description: Matches release criteria for VFQ
+include_in_rename: false
 tags: []
 conditions:
 - name: Canadian French

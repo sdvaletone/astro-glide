@@ -1,5 +1,6 @@
 name: WEB Tier 02
 description: Matches release criteria for WEB Tier 02
+include_in_rename: false
 tags: []
 conditions:
 - name: 3cTWeB

@@ -1,5 +1,6 @@
 name: Retags
 description: Matches release criteria for Retags
+include_in_rename: false
 tags: []
 conditions:
 - name: .heb

@@ -1,5 +1,6 @@
 name: SALTO
 description: Matches release criteria for SALTO
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

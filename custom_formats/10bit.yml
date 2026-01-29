@@ -1,5 +1,6 @@
 name: 10bit
 description: Matches release criteria for 10bit
+include_in_rename: false
 tags: []
 conditions:
 - name: 10bit

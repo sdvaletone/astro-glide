@@ -1,5 +1,6 @@
 name: Anime Web Tier 03
 description: Matches release criteria for Anime Web Tier 03
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

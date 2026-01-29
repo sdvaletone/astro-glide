@@ -1,5 +1,6 @@
 name: PMTP
 description: Matches release criteria for PMTP
+include_in_rename: false
 tags: []
 conditions:
 - name: Paramount+

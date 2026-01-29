@@ -1,5 +1,6 @@
 name: v4
 description: Matches release criteria for v4
+include_in_rename: false
 tags: []
 conditions:
 - name: v4

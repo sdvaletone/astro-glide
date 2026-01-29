@@ -1,5 +1,6 @@
 name: FLUX
 description: Matches release criteria for FLUX
+include_in_rename: false
 tags: []
 conditions:
 - name: FLUX

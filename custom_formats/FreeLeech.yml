@@ -1,5 +1,6 @@
 name: FreeLeech
 description: Matches release criteria for FreeLeech
+include_in_rename: false
 tags: []
 conditions:
 - name: FreeLeech

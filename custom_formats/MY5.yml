@@ -1,5 +1,6 @@
 name: MY5
 description: Matches release criteria for MY5
+include_in_rename: false
 tags: []
 conditions:
 - name: My5

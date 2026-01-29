@@ -1,5 +1,6 @@
 name: MP3
 description: Matches release criteria for MP3
+include_in_rename: false
 tags: []
 conditions:
 - name: MP3

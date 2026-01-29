@@ -1,5 +1,6 @@
 name: VFI
 description: Matches release criteria for VFI
+include_in_rename: false
 tags: []
 conditions:
 - name: French International

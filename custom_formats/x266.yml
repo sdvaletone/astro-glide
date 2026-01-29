@@ -1,5 +1,6 @@
 name: x266
 description: Matches release criteria for x266
+include_in_rename: false
 tags: []
 conditions:
 - name: x|h266

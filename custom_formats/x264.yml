@@ -1,5 +1,6 @@
 name: x264
 description: Matches release criteria for x264
+include_in_rename: false
 tags: []
 conditions:
 - name: x|h264

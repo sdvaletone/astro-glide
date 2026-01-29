@@ -1,5 +1,6 @@
 name: FR LQ
 description: Matches release criteria for FR LQ
+include_in_rename: false
 tags: []
 conditions:
 - name: Ads/Watermarks

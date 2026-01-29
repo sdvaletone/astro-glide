@@ -1,5 +1,6 @@
 name: AV1
 description: Matches release criteria for AV1
+include_in_rename: false
 tags: []
 conditions:
 - name: AV1

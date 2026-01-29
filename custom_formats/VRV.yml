@@ -1,5 +1,6 @@
 name: VRV
 description: Matches release criteria for VRV
+include_in_rename: false
 tags: []
 conditions:
 - name: VRV

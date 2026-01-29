@@ -1,5 +1,6 @@
 name: DTS X
 description: Matches release criteria for DTS X
+include_in_rename: false
 tags: []
 conditions:
 - name: DTS X

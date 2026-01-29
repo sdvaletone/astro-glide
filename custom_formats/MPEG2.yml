@@ -1,5 +1,6 @@
 name: MPEG2
 description: Matches release criteria for MPEG2
+include_in_rename: false
 tags: []
 conditions:
 - name: MPEG2

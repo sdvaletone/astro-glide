@@ -1,5 +1,6 @@
 name: Anime LQ Groups
 description: Matches release criteria for Anime LQ Groups
+include_in_rename: false
 tags: []
 conditions:
 - name: $tore-Chill

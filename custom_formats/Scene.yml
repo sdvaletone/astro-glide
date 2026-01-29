@@ -1,5 +1,6 @@
 name: Scene
 description: Matches release criteria for Scene
+include_in_rename: false
 tags: []
 conditions:
 - name: Scene Groups + Naming

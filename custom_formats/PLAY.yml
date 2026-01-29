@@ -1,5 +1,6 @@
 name: PLAY
 description: Matches release criteria for PLAY
+include_in_rename: false
 tags: []
 conditions:
 - name: PLAY

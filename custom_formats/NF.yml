@@ -1,5 +1,6 @@
 name: NF
 description: Matches release criteria for NF
+include_in_rename: false
 tags: []
 conditions:
 - name: Netflix

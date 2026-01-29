@@ -1,5 +1,6 @@
 name: x265 (no HDR/DV)
 description: Matches release criteria for x265 (no HDR/DV)
+include_in_rename: false
 tags: []
 conditions:
 - name: x265/HEVC

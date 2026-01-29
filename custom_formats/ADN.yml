@@ -1,5 +1,6 @@
 name: ADN
 description: Matches release criteria for ADN
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

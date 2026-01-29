@@ -1,5 +1,6 @@
 name: Anime Raws
 description: Matches release criteria for Anime Raws
+include_in_rename: false
 tags: []
 conditions:
 - name: AsukaRaws

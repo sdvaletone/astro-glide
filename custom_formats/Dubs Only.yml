@@ -1,5 +1,6 @@
 name: Dubs Only
 description: Matches release criteria for Dubs Only
+include_in_rename: false
 tags: []
 conditions:
 - name: Dubbed

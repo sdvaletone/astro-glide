@@ -1,5 +1,6 @@
 name: x265 (HD)
 description: Matches release criteria for x265 (HD)
+include_in_rename: false
 tags: []
 conditions:
 - name: x265/HEVC

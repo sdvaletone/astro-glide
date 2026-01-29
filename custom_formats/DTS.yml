@@ -1,5 +1,6 @@
 name: DTS
 description: Matches release criteria for DTS
+include_in_rename: false
 tags: []
 conditions:
 - name: Basic DTS

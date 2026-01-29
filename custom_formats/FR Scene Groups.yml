@@ -1,5 +1,6 @@
 name: FR Scene Groups
 description: Matches release criteria for FR Scene Groups
+include_in_rename: false
 tags: []
 conditions:
 - name: '#'

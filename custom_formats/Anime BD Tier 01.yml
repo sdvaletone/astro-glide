@@ -1,5 +1,6 @@
 name: Anime BD Tier 01
 description: Matches release criteria for Anime BD Tier 01
+include_in_rename: false
 tags: []
 conditions:
 - name: Bluray

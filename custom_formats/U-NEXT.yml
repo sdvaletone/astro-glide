@@ -1,5 +1,6 @@
 name: U-NEXT
 description: Matches release criteria for U-NEXT
+include_in_rename: false
 tags: []
 conditions:
 - name: U-NEXT

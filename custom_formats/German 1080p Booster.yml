@@ -1,5 +1,6 @@
 name: German 1080p Booster
 description: Matches release criteria for German 1080p Booster
+include_in_rename: false
 tags: []
 conditions:
 - name: German

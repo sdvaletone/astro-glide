@@ -1,5 +1,6 @@
 name: ROKU
 description: Matches release criteria for ROKU
+include_in_rename: false
 tags: []
 conditions:
 - name: ROKU

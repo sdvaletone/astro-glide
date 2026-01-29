@@ -1,5 +1,6 @@
 name: LQ
 description: Matches release criteria for LQ
+include_in_rename: false
 tags: []
 conditions:
 - name: BRiNK

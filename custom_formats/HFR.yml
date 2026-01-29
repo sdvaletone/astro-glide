@@ -1,5 +1,6 @@
 name: HFR
 description: Matches release criteria for HFR
+include_in_rename: false
 tags: []
 conditions:
 - name: HFR

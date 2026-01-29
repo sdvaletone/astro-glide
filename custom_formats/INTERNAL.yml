@@ -1,5 +1,6 @@
 name: INTERNAL
 description: Matches release criteria for INTERNAL
+include_in_rename: false
 tags: []
 conditions:
 - name: INTERNAL

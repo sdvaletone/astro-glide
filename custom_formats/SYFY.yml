@@ -1,5 +1,6 @@
 name: SYFY
 description: Matches release criteria for SYFY
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

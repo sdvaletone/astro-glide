@@ -1,5 +1,6 @@
 name: German DL (undefined)
 description: Matches release criteria for German DL (undefined)
+include_in_rename: false
 tags: []
 conditions:
 - name: NOT Original Language

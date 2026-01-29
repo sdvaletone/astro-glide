@@ -1,5 +1,6 @@
 name: Remaster
 description: Matches release criteria for Remaster
+include_in_rename: false
 tags: []
 conditions:
 - name: Remaster

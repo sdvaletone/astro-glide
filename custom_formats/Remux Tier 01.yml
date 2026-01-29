@@ -1,5 +1,6 @@
 name: Remux Tier 01
 description: Matches release criteria for Remux Tier 01
+include_in_rename: false
 tags: []
 conditions:
 - name: Remux

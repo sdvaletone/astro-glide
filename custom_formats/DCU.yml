@@ -1,5 +1,6 @@
 name: DCU
 description: Matches release criteria for DCU
+include_in_rename: false
 tags: []
 conditions:
 - name: DC Universe

@@ -1,5 +1,6 @@
 name: DV (w/o HDR fallback)
 description: Matches release criteria for DV (w/o HDR fallback)
+include_in_rename: false
 tags: []
 conditions:
 - name: Dolby Vision

@@ -1,5 +1,6 @@
 name: VQ
 description: Matches release criteria for VQ
+include_in_rename: false
 tags: []
 conditions:
 - name: Version Québécoise

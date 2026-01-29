@@ -1,5 +1,6 @@
 name: v2
 description: Matches release criteria for v2
+include_in_rename: false
 tags: []
 conditions:
 - name: v2

@@ -1,5 +1,6 @@
 name: PCM
 description: Matches release criteria for PCM
+include_in_rename: false
 tags: []
 conditions:
 - name: PCM

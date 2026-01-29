@@ -1,5 +1,6 @@
 name: German Scene
 description: Matches release criteria for German Scene
+include_in_rename: false
 tags: []
 conditions:
 - name: DETAiLS

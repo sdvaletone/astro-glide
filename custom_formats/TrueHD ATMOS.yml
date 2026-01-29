@@ -1,5 +1,6 @@
 name: TrueHD ATMOS
 description: Matches release criteria for TrueHD ATMOS
+include_in_rename: false
 tags: []
 conditions:
 - name: TrueHD

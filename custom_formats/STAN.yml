@@ -1,5 +1,6 @@
 name: STAN
 description: Matches release criteria for STAN
+include_in_rename: false
 tags: []
 conditions:
 - name: Stan

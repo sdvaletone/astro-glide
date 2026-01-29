@@ -1,5 +1,6 @@
 name: AUBC
 description: Matches release criteria for AUBC
+include_in_rename: false
 tags: []
 conditions:
 - name: AUBC

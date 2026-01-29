@@ -1,5 +1,6 @@
 name: TrueHD
 description: Matches release criteria for TrueHD
+include_in_rename: false
 tags: []
 conditions:
 - name: TrueHD

@@ -1,5 +1,6 @@
 name: No-RlsGroup
 description: Matches release criteria for No-RlsGroup
+include_in_rename: false
 tags: []
 conditions:
 - name: No Parsed Group

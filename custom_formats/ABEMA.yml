@@ -1,5 +1,6 @@
 name: ABEMA
 description: Matches release criteria for ABEMA
+include_in_rename: false
 tags: []
 conditions:
 - name: ABEMA

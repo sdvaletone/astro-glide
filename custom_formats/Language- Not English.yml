@@ -1,5 +1,6 @@
 name: 'Language: Not English'
 description: 'Matches release criteria for Language: Not English'
+include_in_rename: false
 tags: []
 conditions:
 - name: Not English Language

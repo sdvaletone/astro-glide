@@ -1,5 +1,6 @@
 name: DTS-HD MA
 description: Matches release criteria for DTS-HD MA
+include_in_rename: false
 tags: []
 conditions:
 - name: DTS-HD MA

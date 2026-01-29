@@ -1,5 +1,6 @@
 name: Bad Dual Groups
 description: Matches release criteria for Bad Dual Groups
+include_in_rename: false
 tags: []
 conditions:
 - name: alfaHD

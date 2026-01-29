@@ -1,5 +1,6 @@
 name: CBC
 description: Matches release criteria for CBC
+include_in_rename: false
 tags: []
 conditions:
 - name: CBC

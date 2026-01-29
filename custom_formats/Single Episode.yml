@@ -1,5 +1,6 @@
 name: Single Episode
 description: Matches release criteria for Single Episode
+include_in_rename: false
 tags: []
 conditions:
 - name: Single Episode

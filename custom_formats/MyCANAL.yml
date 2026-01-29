@@ -1,5 +1,6 @@
 name: MyCANAL
 description: Matches release criteria for MyCANAL
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

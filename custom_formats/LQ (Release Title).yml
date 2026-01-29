@@ -1,5 +1,6 @@
 name: LQ (Release Title)
 description: Matches release criteria for LQ (Release Title)
+include_in_rename: false
 tags: []
 conditions:
 - name: BEN THE MEN

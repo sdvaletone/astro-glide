@@ -1,5 +1,6 @@
 name: FastSUB
 description: Matches release criteria for FastSUB
+include_in_rename: false
 tags: []
 conditions:
 - name: FastSUB

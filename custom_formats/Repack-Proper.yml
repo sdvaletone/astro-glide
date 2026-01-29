@@ -1,5 +1,6 @@
 name: Repack/Proper
 description: Matches release criteria for Repack/Proper
+include_in_rename: false
 tags: []
 conditions:
 - name: Repack/Proper/Rerip

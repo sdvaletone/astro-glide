@@ -1,5 +1,6 @@
 name: HTSR
 description: Matches release criteria for HTSR
+include_in_rename: false
 tags: []
 conditions:
 - name: Hotstar

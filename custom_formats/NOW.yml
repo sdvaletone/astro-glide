@@ -1,5 +1,6 @@
 name: NOW
 description: Matches release criteria for NOW
+include_in_rename: false
 tags: []
 conditions:
 - name: NOW

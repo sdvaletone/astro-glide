@@ -1,5 +1,6 @@
 name: PCOK
 description: Matches release criteria for PCOK
+include_in_rename: false
 tags: []
 conditions:
 - name: Peacock TV

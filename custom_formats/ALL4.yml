@@ -1,5 +1,6 @@
 name: ALL4
 description: Matches release criteria for ALL4
+include_in_rename: false
 tags: []
 conditions:
 - name: ALL4

@@ -1,5 +1,6 @@
 name: FR Anime FanSub
 description: Matches release criteria for FR Anime FanSub
+include_in_rename: false
 tags: []
 conditions:
 - name: Anime-Heart

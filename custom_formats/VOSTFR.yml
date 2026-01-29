@@ -1,5 +1,6 @@
 name: VOSTFR
 description: Matches release criteria for VOSTFR
+include_in_rename: false
 tags: []
 conditions:
 - name: VOSTFR

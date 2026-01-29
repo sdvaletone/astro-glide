@@ -1,5 +1,6 @@
 name: CC
 description: Matches release criteria for CC
+include_in_rename: false
 tags: []
 conditions:
 - name: Comedy Central

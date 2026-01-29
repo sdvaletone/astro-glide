@@ -1,5 +1,6 @@
 name: Anime Web Tier 04
 description: Matches release criteria for Anime Web Tier 04
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

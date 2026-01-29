@@ -1,5 +1,6 @@
 name: ITVX
 description: Matches release criteria for ITVX
+include_in_rename: false
 tags: []
 conditions:
 - name: ITVX

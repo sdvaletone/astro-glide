@@ -1,5 +1,6 @@
 name: 2.0 Stereo
 description: Matches release criteria for 2.0 Stereo
+include_in_rename: false
 tags: []
 conditions:
 - name: Stereo

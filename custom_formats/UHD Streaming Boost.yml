@@ -1,5 +1,6 @@
 name: UHD Streaming Boost
 description: Matches release criteria for UHD Streaming Boost
+include_in_rename: false
 tags: []
 conditions:
 - name: Disney+

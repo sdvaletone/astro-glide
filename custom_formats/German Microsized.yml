@@ -1,5 +1,6 @@
 name: German Microsized
 description: Matches release criteria for German Microsized
+include_in_rename: false
 tags: []
 conditions:
 - name: FuN

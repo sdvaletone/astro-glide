@@ -1,5 +1,6 @@
 name: FanSUB
 description: Matches release criteria for FanSUB
+include_in_rename: false
 tags: []
 conditions:
 - name: FanSUB

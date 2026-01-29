@@ -1,5 +1,6 @@
 name: 'Language: Original + French'
 description: 'Matches release criteria for Language: Original + French'
+include_in_rename: false
 tags: []
 conditions:
 - name: Original Language

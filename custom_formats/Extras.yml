@@ -1,5 +1,6 @@
 name: Extras
 description: Matches release criteria for Extras
+include_in_rename: false
 tags: []
 conditions:
 - name: Extras

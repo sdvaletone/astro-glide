@@ -1,5 +1,6 @@
 name: IP
 description: Matches release criteria for IP
+include_in_rename: false
 tags: []
 conditions:
 - name: BBC iPlayer

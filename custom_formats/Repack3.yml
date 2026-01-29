@@ -1,5 +1,6 @@
 name: Repack3
 description: Matches release criteria for Repack3
+include_in_rename: false
 tags: []
 conditions:
 - name: Repack/Proper 3 or REAL.REAL.PROPER/REPACK

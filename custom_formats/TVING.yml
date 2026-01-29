@@ -1,5 +1,6 @@
 name: TVING
 description: Matches release criteria for TVING
+include_in_rename: false
 tags: []
 conditions:
 - name: TVING

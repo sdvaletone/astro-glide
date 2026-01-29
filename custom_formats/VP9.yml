@@ -1,5 +1,6 @@
 name: VP9
 description: Matches release criteria for VP9
+include_in_rename: false
 tags: []
 conditions:
 - name: VP9

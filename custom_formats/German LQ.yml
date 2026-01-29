@@ -1,5 +1,6 @@
 name: German LQ
 description: Matches release criteria for German LQ
+include_in_rename: false
 tags: []
 conditions:
 - name: PsO

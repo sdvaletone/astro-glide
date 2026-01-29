@@ -1,5 +1,6 @@
 name: Obfuscated
 description: Matches release criteria for Obfuscated
+include_in_rename: false
 tags: []
 conditions:
 - name: 4P

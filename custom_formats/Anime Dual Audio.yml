@@ -1,5 +1,6 @@
 name: Anime Dual Audio
 description: Matches release criteria for Anime Dual Audio
+include_in_rename: false
 tags: []
 conditions:
 - name: Dual Audio

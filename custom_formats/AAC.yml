@@ -1,5 +1,6 @@
 name: AAC
 description: Matches release criteria for AAC
+include_in_rename: false
 tags: []
 conditions:
 - name: AAC

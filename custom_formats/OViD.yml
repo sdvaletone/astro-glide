@@ -1,5 +1,6 @@
 name: OViD
 description: Matches release criteria for OViD
+include_in_rename: false
 tags: []
 conditions:
 - name: OViD

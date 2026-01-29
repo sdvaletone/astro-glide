@@ -1,5 +1,6 @@
 name: 2160p
 description: Matches release criteria for 2160p
+include_in_rename: false
 tags: []
 conditions:
 - name: 2160p

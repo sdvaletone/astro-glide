@@ -1,5 +1,6 @@
 name: AMZN
 description: Matches release criteria for AMZN
+include_in_rename: false
 tags: []
 conditions:
 - name: Amazon

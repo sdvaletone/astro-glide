@@ -1,5 +1,6 @@
 name: VF2
 description: Matches release criteria for VF2
+include_in_rename: false
 tags: []
 conditions:
 - name: VF2

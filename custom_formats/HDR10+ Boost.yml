@@ -1,5 +1,6 @@
 name: HDR10+ Boost
 description: Matches release criteria for HDR10+ Boost
+include_in_rename: false
 tags: []
 conditions:
 - name: HDR10+

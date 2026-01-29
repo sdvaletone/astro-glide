@@ -1,5 +1,6 @@
 name: DD
 description: Matches release criteria for DD
+include_in_rename: false
 tags: []
 conditions:
 - name: Basic Dolby Digital

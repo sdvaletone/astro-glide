@@ -1,5 +1,6 @@
 name: DV Boost
 description: Matches release criteria for DV Boost
+include_in_rename: false
 tags: []
 conditions:
 - name: DV

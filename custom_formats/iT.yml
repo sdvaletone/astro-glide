@@ -1,5 +1,6 @@
 name: iT
 description: Matches release criteria for iT
+include_in_rename: false
 tags: []
 conditions:
 - name: iTunes

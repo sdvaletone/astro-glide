@@ -1,5 +1,6 @@
 name: Hybrid
 description: Matches release criteria for Hybrid
+include_in_rename: false
 tags: []
 conditions:
 - name: Hybrid

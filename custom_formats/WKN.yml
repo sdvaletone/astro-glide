@@ -1,5 +1,6 @@
 name: WKN
 description: Matches release criteria for WKN
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

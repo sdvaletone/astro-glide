@@ -1,5 +1,6 @@
 name: CR
 description: Matches release criteria for CR
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

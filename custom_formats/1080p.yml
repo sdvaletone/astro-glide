@@ -1,5 +1,6 @@
 name: 1080p
 description: Matches release criteria for 1080p
+include_in_rename: false
 tags: []
 conditions:
 - name: 1080p

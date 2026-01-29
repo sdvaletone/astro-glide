@@ -1,5 +1,6 @@
 name: x265
 description: Matches release criteria for x265
+include_in_rename: false
 tags: []
 conditions:
 - name: x|h265

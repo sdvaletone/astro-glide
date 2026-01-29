@@ -1,5 +1,6 @@
 name: AUViO
 description: Matches release criteria for AUViO
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

@@ -1,5 +1,6 @@
 name: BR-DISK (BTN)
 description: Matches release criteria for BR-DISK (BTN)
+include_in_rename: false
 tags: []
 conditions:
 - name: BR-DISK

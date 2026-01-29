@@ -1,5 +1,6 @@
 name: Opus
 description: Matches release criteria for Opus
+include_in_rename: false
 tags: []
 conditions:
 - name: Opus

@@ -1,5 +1,6 @@
 name: Not German or English
 description: Matches release criteria for Not German or English
+include_in_rename: false
 tags: []
 conditions:
 - name: Not English Language

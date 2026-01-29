@@ -1,5 +1,6 @@
 name: DSCP
 description: Matches release criteria for DSCP
+include_in_rename: false
 tags: []
 conditions:
 - name: Discovery+

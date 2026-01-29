@@ -1,5 +1,6 @@
 name: German
 description: Matches release criteria for German
+include_in_rename: false
 tags: []
 conditions:
 - name: German

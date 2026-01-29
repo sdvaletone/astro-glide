@@ -1,5 +1,6 @@
 name: SHO
 description: Matches release criteria for SHO
+include_in_rename: false
 tags: []
 conditions:
 - name: SHOWTIME

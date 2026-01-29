@@ -1,5 +1,6 @@
 name: DSNP
 description: Matches release criteria for DSNP
+include_in_rename: false
 tags: []
 conditions:
 - name: Disney+

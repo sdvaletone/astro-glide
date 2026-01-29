@@ -1,5 +1,6 @@
 name: ATMOS (undefined)
 description: Matches release criteria for ATMOS (undefined)
+include_in_rename: false
 tags: []
 conditions:
 - name: ATMOS

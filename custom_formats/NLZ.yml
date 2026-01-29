@@ -1,5 +1,6 @@
 name: NLZ
 description: Matches release criteria for NLZ
+include_in_rename: false
 tags: []
 conditions:
 - name: NLZiet

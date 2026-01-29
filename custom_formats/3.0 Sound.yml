@@ -1,5 +1,6 @@
 name: 3.0 Sound
 description: Matches release criteria for 3.0 Sound
+include_in_rename: false
 tags: []
 conditions:
 - name: 3.0ch

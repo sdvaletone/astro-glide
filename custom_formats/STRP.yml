@@ -1,5 +1,6 @@
 name: STRP
 description: Matches release criteria for STRP
+include_in_rename: false
 tags: []
 conditions:
 - name: Star+

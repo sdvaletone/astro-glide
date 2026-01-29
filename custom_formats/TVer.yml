@@ -1,5 +1,6 @@
 name: TVer
 description: Matches release criteria for TVer
+include_in_rename: false
 tags: []
 conditions:
 - name: TVer

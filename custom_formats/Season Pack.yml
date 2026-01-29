@@ -1,5 +1,6 @@
 name: Season Pack
 description: Matches release criteria for Season Pack
+include_in_rename: false
 tags: []
 conditions:
 - name: Season Packs

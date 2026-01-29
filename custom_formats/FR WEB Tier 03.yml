@@ -1,5 +1,6 @@
 name: FR WEB Tier 03
 description: Matches release criteria for FR WEB Tier 03
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

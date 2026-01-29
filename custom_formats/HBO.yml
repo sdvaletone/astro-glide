@@ -1,5 +1,6 @@
 name: HBO
 description: Matches release criteria for HBO
+include_in_rename: false
 tags: []
 conditions:
 - name: HBO

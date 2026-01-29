@@ -1,5 +1,6 @@
 name: VOQ
 description: Matches release criteria for VOQ
+include_in_rename: false
 tags: []
 conditions:
 - name: Quebec Original Version

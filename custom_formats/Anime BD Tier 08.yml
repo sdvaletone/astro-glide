@@ -1,5 +1,6 @@
 name: Anime BD Tier 08
 description: Matches release criteria for Anime BD Tier 08
+include_in_rename: false
 tags: []
 conditions:
 - name: Bluray

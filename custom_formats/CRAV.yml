@@ -1,5 +1,6 @@
 name: CRAV
 description: Matches release criteria for CRAV
+include_in_rename: false
 tags: []
 conditions:
 - name: Crave

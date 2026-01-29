@@ -1,5 +1,6 @@
 name: VFB
 description: Matches release criteria for VFB
+include_in_rename: false
 tags: []
 conditions:
 - name: Belgian French

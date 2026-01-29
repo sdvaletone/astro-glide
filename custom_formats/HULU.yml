@@ -1,5 +1,6 @@
 name: HULU
 description: Matches release criteria for HULU
+include_in_rename: false
 tags: []
 conditions:
 - name: Hulu

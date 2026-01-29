@@ -1,5 +1,6 @@
 name: FUNi
 description: Matches release criteria for FUNi
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

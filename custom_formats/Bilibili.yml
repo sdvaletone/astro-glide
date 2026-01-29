@@ -1,5 +1,6 @@
 name: Bilibili
 description: Matches release criteria for Bilibili
+include_in_rename: false
 tags: []
 conditions:
 - name: WEBDL

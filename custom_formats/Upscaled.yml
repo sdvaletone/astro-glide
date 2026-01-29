@@ -1,5 +1,6 @@
 name: Upscaled
 description: Matches release criteria for Upscaled
+include_in_rename: false
 tags: []
 conditions:
 - name: AI Upscales

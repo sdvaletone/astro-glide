@@ -1,5 +1,6 @@
 name: DTS-HD HRA
 description: Matches release criteria for DTS-HD HRA
+include_in_rename: false
 tags: []
 conditions:
 - name: DTS-HD HRA

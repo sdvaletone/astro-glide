@@ -1,5 +1,6 @@
 name: ATV
 description: Matches release criteria for ATV
+include_in_rename: false
 tags: []
 conditions:
 - name: Apple TV

@@ -1,5 +1,6 @@
 name: DD+ ATMOS
 description: Matches release criteria for DD+ ATMOS
+include_in_rename: false
 tags: []
 conditions:
 - name: Dolby Digital Plus

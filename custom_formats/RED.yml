@@ -1,5 +1,6 @@
 name: RED
 description: Matches release criteria for RED
+include_in_rename: false
 tags: []
 conditions:
 - name: YouTube Red

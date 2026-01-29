@@ -1,5 +1,6 @@
 name: 1.0 Mono
 description: Matches release criteria for 1.0 Mono
+include_in_rename: false
 tags: []
 conditions:
 - name: Mono

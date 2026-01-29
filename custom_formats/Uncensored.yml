@@ -1,5 +1,6 @@
 name: Uncensored
 description: Matches release criteria for Uncensored
+include_in_rename: false
 tags: []
 conditions:
 - name: Uncensored

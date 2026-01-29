@@ -1,5 +1,6 @@
 name: HMAX
 description: Matches release criteria for HMAX
+include_in_rename: false
 tags: []
 conditions:
 - name: HBO Max

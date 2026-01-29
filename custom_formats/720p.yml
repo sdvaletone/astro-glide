@@ -1,5 +1,6 @@
 name: 720p
 description: Matches release criteria for 720p
+include_in_rename: false
 tags: []
 conditions:
 - name: 720p

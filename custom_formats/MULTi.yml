@@ -1,5 +1,6 @@
 name: MULTi
 description: Matches release criteria for MULTi
+include_in_rename: false
 tags: []
 conditions:
 - name: Multi

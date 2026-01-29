@@ -1,5 +1,6 @@
 name: QIBI
 description: Matches release criteria for QIBI
+include_in_rename: false
 tags: []
 conditions:
 - name: Quibi

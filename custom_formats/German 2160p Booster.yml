@@ -1,5 +1,6 @@
 name: German 2160p Booster
 description: Matches release criteria for German 2160p Booster
+include_in_rename: false
 tags: []
 conditions:
 - name: German
