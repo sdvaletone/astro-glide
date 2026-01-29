@@ -1,59 +1,45 @@
-trash_id: b8e91cc8fb2bd96468fab74730c30d18
-trash_scores:
-  default: 1900
-  french-anime-multi: 1300
-  french-anime-vostfr: 1300
-  french-multi-vf: 1900
-  french-multi-vo: 1900
-  french-vostfr: 0
 name: FR Remux Tier 01
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FR Remux Tier 01
+tags: []
+conditions:
 - name: Remux
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
 - name: FtLi
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FtLi)$
+  type: release_group
+  pattern: ^(FtLi)$
 - name: Goldenyann
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Goldenyann)$
+  type: release_group
+  pattern: ^(Goldenyann)$
 - name: HDForever
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HDForever)$
+  type: release_group
+  pattern: ^(HDForever)$
 - name: HeavyWeight
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HeavyWeight)$
+  type: release_group
+  pattern: ^(HeavyWeight)$
 - name: ONLY
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ONLY)$
+  type: release_group
+  pattern: ^(ONLY)$
 - name: Psaro
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Psaro)$
+  type: release_group
+  pattern: ^(Psaro)$
 - name: TyrellCorp
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TyrellCorp)$
+  type: release_group
+  pattern: ^(TyrellCorp)$
+tests: []

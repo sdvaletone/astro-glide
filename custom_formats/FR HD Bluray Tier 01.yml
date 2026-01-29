@@ -1,65 +1,50 @@
-trash_id: d844321db5e126d2e7e46152f0706532
-trash_scores:
-  default: 1800
-  french-anime-multi: 1250
-  french-anime-vostfr: 1250
-  french-multi-vf: 1800
-  french-multi-vo: 1800
-  french-vostfr: 0
 name: FR HD Bluray Tier 01
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FR HD Bluray Tier 01
+tags: []
+conditions:
 - name: BLURAY
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 6
+  type: source
+  source: hdtv
 - name: Not REMUX
-  implementation: SourceSpecification
   negate: true
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
 - name: Not 2160p
-  implementation: ResolutionSpecification
   negate: true
   required: true
-  fields:
-    value: 2160
+  type: resolution
+  resolution: 2160p
 - name: ARK01
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ARK01)$
+  type: release_group
+  pattern: ^(ARK01)$
 - name: BONBON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BONBON)$
+  type: release_group
+  pattern: ^(BONBON)$
 - name: FRATERNiTY
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FRATERNiTY)$
+  type: release_group
+  pattern: ^(FRATERNiTY)$
 - name: FTMVHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FTMVHD)$
+  type: release_group
+  pattern: ^(FTMVHD)$
 - name: HeavyWeight
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HeavyWeight)$
+  type: release_group
+  pattern: ^(HeavyWeight)$
 - name: Psaro
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Psaro)$
+  type: release_group
+  pattern: ^(Psaro)$
+tests: []

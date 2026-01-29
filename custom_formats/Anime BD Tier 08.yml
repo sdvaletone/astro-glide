@@ -1,84 +1,70 @@
-trash_id: c81bbfb47fed3d5a3ad027d077f889de
-trash_scores:
-  default: 700
 name: Anime BD Tier 08
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Anime BD Tier 08
+tags: []
+conditions:
 - name: Bluray
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 6
+  type: source
+  source: hdtv
 - name: Bluray Remux
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 7
+  type: source
+  source: bluray
 - name: DVD
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 5
+  type: source
+  source: dvd
 - name: AkihitoSubs
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(AkihitoSubs)\b
+  type: release_title
+  pattern: \b(AkihitoSubs)\b
 - name: Arukoru
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Arukoru)\b
+  type: release_title
+  pattern: \b(Arukoru)\b
 - name: EDGE
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[EDGE\]|-EDGE\b
+  type: release_title
+  pattern: \[EDGE\]|-EDGE\b
 - name: EMBER
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[EMBER\]|-EMBER\b
+  type: release_title
+  pattern: \[EMBER\]|-EMBER\b
 - name: GHOST
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[GHOST\]|-GHOST\b
+  type: release_title
+  pattern: \[GHOST\]|-GHOST\b
 - name: Judas
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Judas\]|-Judas
+  type: release_title
+  pattern: \[Judas\]|-Judas
 - name: naiyas
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[naiyas\]|-naiyas\b
+  type: release_title
+  pattern: \[naiyas\]|-naiyas\b
 - name: Nep_Blanc
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Nep[ ._-]Blanc)\b
+  type: release_title
+  pattern: \b(Nep[ ._-]Blanc)\b
 - name: Prof
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Prof\]|-Prof\b
+  type: release_title
+  pattern: \[Prof\]|-Prof\b
 - name: Shirσ
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Shirσ)\b
+  type: release_title
+  pattern: \b(Shirσ)\b
+tests: []

@@ -1,42 +1,35 @@
-trash_id: da0f005f9c3edf34fc26e18dce8c6573
-trash_scores:
-  default: 4000
 name: German Remux Tier 01
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German Remux Tier 01
+tags: []
+conditions:
 - name: TvR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TvR)$
+  type: release_group
+  pattern: ^(TvR)$
 - name: pmHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(pmHD)$
+  type: release_group
+  pattern: ^(pmHD)$
 - name: NIMA4K
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(NIMA4K)$
+  type: release_group
+  pattern: ^(NIMA4K)$
 - name: QfG
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(QfG)$
+  type: release_group
+  pattern: ^(QfG)$
 - name: TSCC
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TSCC)$
+  type: release_group
+  pattern: ^(TSCC)$
 - name: Remux
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
+tests: []

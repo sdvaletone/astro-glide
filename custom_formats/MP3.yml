@@ -1,12 +1,10 @@
-trash_id: 3e8b714263b26f486972ee1e0fe7606c
-trash_scores:
-  default: 500
 name: MP3
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for MP3
+tags: []
+conditions:
 - name: MP3
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: mp3
+  type: release_title
+  pattern: mp3
+tests: []

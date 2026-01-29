@@ -1,10 +1,10 @@
-trash_id: 90501962793d580d011511155c97e4e5
 name: VP9
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for VP9
+tags: []
+conditions:
 - name: VP9
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \bVP9\b
+  type: release_title
+  pattern: \bVP9\b
+tests: []

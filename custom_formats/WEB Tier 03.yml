@@ -1,67 +1,55 @@
-trash_id: d84935abd3f8556dcd51d4f27e22d0a6
-trash_scores:
-  default: 1600
-  french-multi-vf: 0
 name: WEB Tier 03
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for WEB Tier 03
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: Dooky
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Dooky)$
+  type: release_group
+  pattern: ^(Dooky)$
 - name: DRACULA
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(DRACULA)$
+  type: release_group
+  pattern: ^(DRACULA)$
 - name: HHWEB
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HHWEB)$
+  type: release_group
+  pattern: ^(HHWEB)$
 - name: NINJACENTRAL
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(NINJACENTRAL)$
+  type: release_group
+  pattern: ^(NINJACENTRAL)$
 - name: SLiGNOME
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SLiGNOME)$
+  type: release_group
+  pattern: ^(SLiGNOME)$
 - name: SwAgLaNdEr
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SwAgLaNdEr)$
+  type: release_group
+  pattern: ^(SwAgLaNdEr)$
 - name: T4H
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(T4H)$
+  type: release_group
+  pattern: ^(T4H)$
 - name: ViSiON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ViSiON)$
+  type: release_group
+  pattern: ^(ViSiON)$
+tests: []

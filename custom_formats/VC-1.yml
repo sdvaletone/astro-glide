@@ -1,10 +1,10 @@
-trash_id: 7470a681e6205243983c4410ee4c920f
 name: VC-1
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for VC-1
+tags: []
+conditions:
 - name: VC-1
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \bVC[-_. ]?1\b
+  type: release_title
+  pattern: \bVC[-_. ]?1\b
+tests: []

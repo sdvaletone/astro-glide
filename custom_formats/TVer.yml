@@ -1,25 +1,20 @@
-trash_id: d100ea972d1af2150b65b1cffb80f6b5
-trash_scores:
-  default: 75
-trash_regex: https://regex101.com/r/o9YVOG/1
 name: TVer
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for TVer
+tags: []
+conditions:
 - name: TVer
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(tver)\b
+  type: release_title
+  pattern: \b(tver)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

@@ -1,204 +1,170 @@
-trash_id: 096e406c92baa713da4a72d88030b815
-trash_scores:
-  default: 1200
 name: Anime BD Tier 03
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Anime BD Tier 03
+tags: []
+conditions:
 - name: Bluray
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 6
+  type: source
+  source: hdtv
 - name: Bluray Remux
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 7
+  type: source
+  source: bluray
 - name: DVD
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 5
+  type: source
+  source: dvd
 - name: ARC
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[ARC\]|-ARC\b
+  type: release_title
+  pattern: \[ARC\]|-ARC\b
 - name: BBT-RMX
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(BBT-RMX)\b
+  type: release_title
+  pattern: \b(BBT-RMX)\b
 - name: cappybara
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[cappybara\]|-cappybara\b
+  type: release_title
+  pattern: \[cappybara\]|-cappybara\b
 - name: ChucksMux
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(ChucksMux)\b
+  type: release_title
+  pattern: \b(ChucksMux)\b
 - name: CRUCiBLE
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[CRUCiBLE\]|-CRUCiBLE\b
+  type: release_title
+  pattern: \[CRUCiBLE\]|-CRUCiBLE\b
 - name: CUNNY
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(CUNNY)\b
+  type: release_title
+  pattern: \b(CUNNY)\b
 - name: Cunnysseur
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Cunnysseur)\b
+  type: release_title
+  pattern: \b(Cunnysseur)\b
 - name: Doc
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Doc\]|-Doc\b
+  type: release_title
+  pattern: \[Doc\]|-Doc\b
 - name: fig
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[fig\]|-fig\b
+  type: release_title
+  pattern: \[fig\]|-fig\b
 - name: Headpatter
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Headpatter\]|-Headpatter\b
+  type: release_title
+  pattern: \[Headpatter\]|-Headpatter\b
 - name: Inka-Subs
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Inka-Subs)\b
+  type: release_title
+  pattern: \b(Inka-Subs)\b
 - name: LaCroiX
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(LaCroiX)\b
+  type: release_title
+  pattern: \b(LaCroiX)\b
 - name: Legion
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Legion\]|-Legion\b
+  type: release_title
+  pattern: \[Legion\]|-Legion\b
 - name: Mehul
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Mehul\]|-Mehul\b
+  type: release_title
+  pattern: \[Mehul\]|-Mehul\b
 - name: MTBB
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(MTBB)\b
+  type: release_title
+  pattern: \b(MTBB)\b
 - name: Mysteria
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Mysteria\]|-Mysteria\b
+  type: release_title
+  pattern: \[Mysteria\]|-Mysteria\b
 - name: Netaro
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Netaro)\b
+  type: release_title
+  pattern: \b(Netaro)\b
 - name: Noiy
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Noiy)\b
+  type: release_title
+  pattern: \b(Noiy)\b
 - name: npz
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(npz)\b
+  type: release_title
+  pattern: \b(npz)\b
 - name: NTRX
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(NTRX)\b
+  type: release_title
+  pattern: \b(NTRX)\b
 - name: Okay-Subs
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Okay-Subs)\b
+  type: release_title
+  pattern: \b(Okay-Subs)\b
 - name: P9
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(P9)\b
+  type: release_title
+  pattern: \b(P9)\b
 - name: RUDY
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[RUDY\]|-RUDY\b
+  type: release_title
+  pattern: \[RUDY\]|-RUDY\b
 - name: RaiN
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[RaiN\]|-RaiN\b
+  type: release_title
+  pattern: \[RaiN\]|-RaiN\b
 - name: RMX
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(RMX)\b
+  type: release_title
+  pattern: \b(RMX)\b
 - name: Sekkon
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Sekkon)\b
+  type: release_title
+  pattern: \b(Sekkon)\b
 - name: Serendipity
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Serendipity\]|-Serendipity\b
+  type: release_title
+  pattern: \[Serendipity\]|-Serendipity\b
 - name: sgt
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[sgt\]|-sgt\b
+  type: release_title
+  pattern: \[sgt\]|-sgt\b
 - name: SubsMix
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(SubsMix)\b
+  type: release_title
+  pattern: \b(SubsMix)\b
 - name: uba
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[uba\]|-uba\b
+  type: release_title
+  pattern: \[uba\]|-uba\b
+tests: []

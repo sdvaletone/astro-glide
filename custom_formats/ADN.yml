@@ -1,33 +1,25 @@
-trash_id: d54cd2bf1326287275b56bccedb72ee2
-trash_scores:
-  default: 7
-  french-anime-multi: 7
-  french-anime-vostfr: 7
-  anime-sonarr: 1
 name: ADN
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for ADN
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: WEB
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 1
+  type: source
+  source: cam
 - name: ADN
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(ADN)\b
+  type: release_title
+  pattern: \b(ADN)\b
+tests: []

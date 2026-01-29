@@ -1,24 +1,20 @@
-trash_id: c67a75ae4a1715f2bb4d492755ba4195
-trash_scores:
-  default: 75
 name: PMTP
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for PMTP
+tags: []
+conditions:
 - name: Paramount+
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(pmtp|Paramount\+)\b
+  type: release_title
+  pattern: \b(pmtp|Paramount\+)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

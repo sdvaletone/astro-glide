@@ -1,246 +1,205 @@
-trash_id: c2eec878fa1989599c226ce4c287d6a7
-trash_scores:
-  default: 1700
 name: German Scene
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German Scene
+tags: []
+conditions:
 - name: DETAiLS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(DETAiLS)$
+  type: release_group
+  pattern: ^(DETAiLS)$
 - name: WAYNE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WAYNE)$
+  type: release_group
+  pattern: ^(WAYNE)$
 - name: WOMBAT
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WOMBAT)$
+  type: release_group
+  pattern: ^(WOMBAT)$
 - name: SAUERKRAUT
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SAUERKRAUT)$
+  type: release_group
+  pattern: ^(SAUERKRAUT)$
 - name: WvF
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WvF)$
+  type: release_group
+  pattern: ^(WvF)$
 - name: 4KCONNECTiON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(4KCONNECTiON)$
+  type: release_group
+  pattern: ^(4KCONNECTiON)$
 - name: STARS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(STARS)$
+  type: release_group
+  pattern: ^(STARS)$
 - name: AWARDS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(AWARDS)$
+  type: release_group
+  pattern: ^(AWARDS)$
 - name: DMPD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(DMPD)$
+  type: release_group
+  pattern: ^(DMPD)$
 - name: EXCiTED
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(EXCiTED)$
+  type: release_group
+  pattern: ^(EXCiTED)$
 - name: iNTENTiON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(iNTENTiON)$
+  type: release_group
+  pattern: ^(iNTENTiON)$
 - name: JaJunge
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(JaJunge)$
+  type: release_group
+  pattern: ^(JaJunge)$
 - name: MGE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(MGE)$
+  type: release_group
+  pattern: ^(MGE)$
 - name: MisFiTS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(MisFiTS)$
+  type: release_group
+  pattern: ^(MisFiTS)$
 - name: RUBBiSH
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RUBBiSH)$
+  type: release_group
+  pattern: ^(RUBBiSH)$
 - name: RWP
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RWP)$
+  type: release_group
+  pattern: ^(RWP)$
 - name: TMSF
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TMSF)$
+  type: release_group
+  pattern: ^(TMSF)$
 - name: TV4A
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TV4A)$
+  type: release_group
+  pattern: ^(TV4A)$
 - name: HAXE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HAXE)$
+  type: release_group
+  pattern: ^(HAXE)$
 - name: muhHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(muhHD)$
+  type: release_group
+  pattern: ^(muhHD)$
 - name: ENDSTATiON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ENDSTATiON)$
+  type: release_group
+  pattern: ^(ENDSTATiON)$
 - name: HDARCHiV
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HDARCHiV)$
+  type: release_group
+  pattern: ^(HDARCHiV)$
 - name: PL3X
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(PL3X)$
+  type: release_group
+  pattern: ^(PL3X)$
 - name: WATCHABLE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WATCHABLE)$
+  type: release_group
+  pattern: ^(WATCHABLE)$
 - name: OHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(OHD)$
+  type: release_group
+  pattern: ^(OHD)$
 - name: ENCOUNTERS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ENCOUNTERS)$
+  type: release_group
+  pattern: ^(ENCOUNTERS)$
 - name: RSG
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RSG)$
+  type: release_group
+  pattern: ^(RSG)$
 - name: TVNATiON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TVNATiON)$
+  type: release_group
+  pattern: ^(TVNATiON)$
 - name: FENDT
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FENDT)$
+  type: release_group
+  pattern: ^(FENDT)$
 - name: ACED
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ACED)$
+  type: release_group
+  pattern: ^(ACED)$
 - name: FKKTV
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FKKTV)$
+  type: release_group
+  pattern: ^(FKKTV)$
 - name: euHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(euHD)$
+  type: release_group
+  pattern: ^(euHD)$
 - name: OCA
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(OCA)$
+  type: release_group
+  pattern: ^(OCA)$
 - name: RIPLEY
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RIPLEY)$
+  type: release_group
+  pattern: ^(RIPLEY)$
 - name: GTVG
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(GTVG)$
+  type: release_group
+  pattern: ^(GTVG)$
 - name: CDP
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CDP)$
+  type: release_group
+  pattern: ^(CDP)$
 - name: CDD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CDD)$
+  type: release_group
+  pattern: ^(CDD)$
 - name: RiLE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RiLE)$
+  type: release_group
+  pattern: ^(RiLE)$
 - name: CONTRiBUTiON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CONTRiBUTiON)$
+  type: release_group
+  pattern: ^(CONTRiBUTiON)$
 - name: bi0hazard
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(bi0hazard)$
+  type: release_group
+  pattern: ^(bi0hazard)$
+tests: []

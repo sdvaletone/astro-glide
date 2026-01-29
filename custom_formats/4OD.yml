@@ -1,25 +1,20 @@
-trash_id: bbcaf03147de0f73be2be4a9078dfa03
-trash_scores:
-  default: 75
-trash_regex: https://regex101.com/r/pa5TPZ/1
 name: 4OD
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for 4OD
+tags: []
+conditions:
 - name: 4OD
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(4OD)\b
+  type: release_title
+  pattern: \b(4OD)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

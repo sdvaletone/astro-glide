@@ -1,78 +1,65 @@
-trash_id: 7940b2fb0278f27cf4f70187f2be95d6
-trash_scores:
-  default: 2900
 name: German Bluray Tier 01
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German Bluray Tier 01
+tags: []
+conditions:
 - name: ZeroTwo
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ZeroTwo)$
+  type: release_group
+  pattern: ^(ZeroTwo)$
 - name: ZeroTwo Aliases
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: \b(BUTTERCUP|HARTZ02|XiSS|DOGPACK404|PRiNCESSDiANA|DiVA|D02KU|WAREZCX|BiTCHNUGGET)\b
+  type: release_group
+  pattern: \b(BUTTERCUP|HARTZ02|XiSS|DOGPACK404|PRiNCESSDiANA|DiVA|D02KU|WAREZCX|BiTCHNUGGET)\b
 - name: TSCC
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TSCC)$
+  type: release_group
+  pattern: ^(TSCC)$
 - name: TvR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TvR)$
+  type: release_group
+  pattern: ^(TvR)$
 - name: NIMA4K
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(NIMA4K)$
+  type: release_group
+  pattern: ^(NIMA4K)$
 - name: TVS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TVS)$
+  type: release_group
+  pattern: ^(TVS)$
 - name: PXL
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(PXL)$
+  type: release_group
+  pattern: ^(PXL)$
 - name: CNY
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CNY)$
+  type: release_group
+  pattern: ^(CNY)$
 - name: WeebPinn
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WeebPinn)$
+  type: release_group
+  pattern: ^(WeebPinn)$
 - name: WalterBishop
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WalterBishop)$
+  type: release_group
+  pattern: ^(WalterBishop)$
 - name: Bluray
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 6
+  type: source
+  source: hdtv
 - name: Not REMUX
-  implementation: SourceSpecification
   negate: true
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
+tests: []

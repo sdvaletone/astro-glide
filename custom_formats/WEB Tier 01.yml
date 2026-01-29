@@ -1,145 +1,120 @@
-trash_id: e6258996055b9fbab7e9cb2f75819294
-trash_scores:
-  default: 1700
-  french-multi-vf: 0
 name: WEB Tier 01
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for WEB Tier 01
+tags: []
+conditions:
 - name: ABBiE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ABBiE)$
+  type: release_group
+  pattern: ^(ABBiE)$
 - name: AJP69
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(AJP69)$
+  type: release_group
+  pattern: ^(AJP69)$
 - name: APEX
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(APEX|PAXA|PEXA|XEPA)$
+  type: release_group
+  pattern: ^(APEX|PAXA|PEXA|XEPA)$
 - name: CasStudio
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CasStudio)$
+  type: release_group
+  pattern: ^(CasStudio)$
 - name: CRFW
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CRFW)$
+  type: release_group
+  pattern: ^(CRFW)$
 - name: CtrlHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CtrlHD)$
+  type: release_group
+  pattern: ^(CtrlHD)$
 - name: FLUX
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FLUX)$
+  type: release_group
+  pattern: ^(FLUX)$
 - name: HONE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HONE)$
+  type: release_group
+  pattern: ^(HONE)$
 - name: KiNGS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(KiNGS)$
+  type: release_group
+  pattern: ^(KiNGS)$
 - name: Kitsune
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Kitsune)$
+  type: release_group
+  pattern: ^(Kitsune)$
 - name: monkee
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(monkee)$
+  type: release_group
+  pattern: ^(monkee)$
 - name: NOSiViD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(NOSiViD)$
+  type: release_group
+  pattern: ^(NOSiViD)$
 - name: NTb
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(NTb)$
+  type: release_group
+  pattern: ^(NTb)$
 - name: NTG
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(NTG)$
+  type: release_group
+  pattern: ^(NTG)$
 - name: QOQ
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(QOQ)$
+  type: release_group
+  pattern: ^(QOQ)$
 - name: RAWR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RAWR)$
+  type: release_group
+  pattern: ^(RAWR)$
 - name: RTN
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RTN)$
+  type: release_group
+  pattern: ^(RTN)$
 - name: SiC
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SiC)$
+  type: release_group
+  pattern: ^(SiC)$
 - name: T6D
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(T6D)$
+  type: release_group
+  pattern: ^(T6D)$
 - name: TOMMY
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TOMMY)$
+  type: release_group
+  pattern: ^(TOMMY)$
 - name: ViSUM
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ViSUM)$
+  type: release_group
+  pattern: ^(ViSUM)$
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

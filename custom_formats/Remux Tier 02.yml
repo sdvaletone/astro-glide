@@ -1,68 +1,55 @@
-trash_id: 8a1d0c3d7497e741736761a1da866a2e
-trash_scores:
-  default: 1850
-  anime-sonarr: 950
-  french-multi-vf: 0
 name: Remux Tier 02
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Remux Tier 02
+tags: []
+conditions:
 - name: Remux
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
 - name: 12GaugeShotgun
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(12GaugeShotgun)$
+  type: release_group
+  pattern: ^(12GaugeShotgun)$
 - name: decibeL
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(decibeL)$
+  type: release_group
+  pattern: ^(decibeL)$
 - name: EPSiLON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(EPSiLON)$
+  type: release_group
+  pattern: ^(EPSiLON)$
 - name: HiFi
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HiFi)$
+  type: release_group
+  pattern: ^(HiFi)$
 - name: KRaLiMaRKo
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(KRaLiMaRKo)$
+  type: release_group
+  pattern: ^(KRaLiMaRKo)$
 - name: playBD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(playBD)$
+  type: release_group
+  pattern: ^(playBD)$
 - name: PTer
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(PTer)$
+  type: release_group
+  pattern: ^(PTer)$
 - name: SiCFoI
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SiCFoI)$
+  type: release_group
+  pattern: ^(SiCFoI)$
 - name: TRiToN
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TRiToN)$
+  type: release_group
+  pattern: ^(TRiToN)$
+tests: []

@@ -1,54 +1,45 @@
-trash_id: c27f2ae6a4e82373b0f1da094e2489ad
-trash_scores:
-  default: 400
 name: Anime Web Tier 03
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Anime Web Tier 03
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: WEB
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 1
+  type: source
+  source: cam
 - name: AnoZu
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(AnoZu)\b
+  type: release_title
+  pattern: \b(AnoZu)\b
 - name: Dooky
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Dooky)\b
+  type: release_title
+  pattern: \b(Dooky)\b
 - name: Kitsune
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Kitsune\]|-Kitsune\b
+  type: release_title
+  pattern: \[Kitsune\]|-Kitsune\b
 - name: SubsPlus+
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(SubsPlus\+?)\b
+  type: release_title
+  pattern: \b(SubsPlus\+?)\b
 - name: ZR
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(ZR)\b
+  type: release_title
+  pattern: \b(ZR)\b
+tests: []

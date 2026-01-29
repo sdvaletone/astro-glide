@@ -1,31 +1,25 @@
-trash_id: fa5a16b951004c23e980d2913694a137
-trash_scores:
-  default: 75
-trash_regex: https://regex101.com/r/Nw3FiP/1
 name: ITVX
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for ITVX
+tags: []
+conditions:
 - name: ITVX
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(ITVX?)\b[ ._-]web[ ._-]?(dl|rip)?\b
+  type: release_title
+  pattern: \b(ITVX?)\b[ ._-]web[ ._-]?(dl|rip)?\b
 - name: ITVX Rename
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[(ITVX)\b|\b(ITVX)\]
+  type: release_title
+  pattern: \[(ITVX)\b|\b(ITVX)\]
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

@@ -1,37 +1,30 @@
-trash_id: 06d66ab109d4d2eddb2794d21526d140
-trash_scores:
-  default: -10000
-  german: -35000
 name: Retags
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Retags
+tags: []
+conditions:
 - name: .heb
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: '[.]heb\b'
+  type: release_title
+  pattern: '[.]heb\b'
 - name: '[eztv]'
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[eztvx?[ ._-]?(io|re|to)?\]
+  type: release_title
+  pattern: \[eztvx?[ ._-]?(io|re|to)?\]
 - name: '[rarbg]'
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[rarbg\]
+  type: release_title
+  pattern: \[rarbg\]
 - name: '[rartv]'
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[rartv\]
+  type: release_title
+  pattern: \[rartv\]
 - name: '[TGx]'
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[TGx\]
+  type: release_title
+  pattern: \[TGx\]
+tests: []

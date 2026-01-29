@@ -1,60 +1,50 @@
-trash_id: f51b96a50b0e6196cb69724b7833d837
-trash_scores:
-  default: 1900
 name: German Web Tier 02
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German Web Tier 02
+tags: []
+conditions:
 - name: VECTOR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(VECTOR)$
+  type: release_group
+  pattern: ^(VECTOR)$
 - name: MULTiPLEX
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(MULTiPLEX)$
+  type: release_group
+  pattern: ^(MULTiPLEX)$
 - name: SiXTYNiNE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SiXTYNiNE)$
+  type: release_group
+  pattern: ^(SiXTYNiNE)$
 - name: Oergel
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Oergel)$
+  type: release_group
+  pattern: ^(Oergel)$
 - name: 4SF
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(4SF)$
+  type: release_group
+  pattern: ^(4SF)$
 - name: 4SF Aliases
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: \b(4SJ)\b
+  type: release_group
+  pattern: \b(4SJ)\b
 - name: ABJ
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ABJ)$
+  type: release_group
+  pattern: ^(ABJ)$
 - name: WebDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WebRip
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

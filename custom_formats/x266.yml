@@ -1,18 +1,15 @@
-trash_id: 041d90b435ebd773271cea047a457a6a
-trash_scores:
-  default: -10000
 name: x266
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for x266
+tags: []
+conditions:
 - name: x|h266
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: '[xh][ ._-]?266|\bVVC(\b|\d)'
+  type: release_title
+  pattern: '[xh][ ._-]?266|\bVVC(\b|\d)'
 - name: Not Remux
-  implementation: SourceSpecification
   negate: true
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
+tests: []

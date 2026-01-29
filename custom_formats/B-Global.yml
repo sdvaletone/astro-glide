@@ -1,28 +1,25 @@
-trash_id: 7dd31f3dee6d2ef8eeaa156e23c3857e
 name: B-Global
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for B-Global
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: WEB
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 1
+  type: source
+  source: cam
 - name: B-Global
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(B[ .-]?Global)\b
+  type: release_title
+  pattern: \b(B[ .-]?Global)\b
+tests: []

@@ -1,42 +1,35 @@
-trash_id: d8f8e1539827967e0e564833e6c08d33
-trash_scores:
-  default: 2300
 name: German Bluray Tier 03
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German Bluray Tier 03
+tags: []
+conditions:
 - name: RobertDeNiro
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RobertDeNiro)$
+  type: release_group
+  pattern: ^(RobertDeNiro)$
 - name: HQC
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HQC)$
+  type: release_group
+  pattern: ^(HQC)$
 - name: RDR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RDR)$
+  type: release_group
+  pattern: ^(RDR)$
 - name: HDSource
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HDSource)$
+  type: release_group
+  pattern: ^(HDSource)$
 - name: Bluray
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 6
+  type: source
+  source: hdtv
 - name: Not REMUX
-  implementation: SourceSpecification
   negate: true
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
+tests: []

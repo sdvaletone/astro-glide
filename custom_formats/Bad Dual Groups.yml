@@ -1,177 +1,145 @@
-trash_id: 32b367365729d530ca1c124a0b180c64
-trash_scores:
-  default: -10000
-  french-multi-vf: 0
-  french-multi-vo: 0
-  german: -35000
 name: Bad Dual Groups
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Bad Dual Groups
+tags: []
+conditions:
 - name: alfaHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(alfaHD.*)$
+  type: release_group
+  pattern: ^(alfaHD.*)$
 - name: BAT
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BAT)$
+  type: release_group
+  pattern: ^(BAT)$
 - name: BiOMA
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BiOMA)$
+  type: release_group
+  pattern: ^(BiOMA)$
 - name: BlackBit
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BlackBit)$
+  type: release_group
+  pattern: ^(BlackBit)$
 - name: BNd
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BNd)$
+  type: release_group
+  pattern: ^(BNd)$
 - name: C.A.A
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(C\.A\.A)$
+  type: release_group
+  pattern: ^(C\.A\.A)$
 - name: Cory
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Cory)$
+  type: release_group
+  pattern: ^(Cory)$
 - name: EXTREME
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(EXTREME)$
+  type: release_group
+  pattern: ^(EXTREME)$
 - name: FF
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FF)$
+  type: release_group
+  pattern: ^(FF)$
 - name: FOXX
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FOXX)$
+  type: release_group
+  pattern: ^(FOXX)$
 - name: G4RiS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(G4RiS)$
+  type: release_group
+  pattern: ^(G4RiS)$
 - name: GUEIRA
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(GUEIRA)$
+  type: release_group
+  pattern: ^(GUEIRA)$
 - name: LCD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(LCD)$
+  type: release_group
+  pattern: ^(LCD)$
 - name: N3G4N
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(N3G4N)$
+  type: release_group
+  pattern: ^(N3G4N)$
 - name: PD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(PD)$
+  type: release_group
+  pattern: ^(PD)$
 - name: PTHome
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(PTHome)$
+  type: release_group
+  pattern: ^(PTHome)$
 - name: RiPER
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RiPER)$
+  type: release_group
+  pattern: ^(RiPER)$
 - name: RK
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RK)$
+  type: release_group
+  pattern: ^(RK)$
 - name: SiGLA
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SiGLA)$
+  type: release_group
+  pattern: ^(SiGLA)$
 - name: Tars
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Tars)$
+  type: release_group
+  pattern: ^(Tars)$
 - name: tokar86a
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(tokar86a)$
+  type: release_group
+  pattern: ^(tokar86a)$
 - name: TURG
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TURG)$
+  type: release_group
+  pattern: ^(TURG)$
 - name: vnlls
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(vnlls)$
+  type: release_group
+  pattern: ^(vnlls)$
 - name: WTV
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WTV)$
+  type: release_group
+  pattern: ^(WTV)$
 - name: Yatogam1
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Yatogam1)$
+  type: release_group
+  pattern: ^(Yatogam1)$
 - name: YusukeFLA
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(YusukeFLA)$
+  type: release_group
+  pattern: ^(YusukeFLA)$
 - name: ZigZag
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ZigZag)$
+  type: release_group
+  pattern: ^(ZigZag)$
 - name: ZNM
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ZNM)$
+  type: release_group
+  pattern: ^(ZNM)$
+tests: []

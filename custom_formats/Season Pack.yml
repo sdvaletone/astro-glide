@@ -1,12 +1,10 @@
-trash_id: 3bc5f395426614e155e585a2f056cdf1
-trash_scores:
-  default: 10
 name: Season Pack
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Season Pack
+tags: []
+conditions:
 - name: Season Packs
-  implementation: ReleaseTypeSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: release_title
+  pattern: '3'
+tests: []

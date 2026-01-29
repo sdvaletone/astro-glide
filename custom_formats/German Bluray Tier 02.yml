@@ -1,48 +1,40 @@
-trash_id: 83b336a90d90d6b35ca673b007f80661
-trash_scores:
-  default: 2650
 name: German Bluray Tier 02
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German Bluray Tier 02
+tags: []
+conditions:
 - name: VECTOR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(VECTOR)$
+  type: release_group
+  pattern: ^(VECTOR)$
 - name: MULTiPLEX
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(MULTiPLEX)$
+  type: release_group
+  pattern: ^(MULTiPLEX)$
 - name: SiXTYNiNE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SiXTYNiNE)$
+  type: release_group
+  pattern: ^(SiXTYNiNE)$
 - name: Oergel
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Oergel)$
+  type: release_group
+  pattern: ^(Oergel)$
 - name: ABJ
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ABJ)$
+  type: release_group
+  pattern: ^(ABJ)$
 - name: Bluray
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 6
+  type: source
+  source: hdtv
 - name: Not REMUX
-  implementation: SourceSpecification
   negate: true
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
+tests: []

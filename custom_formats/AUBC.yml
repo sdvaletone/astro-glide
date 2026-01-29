@@ -1,24 +1,20 @@
-trash_id: e6e299075e22ac8f541f722254c8350a
-trash_scores:
-  default: 75
 name: AUBC
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for AUBC
+tags: []
+conditions:
 - name: AUBC
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(AUBC)\b
+  type: release_title
+  pattern: \b(AUBC)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

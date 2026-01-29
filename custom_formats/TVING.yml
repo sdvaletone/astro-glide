@@ -1,30 +1,25 @@
-trash_id: 86f8d3b8761de651aa355d46d5d8db3e
-trash_scores:
-  default: 75
 name: TVING
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for TVING
+tags: []
+conditions:
 - name: TVING
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(tving)\b[ ._-]web[ ._-]?(dl|rip)?\b
+  type: release_title
+  pattern: \b(tving)\b[ ._-]web[ ._-]?(dl|rip)?\b
 - name: TVING Rename
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[(TVING)\b|\b(TVING)\]
+  type: release_title
+  pattern: \[(TVING)\b|\b(TVING)\]
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

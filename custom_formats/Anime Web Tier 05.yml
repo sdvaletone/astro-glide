@@ -1,108 +1,90 @@
-trash_id: 29c2a13d091144f63307e4a8ce963a39
-trash_scores:
-  default: 200
 name: Anime Web Tier 05
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Anime Web Tier 05
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: WEB
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 1
+  type: source
+  source: cam
 - name: BlueLobster
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(BlueLobster)\b
+  type: release_title
+  pattern: \b(BlueLobster)\b
 - name: GST
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(GST)\b
+  type: release_title
+  pattern: \b(GST)\b
 - name: HorribleRips
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(HorribleRips)\b
+  type: release_title
+  pattern: \b(HorribleRips)\b
 - name: HorribleSubs
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(HorribleSubs)\b
+  type: release_title
+  pattern: \b(HorribleSubs)\b
 - name: KAN3D2M
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(KAN3D2M)\b
+  type: release_title
+  pattern: \b(KAN3D2M)\b
 - name: KiyoshiStar
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(KS|KiyoshiStar)\b
+  type: release_title
+  pattern: \b(KS|KiyoshiStar)\b
 - name: Lia
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Lia\]|-Lia\b
+  type: release_title
+  pattern: \[Lia\]|-Lia\b
 - name: NanDesuKa
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(NanDesuKa)\b
+  type: release_title
+  pattern: \b(NanDesuKa)\b
 - name: PlayWeb
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(PlayWeb)\b
+  type: release_title
+  pattern: \b(PlayWeb)\b
 - name: SobsPlease
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(SobsPlease)\b
+  type: release_title
+  pattern: \b(SobsPlease)\b
 - name: Some-Stuffs
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Some-Stuffs)\b
+  type: release_title
+  pattern: \b(Some-Stuffs)\b
 - name: SubsPlease
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(SubsPlease)\b
+  type: release_title
+  pattern: \b(SubsPlease)\b
 - name: URANIME
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(URANIME)\b
+  type: release_title
+  pattern: \b(URANIME)\b
 - name: ZigZag
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: "\\[ZigZag\\]|-ZigZab\b"
+  type: release_title
+  pattern: "\\[ZigZag\\]|-ZigZab\b"
+tests: []

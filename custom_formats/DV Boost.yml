@@ -1,12 +1,10 @@
-trash_id: 7c3a61a9c6cb04f52f1544be6d44a026
-trash_scores:
-  default: 1000
 name: DV Boost
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for DV Boost
+tags: []
+conditions:
 - name: DV
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(dv|dovi|dolby[ .]?v(ision)?)\b
+  type: release_title
+  pattern: \b(dv|dovi|dolby[ .]?v(ision)?)\b
+tests: []

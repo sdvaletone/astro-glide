@@ -1,19 +1,15 @@
-trash_id: d0c516558625b04b363fa6c5c2c7cfd4
-trash_scores:
-  default: 1600
-  french-multi-vf: 0
 name: WEB Scene
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for WEB Scene
+tags: []
+conditions:
 - name: DEFLATE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(DEFLATE)$
+  type: release_group
+  pattern: ^(DEFLATE)$
 - name: INFLATE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(INFLATE)$
+  type: release_group
+  pattern: ^(INFLATE)$
+tests: []

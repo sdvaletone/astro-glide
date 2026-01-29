@@ -1,24 +1,20 @@
-trash_id: d9e511921c8cedc7282e291b0209cdc5
-trash_scores:
-  default: 75
 name: ATV
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for ATV
+tags: []
+conditions:
 - name: Apple TV
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(ATV)\b
+  type: release_title
+  pattern: \b(ATV)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

@@ -1,35 +1,30 @@
-trash_id: f27d46a831e6b16fa3fee2c4e5d10984
-trash_regex: https://regex101.com/r/UYB7E7/1
 name: MyCANAL
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for MyCANAL
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: CANAL+
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(C(?:anal)?[ .-]?(Plus|\+))[ .]
+  type: release_title
+  pattern: \b(C(?:anal)?[ .-]?(Plus|\+))[ .]
 - name: MyCANAL
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(MyCANAL)\b
+  type: release_title
+  pattern: \b(MyCANAL)\b
 - name: Not MyCanal RlsGrp
-  implementation: ReleaseGroupSpecification
   negate: true
   required: true
-  fields:
-    value: \b(MyCanal)\b
+  type: release_group
+  pattern: \b(MyCanal)\b
+tests: []

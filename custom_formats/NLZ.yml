@@ -1,24 +1,20 @@
-trash_id: b2b980877494b560443631eb1f473867
-trash_scores:
-  default: 75
 name: NLZ
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for NLZ
+tags: []
+conditions:
 - name: NLZiet
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(nlz|NLZiet)\b
+  type: release_title
+  pattern: \b(nlz|NLZiet)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

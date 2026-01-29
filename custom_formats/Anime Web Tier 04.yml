@@ -1,42 +1,35 @@
-trash_id: 4fd5528a3a8024e6b49f9c67053ea5f3
-trash_scores:
-  default: 300
 name: Anime Web Tier 04
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Anime Web Tier 04
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: WEB
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 1
+  type: source
+  source: cam
 - name: Erai-Raws
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Erai-raws)\b
+  type: release_title
+  pattern: \b(Erai-raws)\b
 - name: ToonsHub
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(ToonsHub)\b
+  type: release_title
+  pattern: \b(ToonsHub)\b
 - name: VARYG
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(VARYG)\b
+  type: release_title
+  pattern: \b(VARYG)\b
+tests: []

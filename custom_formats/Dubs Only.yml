@@ -1,48 +1,40 @@
-trash_id: 9c14d194486c4014d422adc64092d794
-trash_scores:
-  default: -10000
 name: Dubs Only
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Dubs Only
+tags: []
+conditions:
 - name: Dubbed
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: ^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\b(dub(bed)?)\b|(funi|eng(lish)?)_?dub)
+  type: release_title
+  pattern: ^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\b(dub(bed)?)\b|(funi|eng(lish)?)_?dub)
 - name: Golumpa
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Golumpa)\b
+  type: release_title
+  pattern: \b(Golumpa)\b
 - name: KaiDubs (Not Dual Audio)
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\b(KaiDubs)\b
+  type: release_title
+  pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\b(KaiDubs)\b
 - name: KamiFS
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(KamiFS)\b
+  type: release_title
+  pattern: \b(KamiFS)\b
 - name: KS (Not Dual Audio)
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\bKS\b
+  type: release_title
+  pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\bKS\b
 - name: torenter69
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(torenter69)\b
+  type: release_title
+  pattern: \b(torenter69)\b
 - name: Yameii
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[Yameii\]|-Yameii\b
+  type: release_title
+  pattern: \[Yameii\]|-Yameii\b
+tests: []

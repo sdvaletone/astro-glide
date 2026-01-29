@@ -1,80 +1,65 @@
-trash_id: 44b6c964dad997577d793fd004a39224
-trash_scores:
-  default: 1450
-  french-anime-multi: 1450
-  french-anime-vostfr: 1450
 name: FR Anime FanSub
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FR Anime FanSub
+tags: []
+conditions:
 - name: Anime-Heart
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Anime[ .-]?Heart)\b
+  type: release_title
+  pattern: \b(Anime[ .-]?Heart)\b
 - name: Kaerizaki-Fansub
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Kaerizaki[ .-]?Fansub)\b
+  type: release_title
+  pattern: \b(Kaerizaki[ .-]?Fansub)\b
 - name: Natsumi-no-Sekai
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Natsumi[ .-]?no[ .-]?Sekai)\b
+  type: release_title
+  pattern: \b(Natsumi[ .-]?no[ .-]?Sekai)\b
 - name: NekoYu'
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(NekoYu\'?)\b
+  type: release_title
+  pattern: \b(NekoYu\'?)\b
 - name: Onii-ChanSub
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Onii[ .-]?ChanSub)\b
+  type: release_title
+  pattern: \b(Onii[ .-]?ChanSub)\b
 - name: Owlolf
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Owlolf)\b
+  type: release_title
+  pattern: \b(Owlolf)\b
 - name: Pikari-Teshima
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Pikari[ .-]?Teshima)\b
+  type: release_title
+  pattern: \b(Pikari[ .-]?Teshima)\b
 - name: Seimeisen
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Seimeisen)\b
+  type: release_title
+  pattern: \b(Seimeisen)\b
 - name: Team Arcedo
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b((Team[ .-])?Arcedo)\b
+  type: release_title
+  pattern: \b((Team[ .-])?Arcedo)\b
 - name: Yarashii
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Yarashii)\b
+  type: release_title
+  pattern: \b(Yarashii)\b
 - name: Yangire-Raws
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Yangire[ .-]?Raws)\b
+  type: release_title
+  pattern: \b(Yangire[ .-]?Raws)\b
 - name: Kaoru Hana FR (KHFR)
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(KHFR)\b
+  type: release_title
+  pattern: \b(KHFR)\b
+tests: []

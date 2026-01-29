@@ -1,149 +1,120 @@
-trash_id: 2f3422339d185eb227a324644a2fbfca
-trash_scores:
-  default: 1500
-  french-anime-multi: 1500
-  french-anime-vostfr: 1500
-  french-multi-vf: 1500
-  french-multi-vo: 1500
-  french-vostfr: 0
 name: FR Scene Groups
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FR Scene Groups
+tags: []
+conditions:
 - name: '#'
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(4FR)$
+  type: release_group
+  pattern: ^(4FR)$
 - name: A
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(AiR3D|AiRDOCS|AiRFORCE|AiRLiNE|AiRTV|AMB3R|ANMWR|AVON|AYMO|AZR)$
+  type: release_group
+  pattern: ^(AiR3D|AiRDOCS|AiRFORCE|AiRLiNE|AiRTV|AMB3R|ANMWR|AVON|AYMO|AZR)$
 - name: B
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BANKAi|BAWLS|BiPOLAR|BLACKPANTERS|BODIE|BOOLZ|BRiNK|BTT)$
+  type: release_group
+  pattern: ^(BANKAi|BAWLS|BiPOLAR|BLACKPANTERS|BODIE|BOOLZ|BRiNK|BTT)$
 - name: C
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(CARAPiLS|CiELOS|CiNEMA|CMBHD|CoRa|COUAC|CRYPT0)$
+  type: release_group
+  pattern: ^(CARAPiLS|CiELOS|CiNEMA|CMBHD|CoRa|COUAC|CRYPT0)$
 - name: D
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(D4KiD|DEAL|DiEBEX|DUPLI|DUSS)$
+  type: release_group
+  pattern: ^(D4KiD|DEAL|DiEBEX|DUPLI|DUSS)$
 - name: E
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ENJOi|EUBDS)$
+  type: release_group
+  pattern: ^(ENJOi|EUBDS)$
 - name: F
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FHD|FiDELiO|FiDO|ForceBleue|FREAMON|FRENCHDEADPOOL2|FRiES|FUTiL|FWDHD)$
+  type: release_group
+  pattern: ^(FHD|FiDELiO|FiDO|ForceBleue|FREAMON|FRENCHDEADPOOL2|FRiES|FUTiL|FWDHD)$
 - name: G
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(GHOULS|GiMBAP|GLiMMER|Goatlove)$
+  type: release_group
+  pattern: ^(GHOULS|GiMBAP|GLiMMER|Goatlove)$
 - name: H
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HERC|HiggsBoson|HiRoSHiMa|HYBRiS|HyDe)$
+  type: release_group
+  pattern: ^(HERC|HiggsBoson|HiRoSHiMa|HYBRiS|HyDe)$
 - name: J
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(JMT|JoKeR|JUSTICELEAGUE)$
+  type: release_group
+  pattern: ^(JMT|JoKeR|JUSTICELEAGUE)$
 - name: K
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(KAZETV)$
+  type: release_group
+  pattern: ^(KAZETV)$
 - name: L
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(L0SERNiGHT|LaoZi|LeON|LOFiDEL|LOST|LOWIMDB|LUCKY|LYPSG)$
+  type: release_group
+  pattern: ^(L0SERNiGHT|LaoZi|LeON|LOFiDEL|LOST|LOWIMDB|LUCKY|LYPSG)$
 - name: M
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(MAGiCAL|MANGACiTY|MAXAGAZ|MaxiBeNoul|McNULTY|MELBA|MiND|MORELAND|MUNSTER|MUxHD)$
+  type: release_group
+  pattern: ^(MAGiCAL|MANGACiTY|MAXAGAZ|MaxiBeNoul|McNULTY|MELBA|MiND|MORELAND|MUNSTER|MUxHD)$
 - name: N
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(N0Z00M|NERDHD|NERO|NrZ|NTK)$
+  type: release_group
+  pattern: ^(N0Z00M|NERDHD|NERO|NrZ|NTK)$
 - name: O
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(OBSTACLE|OohLaLa|OOKAMI)$
+  type: release_group
+  pattern: ^(OBSTACLE|OohLaLa|OOKAMI)$
 - name: P
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(PANZeR|PATHECROUTE|Penrose|PHoQUE|PiNKPANTERS|PKPTRS|PRiDEHD|PROPJOE|PURE|PUREWASTEOFBW)$
+  type: release_group
+  pattern: ^(PANZeR|PATHECROUTE|Penrose|PHoQUE|PiNKPANTERS|PKPTRS|PRiDEHD|PROPJOE|PURE|PUREWASTEOFBW)$
 - name: R
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ROUGH|RUDE|Ryotox)$
+  type: release_group
+  pattern: ^(ROUGH|RUDE|Ryotox)$
 - name: S
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(SAFETY|SASHiMi|SEiGHT|SESKAPiLE|SharpHD|SHEEEiT|SHiNiGAMi(UHD)?|SiGeRiS|SILVIODANTE|SLEEPINGFOREST|SODAPOP|S4LVE|SPINE|SPOiLER|STRINGERBELL|Sunday26th|SUNRiSE)$
+  type: release_group
+  pattern: ^(SAFETY|SASHiMi|SEiGHT|SESKAPiLE|SharpHD|SHEEEiT|SHiNiGAMi(UHD)?|SiGeRiS|SILVIODANTE|SLEEPINGFOREST|SODAPOP|S4LVE|SPINE|SPOiLER|STRINGERBELL|Sunday26th|SUNRiSE)$
 - name: T
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(tFR|THENiGHTMAREiNHD|THiNK|THREESOME|TiMELiNE|TSuNaMi)$
+  type: release_group
+  pattern: ^(tFR|THENiGHTMAREiNHD|THiNK|THREESOME|TiMELiNE|TSuNaMi)$
 - name: U
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(UKDHD|UKDTV|ULSHD|Ulysse|(US)?UNSKiLLED|URY|USURY)$
+  type: release_group
+  pattern: ^(UKDHD|UKDTV|ULSHD|Ulysse|(US)?UNSKiLLED|URY|USURY)$
 - name: V
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(VENUE|VFC|VoMiT)$
+  type: release_group
+  pattern: ^(VENUE|VFC|VoMiT)$
 - name: W
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Wednesday29th)$
+  type: release_group
+  pattern: ^(Wednesday29th)$
 - name: Z
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ZEST|ZiRCON)$
+  type: release_group
+  pattern: ^(ZEST|ZiRCON)$
+tests: []

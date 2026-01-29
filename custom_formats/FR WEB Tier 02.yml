@@ -1,83 +1,65 @@
-trash_id: a4c51febd4d8b2a0db10a3c974f21d92
-trash_scores:
-  default: 1650
-  french-anime-multi: 1150
-  french-anime-vostfr: 1150
-  french-multi-vf: 1650
-  french-multi-vo: 1650
-  french-vostfr: 0
 name: FR WEB Tier 02
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FR WEB Tier 02
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: COLL3CTiF
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(COLL3CTiF)$
+  type: release_group
+  pattern: ^(COLL3CTiF)$
 - name: FiND
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FiND)$
+  type: release_group
+  pattern: ^(FiND)$
 - name: FrIeNdS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FrIeNdS)$
+  type: release_group
+  pattern: ^(FrIeNdS)$
 - name: HeavyWeight
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HeavyWeight)$
+  type: release_group
+  pattern: ^(HeavyWeight)$
 - name: NoNe
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(NoNe)$
+  type: release_group
+  pattern: ^(NoNe)$
 - name: pERsO
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(pERsO)$
+  type: release_group
+  pattern: ^(pERsO)$
 - name: POTO
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(POTO)$
+  type: release_group
+  pattern: ^(POTO)$
 - name: RG
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RG)$
+  type: release_group
+  pattern: ^(RG)$
 - name: RiPiT
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RiPiT)$
+  type: release_group
+  pattern: ^(RiPiT)$
 - name: TAT
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(TAT)$
+  type: release_group
+  pattern: ^(TAT)$
+tests: []

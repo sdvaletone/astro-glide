@@ -1,27 +1,20 @@
-trash_id: d660701077794679fd59e8bdf4ce3a29
-trash_scores:
-  default: 75
-  anime-sonarr: 3
-  french-anime-multi: 3
-  french-anime-vostfr: 3
 name: AMZN
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for AMZN
+tags: []
+conditions:
 - name: Amazon
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(amzn|amazon(hd)?)\b
+  type: release_title
+  pattern: \b(amzn|amazon(hd)?)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

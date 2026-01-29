@@ -1,24 +1,20 @@
-trash_id: 9aa0ca0d2d66b6f6ee51fc630f46cf6f
-trash_scores:
-  default: 650
 name: German 1080p Booster
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German 1080p Booster
+tags: []
+conditions:
 - name: German
-  implementation: LanguageSpecification
   negate: false
   required: true
-  fields:
-    value: 4
+  type: release_title
+  pattern: '4'
 - name: Original Language
-  implementation: LanguageSpecification
   negate: false
   required: true
-  fields:
-    value: -2
+  type: release_title
+  pattern: '-2'
 - name: 1080p
-  implementation: ResolutionSpecification
   negate: false
   required: true
-  fields:
-    value: 1080
+  type: resolution
+  resolution: 1080p
+tests: []

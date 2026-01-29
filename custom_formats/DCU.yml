@@ -1,24 +1,20 @@
-trash_id: 36b72f59f4ea20aad9316f475f2d9fbb
-trash_scores:
-  default: 75
 name: DCU
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for DCU
+tags: []
+conditions:
 - name: DC Universe
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(dcu|DC Universe)\b
+  type: release_title
+  pattern: \b(dcu|DC Universe)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

@@ -1,38 +1,30 @@
-trash_id: 9965a052eb87b0d10313b1cea89eb451
-trash_scores:
-  default: 1900
-  anime-sonarr: 975
-  french-multi-vf: 0
 name: Remux Tier 01
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for Remux Tier 01
+tags: []
+conditions:
 - name: Remux
-  implementation: SourceSpecification
   negate: false
   required: true
-  fields:
-    value: 7
+  type: source
+  source: bluray
 - name: BLURANiUM
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BLURANiUM)$
+  type: release_group
+  pattern: ^(BLURANiUM)$
 - name: BMF
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BMF)$
+  type: release_group
+  pattern: ^(BMF)$
 - name: FraMeSToR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FraMeSToR)$
+  type: release_group
+  pattern: ^(FraMeSToR)$
 - name: PmP
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(PmP)$
+  type: release_group
+  pattern: ^(PmP)$
+tests: []

@@ -1,27 +1,20 @@
-trash_id: 89358767a60cc28783cdc3d0be9388a4
-trash_scores:
-  default: 75
-  anime-sonarr: 5
-  french-anime-multi: 5
-  french-anime-vostfr: 5
 name: DSNP
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for DSNP
+tags: []
+conditions:
 - name: Disney+
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(dsnp|dsny|disney|Disney\+)\b
+  type: release_title
+  pattern: \b(dsnp|dsny|disney|Disney\+)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

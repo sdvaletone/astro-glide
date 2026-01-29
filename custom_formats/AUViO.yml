@@ -1,28 +1,25 @@
-trash_id: b0d6195c23ae254932da00512db7e8a8
 name: AUViO
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for AUViO
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: AUViO
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(AUVIO)\b
+  type: release_title
+  pattern: \b(AUVIO)\b
 - name: Radio Télévision Belge Francophone
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(RTBF)\b
+  type: release_title
+  pattern: \b(RTBF)\b
+tests: []

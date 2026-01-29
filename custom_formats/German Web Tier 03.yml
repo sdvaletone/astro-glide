@@ -1,54 +1,45 @@
-trash_id: bda67c2c0aae257308a4723d92475b86
-trash_scores:
-  default: 1800
 name: German Web Tier 03
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German Web Tier 03
+tags: []
+conditions:
 - name: RobertDeNiro
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RobertDeNiro)$
+  type: release_group
+  pattern: ^(RobertDeNiro)$
 - name: BALENCiAGA
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BALENCiAGA)$
+  type: release_group
+  pattern: ^(BALENCiAGA)$
 - name: HQC
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HQC)$
+  type: release_group
+  pattern: ^(HQC)$
 - name: HDSource
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(HDSource)$
+  type: release_group
+  pattern: ^(HDSource)$
 - name: iNCEPTION
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(iNCEPTION)$
+  type: release_group
+  pattern: ^(iNCEPTION)$
 - name: RDR
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(RDR)$
+  type: release_group
+  pattern: ^(RDR)$
 - name: WebDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WebRip
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

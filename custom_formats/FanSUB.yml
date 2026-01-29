@@ -1,10 +1,10 @@
-trash_id: 84f0acbda9c0c9de783894fb66df25aa
 name: FanSUB
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FanSUB
+tags: []
+conditions:
 - name: FanSUB
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(FanSUB)\b
+  type: release_title
+  pattern: \b(FanSUB)\b
+tests: []

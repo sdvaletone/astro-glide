@@ -1,30 +1,25 @@
-trash_id: 3e0b26604165f463f3e8e192261e7284
-trash_scores:
-  default: 6
 name: CR
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for CR
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: WEB
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 1
+  type: source
+  source: cam
 - name: Crunchyroll
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(C(runchy)?[ .-]?R(oll)?)\b
+  type: release_title
+  pattern: \b(C(runchy)?[ .-]?R(oll)?)\b
+tests: []

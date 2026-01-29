@@ -1,30 +1,25 @@
-trash_id: 6eb71887a8db6e783dd398446eb0e65d
-trash_scores:
-  default: 75
 name: PLAY
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for PLAY
+tags: []
+conditions:
 - name: PLAY
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \b(Play)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+  type: release_title
+  pattern: \b(Play)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
 - name: PLAY Rename
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: \[(Play)\b|\b(Play)\]
+  type: release_title
+  pattern: \[(Play)\b|\b(Play)\]
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []

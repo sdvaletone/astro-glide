@@ -1,77 +1,60 @@
-trash_id: dbfc0a4b5cb4cbd693311c4482ae9683
-trash_scores:
-  default: 1600
-  french-anime-multi: 1100
-  french-anime-vostfr: 1100
-  french-multi-vf: 1600
-  french-multi-vo: 1600
-  french-vostfr: 0
 name: FR WEB Tier 03
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FR WEB Tier 03
+tags: []
+conditions:
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
 - name: ARK01
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(ARK01)$
+  type: release_group
+  pattern: ^(ARK01)$
 - name: BraD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(BraD)$
+  type: release_group
+  pattern: ^(BraD)$
 - name: dRuIdE
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(dRuIdE)$
+  type: release_group
+  pattern: ^(dRuIdE)$
 - name: FTMVHD
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(FTMVHD)$
+  type: release_group
+  pattern: ^(FTMVHD)$
 - name: LAZARUS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(LAZARUS)$
+  type: release_group
+  pattern: ^(LAZARUS)$
 - name: MYSTERiON
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(MYSTERiON)$
+  type: release_group
+  pattern: ^(MYSTERiON)$
 - name: Scaph
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(Scaph)$
+  type: release_group
+  pattern: ^(Scaph)$
 - name: WaCkS
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WaCkS)$
+  type: release_group
+  pattern: ^(WaCkS)$
 - name: WQM
-  implementation: ReleaseGroupSpecification
   negate: false
   required: false
-  fields:
-    value: ^(WQM)$
+  type: release_group
+  pattern: ^(WQM)$
+tests: []

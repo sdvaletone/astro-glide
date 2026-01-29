@@ -1,12 +1,10 @@
-trash_id: 1bef6c151fa35093015b0bfef18279e5
-trash_scores:
-  default: 100
 name: 2160p
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for 2160p
+tags: []
+conditions:
 - name: 2160p
-  implementation: ResolutionSpecification
   negate: false
   required: true
-  fields:
-    value: 2160
+  type: resolution
+  resolution: 2160p
+tests: []

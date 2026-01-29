@@ -1,24 +1,20 @@
-trash_id: d80c9f7cd2aad50271f1bd4e53125778
-trash_scores:
-  default: -35000
 name: German LQ (release title)
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for German LQ (release title)
+tags: []
+conditions:
 - name: TVS iTunesHD
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: ([._-])iTunes(?:HD|SD)?\1.+?-TVS$
+  type: release_title
+  pattern: ([._-])iTunes(?:HD|SD)?\1.+?-TVS$
 - name: Jellyfin-Plex
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: Jellyfin-Plex$
+  type: release_title
+  pattern: Jellyfin-Plex$
 - name: Double German Tag
-  implementation: ReleaseTitleSpecification
   negate: false
   required: false
-  fields:
-    value: '[._-]German[._-].+?[._-]?German$'
+  type: release_title
+  pattern: '[._-]German[._-].+?[._-]?German$'
+tests: []

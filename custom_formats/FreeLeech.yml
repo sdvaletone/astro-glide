@@ -1,12 +1,10 @@
-trash_id: d7c747094a7c65f4c2de083c24899e8b
-trash_scores:
-  default: 1
 name: FreeLeech
-includeCustomFormatWhenRenaming: false
-specifications:
+description: Matches release criteria for FreeLeech
+tags: []
+conditions:
 - name: FreeLeech
-  implementation: IndexerFlagSpecification
   negate: false
   required: false
-  fields:
-    value: 1
+  type: release_title
+  pattern: '1'
+tests: []

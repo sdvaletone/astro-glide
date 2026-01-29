@@ -1,25 +1,20 @@
-trash_id: fcc09418f67ccaddcf3b641a22c5cfd7
-trash_scores:
-  default: 75
-trash_regex: https://regex101.com/r/pUDbbp/1
 name: ALL4
-includeCustomFormatWhenRenaming: true
-specifications:
+description: Matches release criteria for ALL4
+tags: []
+conditions:
 - name: ALL4
-  implementation: ReleaseTitleSpecification
   negate: false
   required: true
-  fields:
-    value: \b(ALL4)\b
+  type: release_title
+  pattern: \b(ALL4)\b
 - name: WEBDL
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 3
+  type: source
+  source: webdl
 - name: WEBRIP
-  implementation: SourceSpecification
   negate: false
   required: false
-  fields:
-    value: 4
+  type: source
+  source: webrip
+tests: []
