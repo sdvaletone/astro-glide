@@ -28,6 +28,25 @@ custom_formats:
     score: -10000
   - name: AV1
     score: -10000
+  # Optional (TRaSH WEB-1080p)
+  - name: Bad Dual Groups
+    score: -10000
+  - name: DV (w/o HDR fallback)
+    score: -10000
+  - name: No-RlsGroup
+    score: -10000
+  - name: Obfuscated
+    score: -10000
+  - name: Retags
+    score: -10000
+  - name: Scene
+    score: -10000
+  - name: SDR
+    score: -10000
+  - name: SDR (no WEBDL)
+    score: -10000
+  - name: x265 (no HDR/DV)
+    score: -10000
   - name: Repack-Proper
     score: 5
   - name: Repack2
