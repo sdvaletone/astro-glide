@@ -1,0 +1,122 @@
+# TRaSH Guides Sonarr WEB-2160p - https://trash-guides.info/Sonarr/sonarr-setup-quality-profiles/#web-2160p
+# Dictionarry/Profilarr compliant YAML
+
+name: WEB-2160p
+description: |
+  Quality Profile that covers WEBDL 2160p with HDR/DV (TRaSH Guides).
+  Downloads WEB-2160p with HDR/Dolby Vision and upgrades until custom format score 10000.
+  - WEBDL: 2160p
+tags:
+  - 2160p
+  - WEB-DL
+  - HDR
+  - TRaSH
+  - Sonarr
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats_sonarr:
+  - name: BR-DISK
+    score: -10000
+  - name: LQ
+    score: -10000
+  - name: LQ (Release Title)
+    score: -10000
+  - name: x265 (HD)
+    score: -10000
+  - name: Extras
+    score: -10000
+  - name: AV1
+    score: -10000
+  - name: HDR
+    score: 500
+  - name: DV Boost
+    score: 1000
+  - name: HDR10+ Boost
+    score: 100
+  - name: DV (w/o HDR fallback)
+    score: -10000
+  - name: Repack/Proper
+    score: 5
+  - name: Repack2
+    score: 6
+  - name: Repack3
+    score: 7
+  - name: AMZN
+    score: 75
+  - name: ATVP
+    score: 75
+  - name: CC
+    score: 75
+  - name: DCU
+    score: 75
+  - name: DSNP
+    score: 75
+  - name: HMAX
+    score: 75
+  - name: HBO
+    score: 75
+  - name: HULU
+    score: 75
+  - name: iT
+    score: 75
+  - name: MAX
+    score: 75
+  - name: NF
+    score: 75
+  - name: PMTP
+    score: 75
+  - name: PCOK
+    score: 75
+  - name: PLAY
+    score: 75
+  - name: SHO
+    score: 75
+  - name: STAN
+    score: 75
+  - name: SYFY
+    score: 75
+  - name: HD Streaming Boost
+    score: 75
+  - name: UHD Streaming Boost
+    score: 75
+  - name: WEB Tier 01
+    score: 1700
+  - name: WEB Tier 02
+    score: 1650
+  - name: WEB Tier 03
+    score: 1600
+  - name: WEB Scene
+    score: 1600
+  # Optional (TRaSH WEB-2160p)
+  - name: SDR
+    score: -10000
+  - name: SDR (no WEBDL)
+    score: -10000
+  - name: x265 (no HDR/DV)
+    score: -10000
+  - name: Bad Dual Groups
+    score: -10000
+  - name: No-RlsGroup
+    score: -10000
+  - name: Obfuscated
+    score: -10000
+  - name: Retags
+    score: -10000
+  - name: Scene
+    score: -10000
+qualities:
+  - id: -1
+    name: WEB 2160p
+    description: WEBDL 2160p with HDR/DV. Upgrade until this quality.
+    qualities:
+      - id: 5
+        name: WEBDL-2160p
+      - id: 6
+        name: WEBRip-2160p
+upgrade_until:
+  id: -1
+  name: WEB 2160p
+  description: WEBDL 2160p with HDR/DV. Upgrade until this quality.
+language: must_original
