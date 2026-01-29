@@ -2,13 +2,6 @@ name: DV Boost
 description: Matches release criteria for DV Boost
 include_in_rename: false
 tags: []
-specifications:
-  - name: DV
-    implementation: ReleaseTitleSpecification
-    negate: false
-    required: false
-    fields:
-      value: \b(dv|dovi|dolby[ .]?v(ision)?)\b
 conditions:
 - name: DV
   negate: false

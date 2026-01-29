@@ -2,37 +2,6 @@ name: Retags
 description: Matches release criteria for Retags
 include_in_rename: false
 tags: []
-specifications:
-  - name: dot heb
-    implementation: ReleaseTitleSpecification
-    negate: false
-    required: false
-    fields:
-      value: '\.heb\b'
-  - name: eztv
-    implementation: ReleaseTitleSpecification
-    negate: false
-    required: false
-    fields:
-      value: '\[eztvx?[ ._-]?(io|re|to)?\]'
-  - name: rarbg
-    implementation: ReleaseTitleSpecification
-    negate: false
-    required: false
-    fields:
-      value: '\[rarbg\]'
-  - name: rartv
-    implementation: ReleaseTitleSpecification
-    negate: false
-    required: false
-    fields:
-      value: '\[rartv\]'
-  - name: TGx
-    implementation: ReleaseTitleSpecification
-    negate: false
-    required: false
-    fields:
-      value: '\[TGx\]'
 conditions:
 - name: dot heb
   negate: false
