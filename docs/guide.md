@@ -41,7 +41,7 @@ Quality profiles live in `profiles/` as YAML files. Key fields:
 - **upgradeUntilScore** – Upgrade until this total score is reached.
 - **minScoreIncrement** – Minimum score gain for an upgrade to be considered.
 - **custom_formats** – List of `name` / `score` entries (shared or default).
-- **custom_formats_radarr** / **custom_formats_sonarr** – App-specific scoring when different from `custom_formats`.
+- **custom_formats_radarr** / **custom_formats_sonarr** – App-specific scoring when different from `custom_formats`. Omit these when the scores are the same as `custom_formats`.
 - **qualities** – Quality definitions and order (e.g. WEBDL-1080p, Bluray-1080p).
 - **upgrade_until** – Quality to upgrade until.
 - **language** – e.g. `must_original`.
