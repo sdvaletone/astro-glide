@@ -2,6 +2,13 @@ name: HDR10+ Boost
 description: Matches release criteria for HDR10+ Boost
 include_in_rename: false
 tags: []
+specifications:
+  - name: HDR10+
+    implementation: ReleaseTitleSpecification
+    negate: false
+    required: false
+    fields:
+      value: \b(HDR10(?=[+]|P(lus)?))
 conditions:
 - name: HDR10+
   negate: false

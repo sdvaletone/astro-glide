@@ -2,6 +2,13 @@ name: No-RlsGroup
 description: Matches release criteria for No-RlsGroup
 include_in_rename: false
 tags: []
+specifications:
+  - name: No Parsed Group
+    implementation: ReleaseGroupSpecification
+    negate: true
+    required: false
+    fields:
+      value: '.+'
 conditions:
 - name: No Parsed Group
   negate: true
