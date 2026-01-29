@@ -1,0 +1,5 @@
+name: 10bit
+pattern: 10[.-]?bit
+description: Auto-generated from 10bit
+tags: []
+tests: []

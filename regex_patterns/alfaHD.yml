@@ -1,0 +1,6 @@
+name: alfaHD
+pattern: ^(alfaHD.*)$
+description: Auto-generated from Bad Dual Groups
+tags:
+- Release Group
+tests: []

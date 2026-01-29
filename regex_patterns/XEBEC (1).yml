@@ -1,0 +1,7 @@
+name: XEBEC
+pattern: ^(XEBEC|4KBEC|CEBEX)$
+description: Auto-generated from WEB Tier 02
+tags:
+- Release Group
+- Resolution
+tests: []

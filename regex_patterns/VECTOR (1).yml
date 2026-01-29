@@ -1,0 +1,6 @@
+name: VECTOR
+pattern: ^(VECTOR)$
+description: Auto-generated from German Bluray Tier 02
+tags:
+- Release Group
+tests: []

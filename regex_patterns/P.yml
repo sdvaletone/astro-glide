@@ -1,0 +1,6 @@
+name: P
+pattern: ^(PANZeR|PATHECROUTE|Penrose|PHoQUE|PiNKPANTERS|PKPTRS|PRiDEHD|PROPJOE|PURE|PUREWASTEOFBW)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

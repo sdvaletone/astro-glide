@@ -1,0 +1,6 @@
+name: FtLi
+pattern: ^(FtLi)$
+description: Auto-generated from FR Remux Tier 01
+tags:
+- Release Group
+tests: []

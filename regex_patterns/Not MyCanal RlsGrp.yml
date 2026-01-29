@@ -1,0 +1,5 @@
+name: Not MyCanal RlsGrp
+pattern: \b(MyCanal)\b
+description: Auto-generated from MyCANAL
+tags: []
+tests: []

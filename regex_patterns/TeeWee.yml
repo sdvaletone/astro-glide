@@ -1,0 +1,5 @@
+name: TeeWee
+pattern: \b(TeeWee)\b
+description: Auto-generated from LQ (Release Title)
+tags: []
+tests: []

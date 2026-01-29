@@ -1,0 +1,5 @@
+name: Quebec Original Version
+pattern: \b(VOQ)\b
+description: Auto-generated from VOQ
+tags: []
+tests: []

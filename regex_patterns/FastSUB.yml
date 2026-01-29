@@ -1,0 +1,5 @@
+name: FastSUB
+pattern: \b(FastSUB)\b
+description: Auto-generated from FastSUB
+tags: []
+tests: []

@@ -1,0 +1,6 @@
+name: Paramount+
+pattern: \b(pmtp|Paramount\+)\b
+description: Auto-generated from PMTP
+tags:
+- Streaming
+tests: []

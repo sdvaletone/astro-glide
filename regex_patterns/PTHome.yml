@@ -1,0 +1,6 @@
+name: PTHome
+pattern: ^(PTHome)$
+description: Auto-generated from Bad Dual Groups
+tags:
+- Release Group
+tests: []

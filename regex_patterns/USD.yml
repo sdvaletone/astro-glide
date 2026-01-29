@@ -1,0 +1,6 @@
+name: USD
+pattern: \[USD\]|-USD\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

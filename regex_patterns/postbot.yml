@@ -1,0 +1,5 @@
+name: postbot
+pattern: -postbot\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

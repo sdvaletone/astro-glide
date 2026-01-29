@@ -1,0 +1,5 @@
+name: VOSTFR
+pattern: \b(VOST.*?FR(E|A)?)\b
+description: Auto-generated from VOSTFR
+tags: []
+tests: []

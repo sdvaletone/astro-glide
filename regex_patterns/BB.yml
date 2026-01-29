@@ -1,0 +1,6 @@
+name: BB
+pattern: ^(BB)$
+description: Auto-generated from German Microsized
+tags:
+- Release Group
+tests: []

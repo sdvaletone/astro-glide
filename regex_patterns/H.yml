@@ -1,0 +1,6 @@
+name: H
+pattern: ^(HERC|HiggsBoson|HiRoSHiMa|HYBRiS|HyDe)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

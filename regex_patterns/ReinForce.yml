@@ -1,0 +1,6 @@
+name: ReinForce
+pattern: \b(ReinForce)\b
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

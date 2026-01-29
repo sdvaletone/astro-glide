@@ -1,0 +1,6 @@
+name: GundamGuy
+pattern: \b(GundamGuy)\b
+description: Auto-generated from FR Anime Tier 02
+tags:
+- Anime
+tests: []

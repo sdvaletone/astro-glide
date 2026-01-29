@@ -1,0 +1,6 @@
+name: worldmkv
+pattern: ^(worldmkv)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

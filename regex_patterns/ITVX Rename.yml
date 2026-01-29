@@ -1,0 +1,5 @@
+name: ITVX Rename
+pattern: \[(ITVX)\b|\b(ITVX)\]
+description: Auto-generated from ITVX
+tags: []
+tests: []

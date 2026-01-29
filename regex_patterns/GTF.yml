@@ -1,0 +1,6 @@
+name: GTF
+pattern: ^(GTF)$
+description: Auto-generated from German Microsized
+tags:
+- Release Group
+tests: []

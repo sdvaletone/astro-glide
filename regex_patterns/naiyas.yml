@@ -1,0 +1,6 @@
+name: naiyas
+pattern: \[naiyas\]|-naiyas\b
+description: Auto-generated from Anime BD Tier 08
+tags:
+- Anime
+tests: []

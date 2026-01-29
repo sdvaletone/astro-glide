@@ -1,0 +1,6 @@
+name: Dragon-Releases
+pattern: \b(Dragon-Releases)\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

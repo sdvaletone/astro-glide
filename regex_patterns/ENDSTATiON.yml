@@ -1,0 +1,6 @@
+name: ENDSTATiON
+pattern: ^(ENDSTATiON)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

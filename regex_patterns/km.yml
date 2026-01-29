@@ -1,0 +1,6 @@
+name: km
+pattern: \[km\]|-km\b
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

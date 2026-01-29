@@ -1,0 +1,5 @@
+name: VRV
+pattern: \b(VRV)\b
+description: Auto-generated from VRV
+tags: []
+tests: []

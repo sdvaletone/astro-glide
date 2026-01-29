@@ -1,0 +1,6 @@
+name: Kaoru Hana FR (KHFR)
+pattern: \b(KHFR)\b
+description: Auto-generated from FR Anime FanSub
+tags:
+- Anime
+tests: []

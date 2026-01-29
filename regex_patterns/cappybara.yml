@@ -1,0 +1,6 @@
+name: cappybara
+pattern: \[cappybara\]|-cappybara\b
+description: Auto-generated from Anime BD Tier 03
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: Not-Vodes
+pattern: \[Not-Vodes\]|-Not-Vodes\b
+description: Auto-generated from Anime Web Tier 02
+tags:
+- Anime
+tests: []

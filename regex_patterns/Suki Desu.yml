@@ -1,0 +1,6 @@
+name: Suki Desu
+pattern: \[Suki[ .-]?Desu\]|-Suki[ .-]?Desu\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

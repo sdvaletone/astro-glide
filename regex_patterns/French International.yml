@@ -1,0 +1,5 @@
+name: French International
+pattern: \b(VFI)\b
+description: Auto-generated from VFI
+tags: []
+tests: []

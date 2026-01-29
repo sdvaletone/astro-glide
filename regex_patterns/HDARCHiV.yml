@@ -1,0 +1,6 @@
+name: HDARCHiV
+pattern: ^(HDARCHiV)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

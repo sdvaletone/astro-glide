@@ -1,0 +1,6 @@
+name: omikron
+pattern: ^(omikron)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

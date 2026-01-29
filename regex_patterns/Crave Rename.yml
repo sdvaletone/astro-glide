@@ -1,0 +1,5 @@
+name: Crave Rename
+pattern: \[(CRAV)\b|\b(CRAV)\]
+description: Auto-generated from CRAV
+tags: []
+tests: []

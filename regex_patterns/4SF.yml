@@ -1,0 +1,6 @@
+name: 4SF
+pattern: ^(4SF)$
+description: Auto-generated from German Web Tier 02
+tags:
+- Release Group
+tests: []

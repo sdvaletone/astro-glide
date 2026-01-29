@@ -1,0 +1,5 @@
+name: Not Hybrid Release Group
+pattern: -HYBRID
+description: Auto-generated from DV (Disk)
+tags: []
+tests: []

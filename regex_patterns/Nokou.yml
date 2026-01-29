@@ -1,0 +1,6 @@
+name: Nokou
+pattern: \b(Nokou)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

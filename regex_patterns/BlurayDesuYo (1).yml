@@ -1,0 +1,7 @@
+name: BlurayDesuYo
+pattern: \b(BlurayDesuYo)\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Video
+- Anime
+tests: []

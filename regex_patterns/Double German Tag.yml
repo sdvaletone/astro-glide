@@ -1,0 +1,5 @@
+name: Double German Tag
+pattern: '[._-]German[._-].+?[._-]?German$'
+description: Auto-generated from German LQ (release title)
+tags: []
+tests: []

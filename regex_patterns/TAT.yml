@@ -1,0 +1,6 @@
+name: TAT
+pattern: ^(TAT)$
+description: Auto-generated from FR WEB Tier 02
+tags:
+- Release Group
+tests: []

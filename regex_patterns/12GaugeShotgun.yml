@@ -1,0 +1,6 @@
+name: 12GaugeShotgun
+pattern: ^(12GaugeShotgun)$
+description: Auto-generated from Remux Tier 02
+tags:
+- Release Group
+tests: []

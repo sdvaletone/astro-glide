@@ -1,0 +1,6 @@
+name: JFF
+pattern: ^(JFF)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

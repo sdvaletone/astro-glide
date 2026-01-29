@@ -1,0 +1,7 @@
+name: xiao-av1
+pattern: \b(xiao-av1)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Video
+- Anime
+tests: []

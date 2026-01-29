@@ -1,0 +1,6 @@
+name: Moxie
+pattern: \[Moxie\]|-Moxie\b
+description: Auto-generated from Anime BD Tier 01
+tags:
+- Anime
+tests: []

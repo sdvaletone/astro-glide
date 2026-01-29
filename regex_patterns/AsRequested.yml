@@ -1,0 +1,5 @@
+name: AsRequested
+pattern: -AsRequested\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

@@ -1,0 +1,5 @@
+name: PLAY Rename
+pattern: \[(Play)\b|\b(Play)\]
+description: Auto-generated from PLAY
+tags: []
+tests: []

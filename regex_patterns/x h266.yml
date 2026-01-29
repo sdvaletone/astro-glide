@@ -1,0 +1,5 @@
+name: x|h266
+pattern: '[xh][ ._-]?266|\bVVC(\b|\d)'
+description: Auto-generated from x266
+tags: []
+tests: []

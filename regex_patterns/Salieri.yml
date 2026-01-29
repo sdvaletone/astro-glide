@@ -1,0 +1,6 @@
+name: Salieri
+pattern: \b(Salieri)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

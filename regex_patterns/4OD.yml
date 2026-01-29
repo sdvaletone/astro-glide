@@ -1,0 +1,5 @@
+name: 4OD
+pattern: \b(4OD)\b
+description: Auto-generated from 4OD
+tags: []
+tests: []

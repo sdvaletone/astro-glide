@@ -1,0 +1,6 @@
+name: Deadmau- RAWS
+pattern: \b(Deadmau[ .-]?[ .-]?RAWS)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

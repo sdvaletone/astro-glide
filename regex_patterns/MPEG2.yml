@@ -1,0 +1,5 @@
+name: MPEG2
+pattern: MPEG[-.]?2
+description: Auto-generated from MPEG2
+tags: []
+tests: []

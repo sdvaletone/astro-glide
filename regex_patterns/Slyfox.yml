@@ -1,0 +1,6 @@
+name: Slyfox
+pattern: \b(Slyfox)\b
+description: Auto-generated from Anime Web Tier 02
+tags:
+- Anime
+tests: []

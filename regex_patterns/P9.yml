@@ -1,0 +1,6 @@
+name: P9
+pattern: \b(P9)\b
+description: Auto-generated from Anime BD Tier 03
+tags:
+- Anime
+tests: []

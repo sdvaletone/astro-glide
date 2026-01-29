@@ -1,0 +1,6 @@
+name: NanakoRaws
+pattern: Nanako[ ._-]?(Raws)
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

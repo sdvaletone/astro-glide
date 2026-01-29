@@ -1,0 +1,5 @@
+name: TVING Rename
+pattern: \[(TVING)\b|\b(TVING)\]
+description: Auto-generated from TVING
+tags: []
+tests: []

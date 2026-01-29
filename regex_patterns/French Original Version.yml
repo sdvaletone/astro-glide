@@ -1,0 +1,5 @@
+name: French Original Version
+pattern: \b(VOF)\b
+description: Auto-generated from VOF
+tags: []
+tests: []

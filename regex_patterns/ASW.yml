@@ -1,0 +1,6 @@
+name: ASW
+pattern: \b(ASW)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

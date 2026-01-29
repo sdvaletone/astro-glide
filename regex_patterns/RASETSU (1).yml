@@ -1,0 +1,6 @@
+name: RASETSU
+pattern: \b(RASETSU)\b
+description: Auto-generated from Anime BD Tier 06
+tags:
+- Anime
+tests: []

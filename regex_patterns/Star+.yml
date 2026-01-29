@@ -1,0 +1,5 @@
+name: Star+
+pattern: \b(STRP)\b
+description: Auto-generated from STRP
+tags: []
+tests: []

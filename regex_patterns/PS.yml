@@ -1,0 +1,6 @@
+name: PS
+pattern: ^(PS)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

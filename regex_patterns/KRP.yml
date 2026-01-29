@@ -1,0 +1,6 @@
+name: KRP
+pattern: \b(KRP)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

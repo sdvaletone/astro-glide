@@ -1,0 +1,6 @@
+name: DBArabic
+pattern: \b(DBArabic)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

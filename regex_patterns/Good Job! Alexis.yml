@@ -1,0 +1,6 @@
+name: Good Job! Alexis
+pattern: \b(Good[ .-]?(Job|Rip|Sub)!?[ .-]?Alexis)\b
+description: Auto-generated from FR Anime Tier 01
+tags:
+- Anime
+tests: []

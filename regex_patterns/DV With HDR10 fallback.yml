@@ -1,0 +1,8 @@
+name: DV With HDR10 fallback
+pattern: ^(?=.*\b(dv|dovi|dolby[ .]?v(ision)?)\b)(?!(?=.*\b(WEB[ ._-]?(DL|Rip)?)\b)(?!.*\b(hulu)\b))
+description: Auto-generated from HDR
+tags:
+- Audio
+- Video
+- Streaming
+tests: []

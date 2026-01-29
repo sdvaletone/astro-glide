@@ -1,0 +1,6 @@
+name: SHD
+pattern: ^(SHD)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

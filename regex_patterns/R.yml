@@ -1,0 +1,6 @@
+name: R
+pattern: ^(ROUGH|RUDE|Ryotox)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

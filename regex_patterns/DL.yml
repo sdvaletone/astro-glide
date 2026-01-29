@@ -1,0 +1,5 @@
+name: DL
+pattern: (?<!WEB[-_. ]?)\b(DL)\b
+description: Auto-generated from German DL (undefined)
+tags: []
+tests: []

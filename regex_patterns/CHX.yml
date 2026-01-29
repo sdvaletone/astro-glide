@@ -1,0 +1,6 @@
+name: CHX
+pattern: ^(CHX)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

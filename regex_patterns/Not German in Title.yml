@@ -1,0 +1,5 @@
+name: Not German in Title
+pattern: (?i)\bgerman\b
+description: Auto-generated from Not German or English
+tags: []
+tests: []

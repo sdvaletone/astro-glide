@@ -1,0 +1,5 @@
+name: MyCANAL
+pattern: \b(MyCANAL)\b
+description: Auto-generated from MyCANAL
+tags: []
+tests: []

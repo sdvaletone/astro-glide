@@ -1,0 +1,5 @@
+name: DC Universe
+pattern: \b(dcu|DC Universe)\b
+description: Auto-generated from DCU
+tags: []
+tests: []

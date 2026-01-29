@@ -1,0 +1,6 @@
+name: Setsugen
+pattern: \b(Setsugen)\b
+description: Auto-generated from Anime Web Tier 01
+tags:
+- Anime
+tests: []

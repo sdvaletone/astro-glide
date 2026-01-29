@@ -1,0 +1,6 @@
+name: Sokudo
+pattern: \[Sokudo\]|-Sokudo\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

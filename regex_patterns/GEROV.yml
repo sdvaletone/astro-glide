@@ -1,0 +1,5 @@
+name: GEROV
+pattern: -GEROV\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

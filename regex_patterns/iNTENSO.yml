@@ -1,0 +1,6 @@
+name: iNTENSO
+pattern: ^(iNTENSO)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

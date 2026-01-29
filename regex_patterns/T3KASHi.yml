@@ -1,0 +1,6 @@
+name: T3KASHi
+pattern: \b(T3KASHi)\b
+description: Auto-generated from FR Anime Tier 01
+tags:
+- Anime
+tests: []

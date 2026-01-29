@@ -1,0 +1,6 @@
+name: kala
+pattern: ^(kala)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

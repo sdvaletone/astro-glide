@@ -1,0 +1,5 @@
+name: ABEMA
+pattern: \b(ABEMA[ ._-]?(TV)?)\b
+description: Auto-generated from ABEMA
+tags: []
+tests: []

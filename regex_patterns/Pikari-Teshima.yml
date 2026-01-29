@@ -1,0 +1,6 @@
+name: Pikari-Teshima
+pattern: \b(Pikari[ .-]?Teshima)\b
+description: Auto-generated from FR Anime FanSub
+tags:
+- Anime
+tests: []

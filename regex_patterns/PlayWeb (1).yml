@@ -1,0 +1,6 @@
+name: PlayWeb
+pattern: \b(PlayWeb)\b
+description: Auto-generated from Anime Web Tier 05
+tags:
+- Anime
+tests: []

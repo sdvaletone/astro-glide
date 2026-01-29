@@ -1,0 +1,6 @@
+name: QfG
+pattern: ^(QfG)$
+description: Auto-generated from German Remux Tier 01
+tags:
+- Release Group
+tests: []

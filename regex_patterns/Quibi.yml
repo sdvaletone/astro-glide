@@ -1,0 +1,5 @@
+name: Quibi
+pattern: \b(qibi|quibi)\b
+description: Auto-generated from QIBI
+tags: []
+tests: []

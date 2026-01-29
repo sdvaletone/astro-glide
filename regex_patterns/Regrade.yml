@@ -1,0 +1,5 @@
+name: Regrade
+pattern: \b((Upscale)?Re-?graded?)\b
+description: Auto-generated from Upscaled
+tags: []
+tests: []

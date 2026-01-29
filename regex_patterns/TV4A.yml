@@ -1,0 +1,6 @@
+name: TV4A
+pattern: ^(TV4A)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

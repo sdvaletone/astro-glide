@@ -1,0 +1,6 @@
+name: Chimera
+pattern: \[Chimera\]|-Chimera\b
+description: Auto-generated from Anime BD Tier 04
+tags:
+- Anime
+tests: []

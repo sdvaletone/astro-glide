@@ -1,0 +1,5 @@
+name: HIDIVE
+pattern: \b(HIDI(VE)?)\b
+description: Auto-generated from HIDIVE
+tags: []
+tests: []

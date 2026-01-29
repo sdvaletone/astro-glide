@@ -1,0 +1,6 @@
+name: BiTOR (2160p)
+pattern: (?=.*?(\b2160p\b))(?=.*?(\bBiTOR\b))
+description: Auto-generated from LQ (Release Title)
+tags:
+- Resolution
+tests: []

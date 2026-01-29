@@ -1,0 +1,6 @@
+name: Kallango
+pattern: \[Kallango\]|-Kallango\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

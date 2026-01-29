@@ -1,0 +1,5 @@
+name: RW
+pattern: \b(RW)\b
+description: Auto-generated from Upscaled
+tags: []
+tests: []

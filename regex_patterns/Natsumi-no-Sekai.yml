@@ -1,0 +1,6 @@
+name: Natsumi-no-Sekai
+pattern: \b(Natsumi[ .-]?no[ .-]?Sekai)\b
+description: Auto-generated from FR Anime FanSub
+tags:
+- Anime
+tests: []

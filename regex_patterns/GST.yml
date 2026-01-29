@@ -1,0 +1,6 @@
+name: GST
+pattern: \b(GST)\b
+description: Auto-generated from Anime Web Tier 05
+tags:
+- Anime
+tests: []

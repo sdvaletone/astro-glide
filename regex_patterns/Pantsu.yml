@@ -1,0 +1,6 @@
+name: Pantsu
+pattern: \[Pantsu\]|-Pantsu\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

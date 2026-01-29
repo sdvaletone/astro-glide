@@ -1,0 +1,6 @@
+name: Not DTS-ES
+pattern: dts.?es
+description: Auto-generated from DTS-HD HRA
+tags:
+- Audio
+tests: []

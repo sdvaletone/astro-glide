@@ -1,0 +1,5 @@
+name: SYFY
+pattern: \b(SYFY)\b
+description: Auto-generated from SYFY
+tags: []
+tests: []

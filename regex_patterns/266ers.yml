@@ -1,0 +1,6 @@
+name: 266ers
+pattern: ^(266ers)$
+description: Auto-generated from German Microsized
+tags:
+- Release Group
+tests: []

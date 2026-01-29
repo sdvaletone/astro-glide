@@ -1,0 +1,6 @@
+name: OldCastle
+pattern: \b(OldCastle)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

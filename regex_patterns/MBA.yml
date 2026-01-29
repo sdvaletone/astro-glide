@@ -1,0 +1,6 @@
+name: MBA
+pattern: ^(MBA)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

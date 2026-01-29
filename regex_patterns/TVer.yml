@@ -1,0 +1,5 @@
+name: TVer
+pattern: \b(tver)\b
+description: Auto-generated from TVer
+tags: []
+tests: []

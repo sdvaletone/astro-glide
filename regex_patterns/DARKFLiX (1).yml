@@ -1,0 +1,6 @@
+name: DARKFLiX
+pattern: \b(DARKFLiX)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

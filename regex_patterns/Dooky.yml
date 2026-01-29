@@ -1,0 +1,6 @@
+name: Dooky
+pattern: \b(Dooky)\b
+description: Auto-generated from Anime Web Tier 03
+tags:
+- Anime
+tests: []

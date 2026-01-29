@@ -1,0 +1,6 @@
+name: npz
+pattern: \b(npz)\b
+description: Auto-generated from Anime BD Tier 03
+tags:
+- Anime
+tests: []

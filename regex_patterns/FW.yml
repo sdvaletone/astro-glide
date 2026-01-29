@@ -1,0 +1,6 @@
+name: FW
+pattern: ^(FW)$
+description: Auto-generated from FR WEB Tier 01
+tags:
+- Release Group
+tests: []

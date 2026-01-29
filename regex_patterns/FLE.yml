@@ -1,0 +1,6 @@
+name: FLE
+pattern: \b(FLE)\b
+description: Auto-generated from Anime BD Tier 01
+tags:
+- Anime
+tests: []

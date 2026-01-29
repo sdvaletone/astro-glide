@@ -1,0 +1,6 @@
+name: CuaP
+pattern: \b(CuaP)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

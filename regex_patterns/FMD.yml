@@ -1,0 +1,6 @@
+name: FMD
+pattern: ^(FMD)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

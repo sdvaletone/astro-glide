@@ -1,0 +1,6 @@
+name: WATCHABLE
+pattern: ^(WATCHABLE)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,5 @@
+name: v2
+pattern: (\b|\d)(v2)\b
+description: Auto-generated from v2
+tags: []
+tests: []

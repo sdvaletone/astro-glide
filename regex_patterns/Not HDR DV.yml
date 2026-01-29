@@ -1,0 +1,7 @@
+name: Not HDR/DV
+pattern: \b(dv|dovi|dolby[ .]?v(ision)?|hdr(10(P(lus)?)?)?|pq)\b
+description: Auto-generated from x265 (no HDR/DV)
+tags:
+- Audio
+- Video
+tests: []

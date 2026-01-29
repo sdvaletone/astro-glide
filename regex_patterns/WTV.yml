@@ -1,0 +1,6 @@
+name: WTV
+pattern: ^(WTV)$
+description: Auto-generated from Bad Dual Groups
+tags:
+- Release Group
+tests: []

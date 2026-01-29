@@ -1,0 +1,6 @@
+name: Monkey-D.Lulu
+pattern: \b(Monkey[ .-]?D[ .-]?Lulu)\b
+description: Auto-generated from FR Anime Tier 03
+tags:
+- Anime
+tests: []

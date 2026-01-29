@@ -1,0 +1,6 @@
+name: KHAYA
+pattern: \b(KHAYA)\b
+description: Auto-generated from FR Anime Tier 03
+tags:
+- Anime
+tests: []

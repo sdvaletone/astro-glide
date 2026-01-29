@@ -1,0 +1,5 @@
+name: Not 4.0ch
+pattern: '[^0-9]4[ .]0\b'
+description: Auto-generated from 1.0 Mono
+tags: []
+tests: []

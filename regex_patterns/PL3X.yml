@@ -1,0 +1,6 @@
+name: PL3X
+pattern: ^(PL3X)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

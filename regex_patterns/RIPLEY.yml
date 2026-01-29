@@ -1,0 +1,6 @@
+name: RIPLEY
+pattern: ^(RIPLEY)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

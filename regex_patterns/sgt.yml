@@ -1,0 +1,6 @@
+name: sgt
+pattern: \[sgt\]|-sgt\b
+description: Auto-generated from Anime BD Tier 03
+tags:
+- Anime
+tests: []

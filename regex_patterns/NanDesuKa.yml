@@ -1,0 +1,6 @@
+name: NanDesuKa
+pattern: \b(NanDesuKa)\b
+description: Auto-generated from Anime Web Tier 05
+tags:
+- Anime
+tests: []

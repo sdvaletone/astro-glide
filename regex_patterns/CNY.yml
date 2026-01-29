@@ -1,0 +1,6 @@
+name: CNY
+pattern: ^(CNY)$
+description: Auto-generated from German Bluray Tier 01
+tags:
+- Release Group
+tests: []

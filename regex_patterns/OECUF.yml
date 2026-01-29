@@ -1,0 +1,6 @@
+name: OECUF
+pattern: \b(OECUF)\b
+description: Auto-generated from FR Anime Tier 02
+tags:
+- Anime
+tests: []

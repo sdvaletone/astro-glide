@@ -1,0 +1,5 @@
+name: ML
+pattern: \b(ML)\b
+description: Auto-generated from German DL (undefined)
+tags: []
+tests: []

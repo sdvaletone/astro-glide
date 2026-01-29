@@ -1,0 +1,6 @@
+name: UQW
+pattern: \b(UQW)\b
+description: Auto-generated from Anime BD Tier 04
+tags:
+- Anime
+tests: []

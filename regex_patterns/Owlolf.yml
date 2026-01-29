@@ -1,0 +1,6 @@
+name: Owlolf
+pattern: \b(Owlolf)\b
+description: Auto-generated from FR Anime FanSub
+tags:
+- Anime
+tests: []

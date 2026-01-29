@@ -1,0 +1,6 @@
+name: GJM
+pattern: \b(GJM)\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

@@ -1,0 +1,5 @@
+name: OViD
+pattern: \b(ovid)\b
+description: Auto-generated from OViD
+tags: []
+tests: []

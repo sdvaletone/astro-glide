@@ -1,0 +1,6 @@
+name: FateSucks
+pattern: \b(FateSucks)\b
+description: Auto-generated from Anime BD Tier 02
+tags:
+- Anime
+tests: []

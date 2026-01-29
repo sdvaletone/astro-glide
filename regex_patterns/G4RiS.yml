@@ -1,0 +1,6 @@
+name: G4RiS
+pattern: ^(G4RiS)$
+description: Auto-generated from Bad Dual Groups
+tags:
+- Release Group
+tests: []

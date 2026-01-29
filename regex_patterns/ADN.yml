@@ -1,0 +1,5 @@
+name: ADN
+pattern: \b(ADN)\b
+description: Auto-generated from ADN
+tags: []
+tests: []

@@ -1,0 +1,6 @@
+name: AC
+pattern: \[AC\]|-AC$
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

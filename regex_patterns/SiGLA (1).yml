@@ -1,0 +1,6 @@
+name: SiGLA
+pattern: ^(SiGLA)$
+description: Auto-generated from Bad Dual Groups
+tags:
+- Release Group
+tests: []

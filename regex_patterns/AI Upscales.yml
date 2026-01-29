@@ -1,0 +1,6 @@
+name: AI Upscales
+pattern: (?<=\b\d{3,4}p\b)(?=.*\b(HEVC)\b)(?=.*\b(AI)\b)
+description: Auto-generated from Upscaled
+tags:
+- Video
+tests: []

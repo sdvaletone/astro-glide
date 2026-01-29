@@ -1,0 +1,6 @@
+name: KQRM
+pattern: \b(KQRM)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

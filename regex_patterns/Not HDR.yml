@@ -1,0 +1,6 @@
+name: Not HDR
+pattern: \bHDR(\b|\d)
+description: Auto-generated from DV (w/o HDR fallback)
+tags:
+- Video
+tests: []

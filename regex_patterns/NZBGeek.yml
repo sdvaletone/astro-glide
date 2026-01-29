@@ -1,0 +1,5 @@
+name: NZBGeek
+pattern: -NZBGeek\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

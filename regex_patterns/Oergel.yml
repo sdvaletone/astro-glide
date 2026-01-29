@@ -1,0 +1,6 @@
+name: Oergel
+pattern: ^(Oergel)$
+description: Auto-generated from German Bluray Tier 02
+tags:
+- Release Group
+tests: []

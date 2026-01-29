@@ -1,0 +1,6 @@
+name: MTBB
+pattern: \b(MTBB)\b
+description: Auto-generated from Anime BD Tier 03
+tags:
+- Anime
+tests: []

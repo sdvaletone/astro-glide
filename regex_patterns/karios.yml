@@ -1,0 +1,6 @@
+name: karios
+pattern: \b(karios)\b
+description: Auto-generated from Anime BD Tier 06
+tags:
+- Anime
+tests: []

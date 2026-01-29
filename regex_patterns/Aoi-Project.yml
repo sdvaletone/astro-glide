@@ -1,0 +1,6 @@
+name: Aoi-Project
+pattern: \b(Aoi[ .-]?Project)\b
+description: Auto-generated from FR Anime Tier 02
+tags:
+- Anime
+tests: []

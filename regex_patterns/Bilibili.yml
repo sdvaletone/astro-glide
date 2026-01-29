@@ -1,0 +1,5 @@
+name: Bilibili
+pattern: \b(Bili(bili)?)\b
+description: Auto-generated from Bilibili
+tags: []
+tests: []

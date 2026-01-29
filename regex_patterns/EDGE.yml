@@ -1,0 +1,6 @@
+name: EDGE
+pattern: \[EDGE\]|-EDGE\b
+description: Auto-generated from Anime BD Tier 08
+tags:
+- Anime
+tests: []

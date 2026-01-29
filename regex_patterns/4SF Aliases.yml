@@ -1,0 +1,5 @@
+name: 4SF Aliases
+pattern: \b(4SJ)\b
+description: Auto-generated from German Web Tier 02
+tags: []
+tests: []

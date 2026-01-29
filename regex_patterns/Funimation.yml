@@ -1,0 +1,5 @@
+name: Funimation
+pattern: \b(FUNi(mation)?)\b
+description: Auto-generated from FUNi
+tags: []
+tests: []

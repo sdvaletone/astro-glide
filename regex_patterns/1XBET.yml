@@ -1,0 +1,6 @@
+name: 1XBET
+pattern: ^(1XBET)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

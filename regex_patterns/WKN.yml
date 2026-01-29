@@ -1,0 +1,5 @@
+name: WKN
+pattern: \b(WKN|Waka(nim)?)\b
+description: Auto-generated from WKN
+tags: []
+tests: []

@@ -1,0 +1,6 @@
+name: Not TrueHD/ATMOS
+pattern: True[ .-]?HD|\bATMOS(\b|\d)
+description: Auto-generated from AAC
+tags:
+- Audio
+tests: []

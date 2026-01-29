@@ -1,0 +1,6 @@
+name: FENDT
+pattern: ^(FENDT)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

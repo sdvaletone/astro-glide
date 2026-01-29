@@ -1,0 +1,6 @@
+name: N
+pattern: ^(N0Z00M|NERDHD|NERO|NrZ|NTK)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

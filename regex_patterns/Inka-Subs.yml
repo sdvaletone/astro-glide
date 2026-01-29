@@ -1,0 +1,6 @@
+name: Inka-Subs
+pattern: \b(Inka-Subs)\b
+description: Auto-generated from Anime BD Tier 03
+tags:
+- Anime
+tests: []

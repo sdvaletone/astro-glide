@@ -1,0 +1,6 @@
+name: V
+pattern: ^(VENUE|VFC|VoMiT)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: HiFi
+pattern: ^(HiFi)$
+description: Auto-generated from Remux Tier 02
+tags:
+- Release Group
+tests: []

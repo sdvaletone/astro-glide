@@ -1,0 +1,6 @@
+name: J
+pattern: ^(JMT|JoKeR|JUSTICELEAGUE)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

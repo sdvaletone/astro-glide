@@ -1,0 +1,6 @@
+name: MYSTERiON
+pattern: ^(MYSTERiON)$
+description: Auto-generated from FR WEB Tier 03
+tags:
+- Release Group
+tests: []

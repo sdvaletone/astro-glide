@@ -1,0 +1,6 @@
+name: Z
+pattern: ^(ZEST|ZiRCON)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

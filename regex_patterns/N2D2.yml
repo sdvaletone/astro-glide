@@ -1,0 +1,6 @@
+name: N2D2
+pattern: ^(N2D2)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

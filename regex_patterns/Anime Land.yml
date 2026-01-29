@@ -1,0 +1,6 @@
+name: Anime Land
+pattern: \b(Anime[ .-]?Land)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

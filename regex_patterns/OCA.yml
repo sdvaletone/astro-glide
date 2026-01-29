@@ -1,0 +1,6 @@
+name: OCA
+pattern: ^(OCA)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

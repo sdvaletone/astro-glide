@@ -1,0 +1,6 @@
+name: EXTREME
+pattern: ^(EXTREME)$
+description: Auto-generated from Bad Dual Groups
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: Nagutos
+pattern: \b(Nagutos)\b
+description: Auto-generated from FR Anime Tier 02
+tags:
+- Anime
+tests: []

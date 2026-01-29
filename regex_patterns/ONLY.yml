@@ -1,0 +1,6 @@
+name: ONLY
+pattern: ^(ONLY)$
+description: Auto-generated from FR Remux Tier 01
+tags:
+- Release Group
+tests: []

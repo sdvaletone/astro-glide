@@ -1,0 +1,6 @@
+name: Lilith-Raws
+pattern: Lilith[ ._-]?(Raws)
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

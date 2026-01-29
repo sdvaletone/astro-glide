@@ -1,0 +1,5 @@
+name: Not RlsGrp
+pattern: \b(Flights)\b
+description: Auto-generated from DV (w/o HDR fallback)
+tags: []
+tests: []

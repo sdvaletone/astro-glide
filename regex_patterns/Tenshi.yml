@@ -1,0 +1,6 @@
+name: Tenshi
+pattern: \[tenshi\]|-tenshi$
+description: Auto-generated from Anime Web Tier 02
+tags:
+- Anime
+tests: []

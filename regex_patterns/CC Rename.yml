@@ -1,0 +1,5 @@
+name: CC Rename
+pattern: \[(CC)\b|\b(CC)\]
+description: Auto-generated from CC
+tags: []
+tests: []

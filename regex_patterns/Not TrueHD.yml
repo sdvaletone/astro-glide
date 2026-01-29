@@ -1,0 +1,6 @@
+name: Not TrueHD
+pattern: True[ .-]?HD
+description: Auto-generated from ATMOS (undefined)
+tags:
+- Audio
+tests: []

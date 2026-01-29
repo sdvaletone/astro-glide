@@ -1,0 +1,6 @@
+name: New-raws
+pattern: New[ ._-]?(raws)
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: Nep_Blanc
+pattern: \b(Nep[ ._-]Blanc)\b
+description: Auto-generated from Anime BD Tier 08
+tags:
+- Anime
+tests: []

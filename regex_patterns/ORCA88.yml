@@ -1,0 +1,6 @@
+name: ORCA88
+pattern: ^(ORCA88)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

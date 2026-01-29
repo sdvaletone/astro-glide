@@ -1,0 +1,6 @@
+name: LowPower-Raws
+pattern: LowPower[ ._-]?(Raws)
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

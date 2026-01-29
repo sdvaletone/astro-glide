@@ -1,0 +1,6 @@
+name: FiND
+pattern: ^(FiND)$
+description: Auto-generated from FR WEB Tier 02
+tags:
+- Release Group
+tests: []

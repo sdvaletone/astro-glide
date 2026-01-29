@@ -1,0 +1,5 @@
+name: Pahe
+pattern: Pahe(\.(ph|in))?\b
+description: Auto-generated from LQ
+tags: []
+tests: []

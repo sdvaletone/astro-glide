@@ -1,0 +1,6 @@
+name: AhmadDev
+pattern: \b(AhmadDev)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

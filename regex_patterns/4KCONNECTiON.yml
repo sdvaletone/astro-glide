@@ -1,0 +1,7 @@
+name: 4KCONNECTiON
+pattern: ^(4KCONNECTiON)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+- Resolution
+tests: []

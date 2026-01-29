@@ -1,0 +1,5 @@
+name: Rakuv
+pattern: -Rakuv\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

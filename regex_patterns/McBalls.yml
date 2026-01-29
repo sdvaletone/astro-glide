@@ -1,0 +1,6 @@
+name: McBalls
+pattern: \b(McBalls)\b
+description: Auto-generated from Anime Web Tier 01
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: TANOSHii
+pattern: \b(-TANOSHii)\b
+description: Auto-generated from FR Anime Tier 01
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: VIDEOHOLE
+pattern: ^(VIDEOHOLE)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

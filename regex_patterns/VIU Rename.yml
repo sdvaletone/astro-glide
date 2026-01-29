@@ -1,0 +1,5 @@
+name: VIU Rename
+pattern: \[(VIU)\b|\b(VIU)\]
+description: Auto-generated from VIU
+tags: []
+tests: []

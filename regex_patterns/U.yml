@@ -1,0 +1,6 @@
+name: U
+pattern: ^(UKDHD|UKDTV|ULSHD|Ulysse|(US)?UNSKiLLED|URY|USURY)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

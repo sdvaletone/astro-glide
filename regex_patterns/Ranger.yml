@@ -1,0 +1,6 @@
+name: Ranger
+pattern: \[Ranger\]|-Ranger\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

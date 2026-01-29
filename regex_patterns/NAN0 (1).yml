@@ -1,0 +1,7 @@
+name: NAN0
+pattern: (?<=remux).*\b(NAN0)\b
+description: Auto-generated from Anime BD Tier 01
+tags:
+- Video
+- Anime
+tests: []

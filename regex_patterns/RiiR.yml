@@ -1,0 +1,6 @@
+name: RiiR
+pattern: ^(RiiR)$
+description: Auto-generated from German Web Tier 01
+tags:
+- Release Group
+tests: []

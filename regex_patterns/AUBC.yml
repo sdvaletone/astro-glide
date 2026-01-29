@@ -1,0 +1,5 @@
+name: AUBC
+pattern: \b(AUBC)\b
+description: Auto-generated from AUBC
+tags: []
+tests: []

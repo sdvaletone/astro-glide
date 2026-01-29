@@ -1,0 +1,5 @@
+name: RED Rename
+pattern: \[(RED)\b|\b(RED)\]
+description: Auto-generated from RED
+tags: []
+tests: []

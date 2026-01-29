@@ -1,0 +1,5 @@
+name: Scrambled
+pattern: \bS\d+.*(Scrambled)\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

@@ -1,0 +1,5 @@
+name: ALL4
+pattern: \b(ALL4)\b
+description: Auto-generated from ALL4
+tags: []
+tests: []

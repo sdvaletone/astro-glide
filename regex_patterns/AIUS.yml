@@ -1,0 +1,5 @@
+name: AIUS
+pattern: \b(AIUS)\b
+description: Auto-generated from Upscaled
+tags: []
+tests: []

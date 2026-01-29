@@ -1,0 +1,6 @@
+name: HONE
+pattern: ^(HONE)$
+description: Auto-generated from WEB Tier 01
+tags:
+- Release Group
+tests: []

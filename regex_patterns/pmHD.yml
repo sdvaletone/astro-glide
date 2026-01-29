@@ -1,0 +1,6 @@
+name: pmHD
+pattern: ^(pmHD)$
+description: Auto-generated from German Remux Tier 01
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: SHFS
+pattern: \b(SHFS)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

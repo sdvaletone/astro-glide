@@ -1,0 +1,6 @@
+name: 5.1 Surround
+pattern: '[^0-9]5[ .][0-1]\b'
+description: Auto-generated from 5.1 Surround
+tags:
+- Audio
+tests: []

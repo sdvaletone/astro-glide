@@ -1,0 +1,6 @@
+name: Mr. Deadpool
+pattern: \b(Mr\.Deadpool)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

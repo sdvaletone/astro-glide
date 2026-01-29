@@ -1,0 +1,5 @@
+name: MULTi
+pattern: \b(MULTi)(\b|\d)
+description: 'Auto-generated from Language: Original + French'
+tags: []
+tests: []

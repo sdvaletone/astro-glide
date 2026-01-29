@@ -1,0 +1,5 @@
+name: NLZiet
+pattern: \b(nlz|NLZiet)\b
+description: Auto-generated from NLZ
+tags: []
+tests: []

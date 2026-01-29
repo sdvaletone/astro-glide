@@ -1,0 +1,6 @@
+name: BRiNK
+pattern: ^(BRiNK)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

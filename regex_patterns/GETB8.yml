@@ -1,0 +1,6 @@
+name: GETB8
+pattern: ^(GETB8)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

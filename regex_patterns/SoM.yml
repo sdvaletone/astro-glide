@@ -1,0 +1,6 @@
+name: SoM
+pattern: \[SoM\]|-SoM\b
+description: Auto-generated from Anime BD Tier 01
+tags:
+- Anime
+tests: []

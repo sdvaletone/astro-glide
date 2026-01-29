@@ -1,0 +1,6 @@
+name: Seimeisen
+pattern: \b(Seimeisen)\b
+description: Auto-generated from FR Anime FanSub
+tags:
+- Anime
+tests: []

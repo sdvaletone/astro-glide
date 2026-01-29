@@ -1,0 +1,6 @@
+name: INFLATE
+pattern: ^(INFLATE)$
+description: Auto-generated from WEB Scene
+tags:
+- Release Group
+tests: []

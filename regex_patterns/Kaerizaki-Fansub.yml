@@ -1,0 +1,6 @@
+name: Kaerizaki-Fansub
+pattern: \b(Kaerizaki[ .-]?Fansub)\b
+description: Auto-generated from FR Anime FanSub
+tags:
+- Anime
+tests: []

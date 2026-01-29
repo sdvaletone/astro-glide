@@ -1,0 +1,5 @@
+name: TVS iTunesHD
+pattern: ([._-])iTunes(?:HD|SD)?\1.+?-TVS$
+description: Auto-generated from German LQ (release title)
+tags: []
+tests: []

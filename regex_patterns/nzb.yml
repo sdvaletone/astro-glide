@@ -1,0 +1,5 @@
+name: _nzb
+pattern: _nzb\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

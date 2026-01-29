@@ -1,0 +1,6 @@
+name: Z4ST1N
+pattern: \b(Z4ST1N)\b
+description: Auto-generated from Anime Web Tier 01
+tags:
+- Anime
+tests: []

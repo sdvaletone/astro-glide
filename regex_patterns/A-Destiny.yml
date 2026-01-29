@@ -1,0 +1,6 @@
+name: A-Destiny
+pattern: \b(A-Destiny)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

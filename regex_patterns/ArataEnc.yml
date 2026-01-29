@@ -1,0 +1,6 @@
+name: ArataEnc
+pattern: \b(ArataEnc)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

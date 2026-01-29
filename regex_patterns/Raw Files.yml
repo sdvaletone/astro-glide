@@ -1,0 +1,7 @@
+name: Raw Files
+pattern: \b(M2TS|BDMV|BDVD)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Video
+- Anime
+tests: []

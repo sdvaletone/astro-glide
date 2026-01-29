@@ -1,0 +1,6 @@
+name: AsukaRaws
+pattern: Asuka[ ._-]?(Raws)
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

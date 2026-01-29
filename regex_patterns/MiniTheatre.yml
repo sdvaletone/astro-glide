@@ -1,0 +1,6 @@
+name: MiniTheatre
+pattern: \b(MiniTheatre)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

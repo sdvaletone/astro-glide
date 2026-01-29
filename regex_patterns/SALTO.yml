@@ -1,0 +1,5 @@
+name: SALTO
+pattern: \b(SALTO)\b
+description: Auto-generated from SALTO
+tags: []
+tests: []

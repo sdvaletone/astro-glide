@@ -1,0 +1,6 @@
+name: Anitsu
+pattern: \b(Anitsu)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

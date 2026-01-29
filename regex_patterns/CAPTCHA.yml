@@ -1,0 +1,5 @@
+name: CAPTCHA
+pattern: -CAPTCHA\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

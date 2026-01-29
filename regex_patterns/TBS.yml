@@ -1,0 +1,6 @@
+name: TBS
+pattern: ^(TBS)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

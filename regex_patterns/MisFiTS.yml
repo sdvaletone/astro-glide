@@ -1,0 +1,6 @@
+name: MisFiTS
+pattern: ^(MisFiTS)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

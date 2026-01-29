@@ -1,0 +1,5 @@
+name: HFR
+pattern: \b(HFR)\b
+description: Auto-generated from HFR
+tags: []
+tests: []

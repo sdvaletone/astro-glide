@@ -1,0 +1,6 @@
+name: HMAX Rename
+pattern: \[(HMAX)\b|\b(HMAX)\]
+description: Auto-generated from HMAX
+tags:
+- Streaming
+tests: []

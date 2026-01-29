@@ -1,0 +1,6 @@
+name: Not Hulu
+pattern: \b(hulu)\b
+description: Auto-generated from DV (w/o HDR fallback)
+tags:
+- Streaming
+tests: []

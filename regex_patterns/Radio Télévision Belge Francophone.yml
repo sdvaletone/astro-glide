@@ -1,0 +1,5 @@
+name: Radio Télévision Belge Francophone
+pattern: \b(RTBF)\b
+description: Auto-generated from AUViO
+tags: []
+tests: []

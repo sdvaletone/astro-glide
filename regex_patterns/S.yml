@@ -1,0 +1,6 @@
+name: S
+pattern: ^(SAFETY|SASHiMi|SEiGHT|SESKAPiLE|SharpHD|SHEEEiT|SHiNiGAMi(UHD)?|SiGeRiS|SILVIODANTE|SLEEPINGFOREST|SODAPOP|S4LVE|SPINE|SPOiLER|STRINGERBELL|Sunday26th|SUNRiSE)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

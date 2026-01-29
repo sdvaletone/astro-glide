@@ -1,0 +1,5 @@
+name: VC-1
+pattern: \bVC[-_. ]?1\b
+description: Auto-generated from VC-1
+tags: []
+tests: []

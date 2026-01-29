@@ -1,0 +1,6 @@
+name: Shiniori-Raws
+pattern: Shiniori[ ._-]?(Raws)
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

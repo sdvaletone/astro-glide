@@ -1,0 +1,6 @@
+name: PSA
+pattern: ^(PSA)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

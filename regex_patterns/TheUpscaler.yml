@@ -1,0 +1,5 @@
+name: TheUpscaler
+pattern: \b(The[ ._-]?Upscaler)\b
+description: Auto-generated from Upscaled
+tags: []
+tests: []

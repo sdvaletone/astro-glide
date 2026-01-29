@@ -1,0 +1,7 @@
+name: D
+pattern: ^(D4KiD|DEAL|DiEBEX|DUPLI|DUSS)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+- Resolution
+tests: []

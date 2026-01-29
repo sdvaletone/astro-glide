@@ -1,0 +1,5 @@
+name: Comedy Central
+pattern: \b(CC)\b[ ._-]web[ ._-]?(dl|rip)?\b
+description: Auto-generated from CC
+tags: []
+tests: []

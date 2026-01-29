@@ -1,0 +1,5 @@
+name: Not INFLATE/DEFLATE
+pattern: \b(INFLATE|DEFLATE[)\]]?)$
+description: Auto-generated from Scene
+tags: []
+tests: []

@@ -1,0 +1,5 @@
+name: SDR
+pattern: \bSDR\b
+description: Auto-generated from SDR (no WEBDL)
+tags: []
+tests: []

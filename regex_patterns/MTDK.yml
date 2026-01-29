@@ -1,0 +1,6 @@
+name: MTDK
+pattern: ^(MTDK)$
+description: Auto-generated from FR WEB Tier 01
+tags:
+- Release Group
+tests: []

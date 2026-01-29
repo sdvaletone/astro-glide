@@ -1,0 +1,5 @@
+name: BUYMORE
+pattern: -BUYMORE\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

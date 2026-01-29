@@ -1,0 +1,6 @@
+name: ICEBLUE
+pattern: \b(ICEBLUE)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

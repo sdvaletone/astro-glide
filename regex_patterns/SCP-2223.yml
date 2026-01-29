@@ -1,0 +1,6 @@
+name: SCP-2223
+pattern: \b(SCP-2223)\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

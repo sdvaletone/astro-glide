@@ -1,0 +1,6 @@
+name: MGE
+pattern: ^(MGE)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

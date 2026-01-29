@@ -1,0 +1,6 @@
+name: WtF Anime
+pattern: \b(WtF[ ._-]?Anime)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

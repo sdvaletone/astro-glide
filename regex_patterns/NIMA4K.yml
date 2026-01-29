@@ -1,0 +1,7 @@
+name: NIMA4K
+pattern: ^(NIMA4K)$
+description: Auto-generated from German Bluray Tier 01
+tags:
+- Release Group
+- Resolution
+tests: []

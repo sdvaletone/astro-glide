@@ -1,0 +1,6 @@
+name: Nyanpasu
+pattern: \b(Nyanpasu)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: MiniFreeza
+pattern: \b(MiniFreeza)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

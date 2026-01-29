@@ -1,0 +1,6 @@
+name: YURI
+pattern: \[YURI\]|-YURI\b
+description: Auto-generated from Anime BD Tier 02
+tags:
+- Anime
+tests: []

@@ -1,0 +1,5 @@
+name: CBC
+pattern: \b(CBC)\b
+description: Auto-generated from CBC
+tags: []
+tests: []

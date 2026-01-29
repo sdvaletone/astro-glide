@@ -1,0 +1,6 @@
+name: neko-raws
+pattern: neko[ ._-]?(raws)
+description: Auto-generated from Anime Raws
+tags:
+- Anime
+tests: []

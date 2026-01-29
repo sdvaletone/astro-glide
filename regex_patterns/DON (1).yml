@@ -1,0 +1,6 @@
+name: DON
+pattern: ^(DON)$
+description: Auto-generated from HD Bluray Tier 01
+tags:
+- Release Group
+tests: []

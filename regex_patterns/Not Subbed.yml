@@ -1,0 +1,5 @@
+name: Not Subbed
+pattern: (?=.*(German|Ger))(?=.*(Sub|Multi(ple)?Sub))
+description: Auto-generated from German
+tags: []
+tests: []

@@ -1,0 +1,6 @@
+name: Apple TV
+pattern: \b(ATV)\b
+description: Auto-generated from ATV
+tags:
+- Streaming
+tests: []

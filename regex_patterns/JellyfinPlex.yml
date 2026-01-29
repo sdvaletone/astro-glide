@@ -1,0 +1,6 @@
+name: JellyfinPlex
+pattern: ^(JellyfinPlex)$
+description: Auto-generated from German Microsized
+tags:
+- Release Group
+tests: []

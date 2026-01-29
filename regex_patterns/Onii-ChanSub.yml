@@ -1,0 +1,6 @@
+name: Onii-ChanSub
+pattern: \b(Onii[ .-]?ChanSub)\b
+description: Auto-generated from FR Anime FanSub
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: Fish
+pattern: \b((Baked|Dead|Space)Fish)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

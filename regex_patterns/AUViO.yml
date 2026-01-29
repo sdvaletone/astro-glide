@@ -1,0 +1,5 @@
+name: AUViO
+pattern: \b(AUVIO)\b
+description: Auto-generated from AUViO
+tags: []
+tests: []

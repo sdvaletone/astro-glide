@@ -1,0 +1,6 @@
+name: 2dead
+pattern: ^(2dead)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

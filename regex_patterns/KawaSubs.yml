@@ -1,0 +1,6 @@
+name: KawaSubs
+pattern: \b(KawaSubs)\b
+description: Auto-generated from Anime Web Tier 06
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: SCY
+pattern: \b(SCY)\b
+description: Auto-generated from Anime BD Tier 04
+tags:
+- Anime
+tests: []

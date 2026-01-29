@@ -1,0 +1,5 @@
+name: dot heb
+pattern: \.heb\b
+description: Auto-generated from Retags
+tags: []
+tests: []

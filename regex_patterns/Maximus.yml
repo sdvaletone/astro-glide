@@ -1,0 +1,6 @@
+name: Maximus
+pattern: \[Maximus\]|-Maximus\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

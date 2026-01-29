@@ -1,0 +1,6 @@
+name: ACED
+pattern: ^(ACED)$
+description: Auto-generated from German Scene
+tags:
+- Release Group
+tests: []

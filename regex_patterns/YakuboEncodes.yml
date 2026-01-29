@@ -1,0 +1,6 @@
+name: YakuboEncodes
+pattern: \b(YakuboEncodes)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

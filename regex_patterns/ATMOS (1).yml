@@ -1,0 +1,6 @@
+name: ATMOS
+pattern: \b(ATMOS|DDPA)(\b|\d)
+description: Auto-generated from DD+ ATMOS
+tags:
+- Audio
+tests: []

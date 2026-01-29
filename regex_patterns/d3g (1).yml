@@ -1,0 +1,6 @@
+name: d3g
+pattern: ^(d3g)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

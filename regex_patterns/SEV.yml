@@ -1,0 +1,6 @@
+name: SEV
+pattern: \b(SEV)\b
+description: Auto-generated from Anime BD Tier 07
+tags:
+- Anime
+tests: []

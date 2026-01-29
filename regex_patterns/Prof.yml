@@ -1,0 +1,6 @@
+name: Prof
+pattern: \[Prof\]|-Prof\b
+description: Auto-generated from Anime BD Tier 08
+tags:
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: OJ
+pattern: ^(OJ)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

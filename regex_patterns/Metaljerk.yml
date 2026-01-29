@@ -1,0 +1,6 @@
+name: Metaljerk
+pattern: \b(Metaljerk)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

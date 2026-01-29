@@ -1,0 +1,6 @@
+name: PL
+pattern: ^(PL)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: OFT
+pattern: ^(OFT)$
+description: Auto-generated from LQ
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,5 @@
+name: Version Québécoise
+pattern: \b(VQ)\b
+description: Auto-generated from VQ
+tags: []
+tests: []

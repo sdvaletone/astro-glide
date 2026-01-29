@@ -1,0 +1,5 @@
+name: TRUEFRENCH
+pattern: \b(TRUEFRENCH|VFF)\b
+description: Auto-generated from VFF
+tags: []
+tests: []

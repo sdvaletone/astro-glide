@@ -1,0 +1,6 @@
+name: W
+pattern: ^(Wednesday29th)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: youshikibi
+pattern: \b(youshikibi)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

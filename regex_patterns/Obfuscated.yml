@@ -1,0 +1,5 @@
+name: Obfuscated
+pattern: -Obfuscated\b
+description: Auto-generated from Obfuscated
+tags: []
+tests: []

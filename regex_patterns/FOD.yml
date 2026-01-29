@@ -1,0 +1,5 @@
+name: FOD
+pattern: \b(fod)\b
+description: Auto-generated from FOD
+tags: []
+tests: []

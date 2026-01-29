@@ -1,0 +1,5 @@
+name: RiiR Aliases
+pattern: \b(TOJ)\b
+description: Auto-generated from German Web Tier 01
+tags: []
+tests: []

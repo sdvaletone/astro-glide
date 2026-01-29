@@ -1,0 +1,5 @@
+name: DSCP Rename
+pattern: \[(DSCP)\b|\b(DSCP)\]
+description: Auto-generated from DSCP
+tags: []
+tests: []

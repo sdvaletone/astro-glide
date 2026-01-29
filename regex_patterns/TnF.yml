@@ -1,0 +1,6 @@
+name: TnF
+pattern: \b(TnF)\b
+description: Auto-generated from Anime LQ Groups
+tags:
+- Anime
+tests: []

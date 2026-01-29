@@ -1,0 +1,6 @@
+name: '#'
+pattern: ^(4FR)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

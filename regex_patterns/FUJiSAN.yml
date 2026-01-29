@@ -1,0 +1,6 @@
+name: FUJiSAN
+pattern: \b(FUJiSAN)\b
+description: Auto-generated from FR Anime Tier 02
+tags:
+- Anime
+tests: []

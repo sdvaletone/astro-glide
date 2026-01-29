@@ -1,0 +1,7 @@
+name: PMR
+pattern: ^(?=.*\b(PMR)\b)(?=.*\b(Remux)\b)
+description: Auto-generated from Anime BD Tier 02
+tags:
+- Video
+- Anime
+tests: []

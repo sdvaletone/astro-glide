@@ -1,0 +1,5 @@
+name: No FANRES
+pattern: \b(FANRES)\b
+description: Auto-generated from DV (Disk)
+tags: []
+tests: []

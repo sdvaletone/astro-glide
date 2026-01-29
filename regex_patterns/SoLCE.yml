@@ -1,0 +1,6 @@
+name: SoLCE
+pattern: \b(SoLCE)\b
+description: Auto-generated from Anime Web Tier 02
+tags:
+- Anime
+tests: []

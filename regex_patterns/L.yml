@@ -1,0 +1,6 @@
+name: L
+pattern: ^(L0SERNiGHT|LaoZi|LeON|LOFiDEL|LOST|LOWIMDB|LUCKY|LYPSG)$
+description: Auto-generated from FR Scene Groups
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: Afro
+pattern: \[Afro\]|-Afro\b
+description: Auto-generated from Anime BD Tier 04
+tags:
+- Anime
+tests: []

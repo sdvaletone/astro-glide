@@ -1,0 +1,6 @@
+name: RiPER
+pattern: ^(RiPER)$
+description: Auto-generated from Bad Dual Groups
+tags:
+- Release Group
+tests: []

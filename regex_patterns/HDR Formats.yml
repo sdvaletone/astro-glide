@@ -1,0 +1,7 @@
+name: HDR Formats
+pattern: \bHDR(\b|\d)|\b(dv|dovi|dolby[ .]?v(ision)?)\b|\b(FraMeSToR|HQMUX|SICFoI)\b|\b(PQ)\b|\bHLG(\b|\d)
+description: Auto-generated from SDR (no WEBDL)
+tags:
+- Audio
+- Video
+tests: []

@@ -1,0 +1,5 @@
+name: Videoland
+pattern: \b(vdl|Videoland)\b
+description: Auto-generated from VDL
+tags: []
+tests: []

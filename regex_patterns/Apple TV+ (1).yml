@@ -1,0 +1,6 @@
+name: Apple TV+
+pattern: \b(atvp|aptv|Apple TV\+)\b
+description: Auto-generated from ATVP
+tags:
+- Streaming
+tests: []

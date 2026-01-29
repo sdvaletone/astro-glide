@@ -1,0 +1,6 @@
+name: Pendeti
+pattern: ^(Pendeti)$
+description: Auto-generated from German LQ
+tags:
+- Release Group
+tests: []
