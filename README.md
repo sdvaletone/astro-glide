@@ -42,9 +42,13 @@ Requires Python 3 and PyYAML (`pip install pyyaml`).
 | `python3 scripts/convert_custom_formats_to_yml.py` | Regenerate custom format YAML from TRaSH JSON (expects source JSON in `ops/custom_formats/`). |
 | `python3 scripts/convert_custom_formats_to_dictionarry_yml.py` | Convert TRaSH-style custom format YAML into Dictionarry schema (name, description, tags, conditions, tests). |
 
+## Documentation
+
+- [Custom formats, profiles, and tweaking](docs/guide.md) – How to create and add custom formats and profiles, and how to tweak profiles.
+
 ## References
 
-- [TRaSH Guides](https://trash-guides.info/) – Sonarr/Radarr quality and custom format guides
+- [TRaSH Guides](https://trash-guides.info/) – Sonarr/Radarr quality and custom format guides (external reference)
 - [Profilarr](https://github.com/Dictionarry-Hub/profilarr) – Import, export, and sync profiles and custom formats
 - [Dictionarry database](https://github.com/Dictionarry-Hub/database) – Standard layout and schema for Profilarr databases
 - [Profilarr schema](https://github.com/Dictionarry-Hub/schema) – Schema reference for profiles and custom formats

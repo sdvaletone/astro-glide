@@ -1,7 +1,7 @@
 {
-    "name": "my-database",
-    "version": "1.0.0",
-    "description": "My custom Arr configurations",
+    "name": "astro-glide",
+    "version": "0.5.0",
+    "description": "TRaSH Guides in Profilarr-compliant format",
     "arr_types": ["radarr", "sonarr"],
 
     "dependencies": {
